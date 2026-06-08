@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-09  担当：Codex
+- やったこと：依頼者が編集した `AGENTS.md` の差分を確認し、読む文書の頻度を階層化する内容であることを確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。`CLAUDE.md` 毎回必読、`WORKLOG.md` 再開時参照、`SPEC.md` は実装時に該当箇所参照、引き継ぎ書は必要時参照という整理。
+- つまずき・失敗・回避策：なし。
+- 次にやること：GitHub public リポジトリを作成し、remote 設定後に push と Pages 公開設定を行う。
+- コミット：Update agent reading rules
+
+## 2026-06-09  担当：Codex
 - やったこと：`git init` を実行。GitHub Pages 向けの最小静的アプリ（`index.html` / `styles.css` / `app.js`）、サンプル問題JSON、`manifest.json` 生成・検証スクリプト、GitHub Actions を追加。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。実装は既存仕様どおり、サーバーなし・3択のみ・localStorage に単元別の回答済位置を保存。
 - つまずき・失敗・回避策：ブラウザ操作ツールはこのターンで露出しなかったため、まず `npm.cmd run check` で JSON 検証と manifest 生成を確認。HTTP サーバー起動は、システム Python 未導入・PowerShell `Start-Process` の PATH 重複エラー・Node REPL サンドボックス失敗で実ブラウザ確認まで届かず。
