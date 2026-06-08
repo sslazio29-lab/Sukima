@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-09  担当：Codex
+- やったこと：2単元目追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は日本史配下に鎌倉時代・室町時代の2単元を含む状態。
+- つまずき・失敗・回避策：push 直後は Pages が旧 manifest と鎌倉時代 JSON 404 を返したため、30秒待って再確認。反映後は manifest 更新済み、鎌倉時代 JSON は HTTP 200。
+- 次にやること：iPhone 実機で、鎌倉時代が本棚に表示されること、室町時代の進捗が残ること、片方のリセットがもう片方に影響しないことを確認する。
+- コミット：Record Kamakura Pages verification
+
+## 2026-06-09  担当：Codex
 - やったこと：2単元目として `data/questions/日本史_鎌倉時代.json` を追加し、`data/manifest.json` を再生成。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。鎌倉時代は室町時代と同じ形式の5問入り単元として追加。
 - つまずき・失敗・回避策：なし。`npm.cmd run check`、`node --check app.js`、`node --check scripts/generate-manifest.mjs` は成功。manifest は日本史配下に鎌倉時代・室町時代の2単元を含むことを確認。回答済保存キーは `sukima:${科目}:${単元}:answered` なので単元分離される。
