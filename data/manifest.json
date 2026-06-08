@@ -2,6 +2,11 @@
   "subjects": {
     "日本史": [
       {
+        "unit": "鎌倉時代",
+        "path": "data/questions/日本史_鎌倉時代.json",
+        "count": 5
+      },
+      {
         "unit": "室町時代",
         "path": "data/questions/日本史_室町時代.json",
         "count": 5
