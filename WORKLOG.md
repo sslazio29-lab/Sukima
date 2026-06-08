@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-09  担当：Codex
+- やったこと：依頼者が GitHub Pages を有効化した後、公開 URL の疎通を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 URL は `https://sslazio29-lab.github.io/Sukima/`。
+- つまずき・失敗・回避策：通常権限の HTTP 確認はネットワーク制限で失敗したため、承認付きで確認。トップページ、`data/manifest.json`、サンプル問題 JSON はすべて HTTP 200。
+- 次にやること：iPhone 実機で、科目選択から3択回答、正解時の回答済保存、不正解時の再出題、単元リセットまで手動確認する。
+- コミット：Record Pages publication
+
+## 2026-06-09  担当：Codex
 - やったこと：GitHub リポジトリ `https://github.com/sslazio29-lab/Sukima.git` を `origin` に設定し、`main` を `origin/main` へ push。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。Pages 公開先は GitHub 側の public リポジトリ前提。
 - つまずき・失敗・回避策：最初の push は Git の dubious ownership 保護で停止したため、コマンド単位で `safe.directory=G:/Sukima` を指定。ネットワーク制限は承認付き push で回避。GitHub Pages 設定は `gh` 未導入、API トークンなし、Git Credential Manager が非対話でタイムアウトしたため、この環境からは未実施。
