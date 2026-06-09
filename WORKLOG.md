@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-09  担当：Codex
+- やったこと：倫理2単元目追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `倫理 / ギリシア思想` 30問を含む状態。
+- つまずき・失敗・回避策：なし。Pages 反映後、manifest にギリシア思想単元が出ること、`data/questions/倫理_ギリシア思想.json` が HTTP 200 で返ることを確認。
+- 次にやること：iPhone 実機で倫理の2単元目表示と数問の回答動作を確認する。次の倫理単元候補は「キリスト教思想」または「仏教思想」。
+- コミット：Record Greek philosophy Pages verification
+
+## 2026-06-09  担当：Codex
 - やったこと：倫理2単元目として `data/questions/倫理_ギリシア思想.json` を30問で追加し、`data/manifest.json` を再生成。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。ギリシア思想は自然哲学、ソフィスト、ソクラテス、プラトン、アリストテレス、ヘレニズム思想までを1単元に収めた。
 - つまずき・失敗・回避策：初稿は31問だったため総括問題を外して30問に調整。正解位置を1/2/3に10問ずつ分散。`npm.cmd run check`、`node --check app.js`、`node --check scripts/generate-manifest.mjs`、選択肢重複・解説長・正解番号チェックは成功。正答語一覧で正解番号との対応を確認。参照は文科省公民編解説、Britannica、Stanford Encyclopedia of Philosophy。
