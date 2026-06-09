@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-09  担当：Codex
+- やったこと：倫理1単元目追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `倫理 / 青年期と自己形成` 30問を含む状態。
+- つまずき・失敗・回避策：なし。Pages 反映後、manifest に倫理単元が出ること、`data/questions/倫理_青年期と自己形成.json` が HTTP 200 で返ることを確認。
+- 次にやること：iPhone 実機で倫理の本棚表示と数問の回答動作を確認する。次の倫理単元候補は「ギリシア思想」。
+- コミット：Record ethics Pages verification
+
+## 2026-06-09  担当：Codex
 - やったこと：実教材用の倫理1単元目として `data/questions/倫理_青年期と自己形成.json` を30問で追加し、`data/manifest.json` を再生成。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。倫理の単元サイズはまず30問を標準とし、濃い単元だけ40問台まで増やす方針が実用的。
 - つまずき・失敗・回避策：初稿は正解位置が1番に偏ったため、選択肢を機械的に並べ替えて正解位置を1/2/3に10問ずつ分散。`npm.cmd run check`、`node --check app.js`、`node --check scripts/generate-manifest.mjs` は成功。正答語一覧を出力して正解番号との対応を確認。
