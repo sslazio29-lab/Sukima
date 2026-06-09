@@ -14,6 +14,11 @@
     ],
     "倫理": [
       {
+        "unit": "ギリシア思想",
+        "path": "data/questions/倫理_ギリシア思想.json",
+        "count": 30
+      },
+      {
         "unit": "青年期と自己形成",
         "path": "data/questions/倫理_青年期と自己形成.json",
         "count": 30
