@@ -1,6 +1,7 @@
 {
   "scripts": {
     "manifest": "node scripts/generate-manifest.mjs",
-    "check": "node scripts/generate-manifest.mjs"
+    "check": "node scripts/generate-manifest.mjs",
+    "audit": "node scripts/audit-questions.mjs"
   }
 }

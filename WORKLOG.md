@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-09  担当：Codex
+- やったこと：倫理3単元目として `data/questions/倫理_キリスト教思想.json` を30問で追加。繰り返し発生していた正解位置偏り・解説長確認を自動化するため `scripts/audit-questions.mjs` と `npm.cmd run audit` を追加。既存問題の短い解説も監査に通るよう補強。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。キリスト教思想はユダヤ教的背景、イエス、パウロ、アウグスティヌス、スコラ学、トマス、宗教改革までを1単元に収めた。
+- つまずき・失敗・回避策：初回監査で既存問題の短い解説を検出したため補強。キリスト教思想は30問、正解位置1/2/3に10問ずつ分散。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/audit-questions.mjs` は成功。正答語一覧で正解番号との対応を確認。参照は文科省公民編解説、Britannica、Stanford Encyclopedia of Philosophy。
+- 次にやること：push 後に GitHub Pages 上で倫理3単元目が manifest に出ることと JSON が配信されることを確認する。
+- コミット：Add ethics Christianity unit
+
+## 2026-06-09  担当：Codex
 - やったこと：倫理2単元目追加後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `倫理 / ギリシア思想` 30問を含む状態。
 - つまずき・失敗・回避策：なし。Pages 反映後、manifest にギリシア思想単元が出ること、`data/questions/倫理_ギリシア思想.json` が HTTP 200 で返ることを確認。
