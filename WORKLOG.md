@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：倫理の生命倫理・環境倫理追加後、GitHub Pages 反映確認を試行。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。GitHub raw 上では `manifest.json` と `倫理_生命倫理.json` が最新で、`Validate questions` workflow も成功。
+- つまずき・失敗・回避策：Pages は旧 manifest と新規 JSON 404 のまま。GitHub Actions では `pages build and deployment` の build は成功、deploy のみ failure。デプロイ失敗は Pages 側の一時失敗と判断し、このログコミットで再デプロイをトリガーする。
+- 次にやること：push 後に GitHub Pages の manifest と新規2 JSON を再確認する。
+- コミット：Retry Pages deployment after applied ethics
+
+## 2026-06-11  担当：Codex
 - やったこと：倫理の応用倫理単元として `data/questions/倫理_生命倫理.json` と `data/questions/倫理_環境倫理.json` を各30問で追加し、`data/manifest.json` を再生成。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。生命倫理はインフォームド・コンセント、自己決定、終末期医療、臓器移植、生殖補助医療、遺伝子診断、再生医療、研究倫理までを扱う。環境倫理は人間中心主義、自然中心主義、世代間倫理、予防原則、環境正義、循環型社会、気候変動、生物多様性までを扱う。
 - つまずき・失敗・回避策：初回監査で `生命倫理` が29問、両新規単元の正解位置偏りを検出。1問追加し、正解位置を1/2/3に10/10/10で再調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs` は成功。
