@@ -29,6 +29,11 @@
         "count": 30
       },
       {
+        "unit": "中国思想",
+        "path": "data/questions/倫理_中国思想.json",
+        "count": 34
+      },
+      {
         "unit": "仏教思想",
         "path": "data/questions/倫理_仏教思想.json",
         "count": 32
