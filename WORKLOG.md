@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-10  担当：Codex
+- やったこと：倫理8単元目として `data/questions/倫理_現代思想.json` を33問で追加し、`data/manifest.json` を再生成。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。現代思想は精神分析、生命哲学、構造主義、ポスト構造主義、フランクフルト学派、アーレント、レヴィナス、ヨナス、ロールズ以後の正義論、ジェンダー、多文化主義、生命倫理・環境倫理の入口までを1単元に収めた。
+- つまずき・失敗・回避策：なし。正解位置は1/2/3に11/11/11で分散。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：push 後に GitHub Pages 上で倫理8単元目が manifest に出ることと JSON が配信されることを確認する。
+- コミット：Add ethics contemporary thought unit
+
+## 2026-06-10  担当：Codex
 - やったこと：依頼者による `倫理_日本思想.json` と `倫理_近代西洋思想.json` の実機動作確認結果を記録。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。両単元とも現時点で動作問題なしとして扱う。
 - つまずき・失敗・回避策：なし。
