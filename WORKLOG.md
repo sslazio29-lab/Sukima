@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-10  担当：Codex
+- やったこと：倫理8単元目追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `倫理 / 現代思想` 33問を含む状態。
+- つまずき・失敗・回避策：push 直後は旧 manifest と JSON 404 が返ったため45秒待って再確認。反映後は manifest 更新済み、`data/questions/倫理_現代思想.json` は HTTP 200。
+- 次にやること：iPhone 実機で倫理の8単元目表示と数問の回答動作を確認する。次の倫理単元候補は「生命倫理」または「環境倫理」。
+- コミット：Record contemporary thought Pages verification
+
+## 2026-06-10  担当：Codex
 - やったこと：倫理8単元目として `data/questions/倫理_現代思想.json` を33問で追加し、`data/manifest.json` を再生成。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。現代思想は精神分析、生命哲学、構造主義、ポスト構造主義、フランクフルト学派、アーレント、レヴィナス、ヨナス、ロールズ以後の正義論、ジェンダー、多文化主義、生命倫理・環境倫理の入口までを1単元に収めた。
 - つまずき・失敗・回避策：なし。正解位置は1/2/3に11/11/11で分散。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs` は成功。
