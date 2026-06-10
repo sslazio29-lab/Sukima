@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史の時代順追加として `data/questions/日本史_飛鳥・奈良時代.json` を33問で追加し、`data/manifest.json` を再生成。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。古墳末期の仏教伝来、聖徳太子、大化の改新、律令制、平城京、奈良仏教、天平文化までを1単元に収めた。
+- つまずき・失敗・回避策：当初30問級の想定だったが、律令制と奈良文化の基本事項を削らず33問とした。正解位置は1/2/3に11/11/11で分散。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：push 後に GitHub Pages 上で `日本史 / 飛鳥・奈良時代` が manifest に出ることと JSON が配信されることを確認する。その後、時代順に `日本史_平安時代.json` を追加する。
+- コミット：Add Asuka Nara history unit
+
+## 2026-06-11  担当：Codex
 - やったこと：日本史の鎌倉時代・室町時代本番版置換後、GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `日本史 / 鎌倉時代` 30問、`日本史 / 室町時代` 33問を含む状態。
 - つまずき・失敗・回避策：なし。`data/questions/日本史_鎌倉時代.json` と `data/questions/日本史_室町時代.json` はどちらも HTTP 200 で、JSON 件数も manifest と一致。
