@@ -24,6 +24,11 @@
         "count": 30
       },
       {
+        "unit": "近代西洋思想",
+        "path": "data/questions/倫理_近代西洋思想.json",
+        "count": 32
+      },
+      {
         "unit": "青年期と自己形成",
         "path": "data/questions/倫理_青年期と自己形成.json",
         "count": 30
