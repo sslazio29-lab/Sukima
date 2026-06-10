@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-10  担当：Codex
+- やったこと：倫理5単元目追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `倫理 / 中国思想` 34問を含む状態。
+- つまずき・失敗・回避策：manifest は先に更新されたが、`data/questions/倫理_中国思想.json` は初回確認で 404。30秒待って再確認し HTTP 200 を確認。
+- 次にやること：iPhone 実機で倫理の5単元目表示と数問の回答動作を確認する。次の倫理単元候補は「日本思想」または「近代西洋思想」。
+- コミット：Record Chinese thought Pages verification
+
+## 2026-06-10  担当：Codex
 - やったこと：倫理5単元目として `data/questions/倫理_中国思想.json` を34問で追加し、`data/manifest.json` を再生成。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。中国思想は諸子百家、儒家、道家、墨家、法家、朱子学、陽明学までを1単元に収めた。
 - つまずき・失敗・回避策：なし。正解位置は1/2/3に12/11/11で分散。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js` は成功。正答語一覧で正解番号との対応を確認。参照は文科省公民編解説、Britannica Confucianism / Taoism、Stanford Encyclopedia of Philosophy Chinese Ethics。
