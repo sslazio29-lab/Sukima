@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：生命倫理・環境倫理追加後の Pages deploy failure 対策として `.nojekyll` を追加。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。Sukima は Jekyll 不要の純静的アプリなので、GitHub Pages にファイルをそのまま配信させる設定を追加した。
+- つまずき・失敗・回避策：`Validate questions` と Pages build は成功するが deploy だけ failure が再現。原因ログは公開APIから取得できなかったため、まず Pages 処理を単純化して再デプロイを試す。
+- 次にやること：push 後に Pages デプロイ状態と manifest / 新規2 JSON の配信を再確認する。
+- コミット：Disable Jekyll for Pages
+
+## 2026-06-11  担当：Codex
 - やったこと：倫理の生命倫理・環境倫理追加後、GitHub Pages 反映確認を試行。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。GitHub raw 上では `manifest.json` と `倫理_生命倫理.json` が最新で、`Validate questions` workflow も成功。
 - つまずき・失敗・回避策：Pages は旧 manifest と新規 JSON 404 のまま。GitHub Actions では `pages build and deployment` の build は成功、deploy のみ failure。デプロイ失敗は Pages 側の一時失敗と判断し、このログコミットで再デプロイをトリガーする。
