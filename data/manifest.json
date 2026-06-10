@@ -34,6 +34,11 @@
         "count": 34
       },
       {
+        "unit": "日本思想",
+        "path": "data/questions/倫理_日本思想.json",
+        "count": 34
+      },
+      {
         "unit": "仏教思想",
         "path": "data/questions/倫理_仏教思想.json",
         "count": 32

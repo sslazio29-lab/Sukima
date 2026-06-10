@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-10  担当：Codex
+- やったこと：倫理6単元目として `data/questions/倫理_日本思想.json` を34問で追加し、`data/manifest.json` を再生成。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。日本思想は神道、神仏習合、鎌倉仏教、江戸儒学、国学、明治思想、民俗学、京都学派までを1単元に収めた。
+- つまずき・失敗・回避策：精度維持のため近代西洋思想とは分けて実装。正解位置は1/2/3に12/11/11で分散。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js` は成功。正答語一覧で正解番号との対応を確認。参照は文科省公民編解説、Britannica Shinto、Britannica Confucianism、Stanford Encyclopedia of Philosophy の日本哲学関連項目。
+- 次にやること：push 後に GitHub Pages 上で倫理6単元目が manifest に出ることと JSON が配信されることを確認する。その後、`倫理_近代西洋思想.json` に進む。
+- コミット：Add ethics Japanese thought unit
+
+## 2026-06-10  担当：Codex
 - やったこと：倫理5単元目追加後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `倫理 / 中国思想` 34問を含む状態。
 - つまずき・失敗・回避策：manifest は先に更新されたが、`data/questions/倫理_中国思想.json` は初回確認で 404。30秒待って再確認し HTTP 200 を確認。
