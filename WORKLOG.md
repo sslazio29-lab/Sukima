@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史の初期サンプル `data/questions/日本史_鎌倉時代.json` と `data/questions/日本史_室町時代.json` を本番版へ置換。鎌倉時代は30問、室町時代は33問。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。既存の5問サンプルは実教材として密度が不足するため、ファイル名と単元名は維持しつつ中身を作り直した。進捗はサンプル段階のものが前提なので、本番版への置換を優先。
+- つまずき・失敗・回避策：初回監査で鎌倉時代が31問かつ正解位置偏りだったため、室町側と重なる建武の新政の設問を外し、正解位置を1/2/3に10/10/10で再調整。室町時代は33問で1/2/3に11/11/11。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：push 後に GitHub Pages 上で日本史2単元の manifest 件数と JSON 配信を確認する。その後、日本史の次単元へ進む。
+- コミット：Replace Japanese history samples
+
+## 2026-06-11  担当：Codex
 - やったこと：生命倫理・環境倫理追加後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `生命倫理` と `環境倫理` を含み、両 JSON は各30問で HTTP 200。
 - つまずき・失敗・回避策：`.nojekyll` 追加後の Pages デプロイは success。manifest と `data/questions/倫理_生命倫理.json`、`data/questions/倫理_環境倫理.json` の配信を確認した。
