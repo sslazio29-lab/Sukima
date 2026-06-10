@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：生命倫理・環境倫理追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `生命倫理` と `環境倫理` を含み、両 JSON は各30問で HTTP 200。
+- つまずき・失敗・回避策：`.nojekyll` 追加後の Pages デプロイは success。manifest と `data/questions/倫理_生命倫理.json`、`data/questions/倫理_環境倫理.json` の配信を確認した。
+- 次にやること：倫理は主要な思想史単元と応用倫理単元が揃ったため、必要なら情報倫理・国際平和など細分化を検討しつつ、基本方針としては別科目へ進める。
+- コミット：Record applied ethics Pages verification
+
+## 2026-06-11  担当：Codex
 - やったこと：生命倫理・環境倫理追加後の Pages deploy failure 対策として `.nojekyll` を追加。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。Sukima は Jekyll 不要の純静的アプリなので、GitHub Pages にファイルをそのまま配信させる設定を追加した。
 - つまずき・失敗・回避策：`Validate questions` と Pages build は成功するが deploy だけ failure が再現。原因ログは公開APIから取得できなかったため、まず Pages 処理を単純化して再デプロイを試す。
