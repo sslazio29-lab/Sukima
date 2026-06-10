@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史の時代順追加として `data/questions/日本史_平安時代.json` を36問で追加し、`data/manifest.json` を再生成。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。平安遷都、平安初期仏教、令外官、国風文化、摂関政治、荘園と武士の台頭、院政、平氏政権までを1単元に収めた。
+- つまずき・失敗・回避策：当初33問程度の想定だったが、院政から平氏政権まで削ると次の鎌倉時代との接続が弱くなるため36問とした。正解位置は1/2/3に13/12/11で、監査許容内。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：push 後に GitHub Pages 上で `日本史 / 平安時代` が manifest に出ることと JSON が配信されることを確認する。
+- コミット：Add Heian history unit
+
+## 2026-06-11  担当：Codex
 - やったこと：日本史 `飛鳥・奈良時代` 追加後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `日本史 / 飛鳥・奈良時代` 33問を含む状態。
 - つまずき・失敗・回避策：push 直後は旧 manifest と JSON 404 が返ったため45秒待って再確認。反映後は manifest 更新済み、`data/questions/日本史_飛鳥・奈良時代.json` は HTTP 200。
