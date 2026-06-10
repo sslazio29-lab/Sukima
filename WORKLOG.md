@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-10  担当：Codex
+- やったこと：倫理7単元目追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `倫理 / 近代西洋思想` 32問を含む状態。
+- つまずき・失敗・回避策：push 直後は旧 manifest と JSON 404 が返ったため45秒待って再確認。反映後は manifest 更新済み、`data/questions/倫理_近代西洋思想.json` は HTTP 200。
+- 次にやること：iPhone 実機で日本思想・近代西洋思想の表示と数問の回答動作を確認する。
+- コミット：Record modern Western Pages verification
+
+## 2026-06-10  担当：Codex
 - やったこと：倫理7単元目として `data/questions/倫理_近代西洋思想.json` を32問で追加し、`data/manifest.json` を再生成。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。近代西洋思想はルネサンス、ベーコン、デカルト、経験論、社会契約、啓蒙、カント、功利主義、ヘーゲル、マルクス、実存主義、プラグマティズムまでを1単元に収めた。
 - つまずき・失敗・回避策：精度維持のため日本思想とは分けて実装。正解位置は1/2/3に11/11/10で分散。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js` は成功。正答語一覧で正解番号との対応を確認。参照は文科省公民編解説、Britannica Western philosophy、Stanford Encyclopedia of Philosophy の近代哲学・功利主義・実存主義関連項目。
