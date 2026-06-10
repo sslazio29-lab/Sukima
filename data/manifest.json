@@ -24,6 +24,11 @@
         "count": 30
       },
       {
+        "unit": "環境倫理",
+        "path": "data/questions/倫理_環境倫理.json",
+        "count": 30
+      },
+      {
         "unit": "近代西洋思想",
         "path": "data/questions/倫理_近代西洋思想.json",
         "count": 32
@@ -32,6 +37,11 @@
         "unit": "現代思想",
         "path": "data/questions/倫理_現代思想.json",
         "count": 33
+      },
+      {
+        "unit": "生命倫理",
+        "path": "data/questions/倫理_生命倫理.json",
+        "count": 30
       },
       {
         "unit": "青年期と自己形成",
