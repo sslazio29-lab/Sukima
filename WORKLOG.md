@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史の続きとして `data/questions/日本史_平成時代.json` を34問で追加し、`data/manifest.json` を再生成した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。平成時代は平成開始、バブル崩壊、PKO協力法、55年体制の終わり、選挙制度改革、阪神・淡路大震災、地下鉄サリン事件、京都議定書、小泉改革、リーマン・ショック、政権交代、東日本大震災、アベノミクス、安保法制、平成の終わりまでを扱う。
+- つまずき・失敗・回避策：初回監査で正解位置が1に偏ったため、8問の選択肢順だけを入れ替えて1/2/3を12/11/11に修正。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：push 後に `npm.cmd run pages:check -- 日本史 平成時代` でGitHub Pages上のmanifestとJSON配信を確認する。
+- コミット：Add Heisei history unit
+
+## 2026-06-11  担当：Codex
 - やったこと：`昭和時代後期` 追加と単元表示順修正後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest の日本史順は `飛鳥・奈良時代 > 平安時代 > 鎌倉時代 > 室町時代 > 戦国・安土桃山時代 > 江戸時代前期 > 江戸時代中期 > 江戸時代後期 > 明治時代前期 > 明治時代後期 > 大正時代 > 昭和時代前期 > 昭和時代後期`。
 - つまずき・失敗・回避策：なし。`npm.cmd run pages:check -- 日本史 昭和時代後期` で manifest HTTP 200、`data/questions/日本史_昭和時代後期.json` HTTP 200、37問配信を確認。
