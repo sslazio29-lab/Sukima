@@ -20,6 +20,11 @@
         "unit": "助詞",
         "path": "data/questions/古文_助詞.json",
         "count": 41
+      },
+      {
+        "unit": "和歌と修辞",
+        "path": "data/questions/古文_和歌と修辞.json",
+        "count": 39
       }
     ],
     "日本史": [
