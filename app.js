@@ -63,7 +63,7 @@ function renderSubjects() {
 
 function renderUnits() {
   homeButton.hidden = false;
-  const units = state.manifest.subjects[state.subject].slice().sort((a, b) => a.unit.localeCompare(b.unit, "ja"));
+  const units = state.manifest.subjects[state.subject];
   app.innerHTML = `
     <section class="panel">
       <h2>${escapeHtml(state.subject)} の単元</h2>

@@ -60,6 +60,11 @@
         "unit": "昭和時代前期",
         "path": "data/questions/日本史_昭和時代前期.json",
         "count": 40
+      },
+      {
+        "unit": "昭和時代後期",
+        "path": "data/questions/日本史_昭和時代後期.json",
+        "count": 37
       }
     ],
     "倫理": [
