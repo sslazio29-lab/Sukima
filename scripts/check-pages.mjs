@@ -8,31 +8,35 @@ if (!subject || !unit) {
   process.exit(1);
 }
 
-const manifest = await fetchJson(`${baseUrl}/data/manifest.json`);
-const units = manifest.subjects?.[subject];
-if (!Array.isArray(units)) {
-  fail(`manifest に科目 "${subject}" がありません。`);
-}
+try {
+  const manifest = await fetchJson(`${baseUrl}/data/manifest.json`);
+  const units = manifest.subjects?.[subject];
+  if (!Array.isArray(units)) {
+    fail(`manifest に科目 "${subject}" がありません。`);
+  }
 
-const entry = units.find((candidate) => candidate.unit === unit);
-if (!entry) {
-  const available = units.map((candidate) => candidate.unit).join(" > ");
-  fail(`manifest に "${subject} / ${unit}" がありません。現在の ${subject}: ${available}`);
-}
+  const entry = units.find((candidate) => candidate.unit === unit);
+  if (!entry) {
+    const available = units.map((candidate) => candidate.unit).join(" > ");
+    fail(`manifest に "${subject} / ${unit}" がありません。現在の ${subject}: ${available}`);
+  }
 
-const questions = await fetchJson(`${baseUrl}/${encodeURI(entry.path)}`);
-if (!Array.isArray(questions)) {
-  fail(`${entry.path}: JSON が問題配列ではありません。`);
-}
-if (questions.length !== entry.count) {
-  fail(`${entry.path}: manifest count ${entry.count} と JSON count ${questions.length} が一致しません。`);
-}
+  const questions = await fetchJson(`${baseUrl}/${encodeURI(entry.path)}`);
+  if (!Array.isArray(questions)) {
+    fail(`${entry.path}: JSON が問題配列ではありません。`);
+  }
+  if (questions.length !== entry.count) {
+    fail(`${entry.path}: manifest count ${entry.count} と JSON count ${questions.length} が一致しません。`);
+  }
 
-console.log(`ManifestStatus=200`);
-console.log(`${subject}Order=${units.map((candidate) => `${candidate.unit}:${candidate.count}`).join(" > ")}`);
-console.log(`JsonStatus=200`);
-console.log(`JsonPath=${entry.path}`);
-console.log(`JsonCount=${questions.length}`);
+  console.log(`ManifestStatus=200`);
+  console.log(`${subject}Order=${units.map((candidate) => `${candidate.unit}:${candidate.count}`).join(" > ")}`);
+  console.log(`JsonStatus=200`);
+  console.log(`JsonPath=${entry.path}`);
+  console.log(`JsonCount=${questions.length}`);
+} catch (error) {
+  fail(`GitHub Pages の確認に失敗しました: ${error.message}`);
+}
 
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
