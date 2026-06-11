@@ -1,5 +1,12 @@
 {
   "subjects": {
+    "漢文": [
+      {
+        "unit": "返り点と書き下し",
+        "path": "data/questions/漢文_返り点と書き下し.json",
+        "count": 33
+      }
+    ],
     "古文": [
       {
         "unit": "重要古語",
