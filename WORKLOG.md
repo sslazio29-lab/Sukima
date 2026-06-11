@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史の時代順並び替えと `戦国・安土桃山時代` 追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest の日本史順は `飛鳥・奈良時代 > 平安時代 > 鎌倉時代 > 室町時代 > 戦国・安土桃山時代`。
+- つまずき・失敗・回避策：公開確認時に PowerShell の `Join-String` が使えず表示整形だけ失敗したため、配列を `-join` する形で再確認。`data/questions/日本史_戦国・安土桃山時代.json` は HTTP 200、36問。
+- 次にやること：時代順に `日本史_江戸時代.json` へ進む。
+- コミット：Record Sengoku Pages verification
+
+## 2026-06-11  担当：Codex
 - やったこと：日本史単元のmanifest表示順を時代順にし、続きとして `data/questions/日本史_戦国・安土桃山時代.json` を36問で追加。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。`scripts/generate-manifest.mjs` に日本史だけの時代順リストを持たせ、未登録単元は後ろで五十音順にする。問題JSONのファイル名や配列順は触らず、進捗IDに影響しない形で表示順だけ整えた。
 - つまずき・失敗・回避策：監査スクリプトの表示はファイル名順のままだが、アプリが読む `data/manifest.json` では `飛鳥・奈良時代 > 平安時代 > 鎌倉時代 > 室町時代 > 戦国・安土桃山時代` になっていることを確認。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
