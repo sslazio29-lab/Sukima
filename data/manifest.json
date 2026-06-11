@@ -30,6 +30,11 @@
         "unit": "古典常識",
         "path": "data/questions/古文_古典常識.json",
         "count": 44
+      },
+      {
+        "unit": "文学史",
+        "path": "data/questions/古文_文学史.json",
+        "count": 42
       }
     ],
     "日本史": [
