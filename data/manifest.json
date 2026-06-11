@@ -25,6 +25,11 @@
         "unit": "和歌と修辞",
         "path": "data/questions/古文_和歌と修辞.json",
         "count": 39
+      },
+      {
+        "unit": "古典常識",
+        "path": "data/questions/古文_古典常識.json",
+        "count": 44
       }
     ],
     "日本史": [
