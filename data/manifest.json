@@ -30,6 +30,11 @@
         "unit": "江戸時代前期",
         "path": "data/questions/日本史_江戸時代前期.json",
         "count": 38
+      },
+      {
+        "unit": "江戸時代中期",
+        "path": "data/questions/日本史_江戸時代中期.json",
+        "count": 36
       }
     ],
     "倫理": [
