@@ -32,6 +32,11 @@
         "count": 44
       },
       {
+        "unit": "読解基礎",
+        "path": "data/questions/古文_読解基礎.json",
+        "count": 36
+      },
+      {
         "unit": "文学史",
         "path": "data/questions/古文_文学史.json",
         "count": 42
