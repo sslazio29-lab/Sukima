@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史の続きとして `data/questions/日本史_明治時代前期.json` を38問で追加し、`scripts/generate-manifest.mjs` の日本史順に `明治時代前期`・`明治時代後期` を追加。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。明治時代は範囲が広いため前後期に分割し、前期は五箇条の御誓文、版籍奉還、廃藩置県、四民平等、学制、徴兵令、地租改正、殖産興業、岩倉使節団、征韓論、士族反乱、自由民権運動、大日本帝国憲法、帝国議会までを扱う。
+- つまずき・失敗・回避策：初回監査で正解位置が1問分だけ偏ったため、1問の選択肢順だけを入れ替えて1/2/3を13/13/12に修正。`WORKLOG.md` 最新部だけを読み、アーカイブ全文は読まずに進行。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：push 後に `npm.cmd run pages:check -- 日本史 明治時代前期` でGitHub Pages上のmanifestとJSON配信を確認する。その後、時代順に `日本史_明治時代後期.json` へ進む。
+- コミット：Add early Meiji history unit
+
+## 2026-06-11  担当：Codex
 - やったこと：`江戸時代後期` 追加後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は日本史順に `飛鳥・奈良時代 > 平安時代 > 鎌倉時代 > 室町時代 > 戦国・安土桃山時代 > 江戸時代前期 > 江戸時代中期 > 江戸時代後期` を含む状態。
 - つまずき・失敗・回避策：push 直後は `pages:check` が旧 manifest を検出したため45秒待って再確認。反映後は `data/questions/日本史_江戸時代後期.json` が HTTP 200、38問で配信された。
