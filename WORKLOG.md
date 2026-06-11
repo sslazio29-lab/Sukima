@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-11  担当：Codex
+- やったこと：`古文 / 重要古語` 追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `古文 / 重要古語` 39問を含む状態。
+- つまずき・失敗・回避策：push直後の `pages:check` は旧 manifest を検出し、科目 `古文` が未反映だったため45秒待って再確認。反映後は `data/questions/古文_重要古語.json` が HTTP 200、39問で配信された。
+- 次にやること：古文は `古文_助動詞.json` へ進む。
+- コミット：Record classical Japanese vocabulary Pages verification
+
+## 2026-06-11  担当：Codex
 - やったこと：別科目として古文を開始し、最初の単元 `data/questions/古文_重要古語.json` を39問で追加。`scripts/generate-manifest.mjs` に古文の単元順（重要古語、助動詞、敬語、助詞、和歌と修辞、古典常識、文学史）を追加し、`data/manifest.json` を再生成した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。古文はまず読解失点に直結する「重要古語」から始め、現代語と意味がずれる語、文脈で訳し分ける語、呼応表現を三択と解説で定着させる方針にした。
 - つまずき・失敗・回避策：作成時点から正解位置を1/2/3に13/13/13で配分したため、監査の偏り修正は不要だった。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
