@@ -15,6 +15,11 @@
         "unit": "敬語",
         "path": "data/questions/古文_敬語.json",
         "count": 38
+      },
+      {
+        "unit": "助詞",
+        "path": "data/questions/古文_助詞.json",
+        "count": 41
       }
     ],
     "日本史": [
