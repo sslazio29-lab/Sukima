@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史の続きとして `data/questions/日本史_明治時代後期.json` を37問で追加し、`data/manifest.json` を再生成。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。明治時代後期は日清戦争、三国干渉、条約改正、日英同盟、日露戦争、韓国併合、産業革命、財閥、公害・社会運動、明治後期文化までを扱う。
+- つまずき・失敗・回避策：初回監査で正解位置が1に偏ったため、1問の選択肢順だけを入れ替えて1/2/3を13/12/12に修正。セッションが長くなってきているため、読み込みは `CLAUDE.md` と `WORKLOG.md` 最新部、必要最小限のメモ検索に限定した。`npm.cmd run check`、`npm.cmd run audit`、`node --check app.js`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：push 後に `npm.cmd run pages:check -- 日本史 明治時代後期` でGitHub Pages上のmanifestとJSON配信を確認する。その後、時代順に `日本史_大正時代.json` へ進む。
+- コミット：Add late Meiji history unit
+
+## 2026-06-11  担当：Codex
 - やったこと：`明治時代前期` 追加後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は日本史順に `飛鳥・奈良時代 > 平安時代 > 鎌倉時代 > 室町時代 > 戦国・安土桃山時代 > 江戸時代前期 > 江戸時代中期 > 江戸時代後期 > 明治時代前期` を含む状態。
 - つまずき・失敗・回避策：push 直後は `pages:check` が旧 manifest を検出したため45秒待って再確認。反映後は `data/questions/日本史_明治時代前期.json` が HTTP 200、38問で配信された。
