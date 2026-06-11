@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-11  担当：Codex
+- やったこと：`昭和時代前期` 追加後の GitHub Pages 反映を確認。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は日本史順に `飛鳥・奈良時代 > 平安時代 > 鎌倉時代 > 室町時代 > 戦国・安土桃山時代 > 江戸時代前期 > 江戸時代中期 > 江戸時代後期 > 明治時代前期 > 明治時代後期 > 大正時代 > 昭和時代前期` を含む状態。
+- つまずき・失敗・回避策：通常権限の `pages:check` はネットワーク制限らしい空エラーで失敗したため、許可付きで再実行。反映後は `data/questions/日本史_昭和時代前期.json` が HTTP 200、40問で配信された。
+- 次にやること：時代順に `日本史_昭和時代後期.json` へ進む。
+- コミット：Record early Showa Pages verification
+
+## 2026-06-11  担当：Codex
 - やったこと：日本史の続きとして `data/questions/日本史_昭和時代前期.json` を40問で追加し、`scripts/generate-manifest.mjs` の日本史順に `昭和時代前期`・`昭和時代後期` を追加。`data/manifest.json` を再生成した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。昭和時代は範囲が広いため前後期に分割し、前期は昭和開始、金融恐慌、昭和恐慌、満州事変、政党内閣の終わり、二・二六事件、日中戦争、国家総動員法、三国同盟、太平洋戦争、敗戦までを扱う。
 - つまずき・失敗・回避策：初回監査で正解位置が1に偏ったため、13問の選択肢順だけを入れ替えて1/2/3を13/13/14に修正。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
