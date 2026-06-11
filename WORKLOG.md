@@ -19,6 +19,13 @@
 ## （ここから下に記録を追記）
 
 ## 2026-06-11  担当：Codex
+- やったこと：日本史単元のmanifest表示順を時代順にし、続きとして `data/questions/日本史_戦国・安土桃山時代.json` を36問で追加。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。`scripts/generate-manifest.mjs` に日本史だけの時代順リストを持たせ、未登録単元は後ろで五十音順にする。問題JSONのファイル名や配列順は触らず、進捗IDに影響しない形で表示順だけ整えた。
+- つまずき・失敗・回避策：監査スクリプトの表示はファイル名順のままだが、アプリが読む `data/manifest.json` では `飛鳥・奈良時代 > 平安時代 > 鎌倉時代 > 室町時代 > 戦国・安土桃山時代` になっていることを確認。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：push 後に GitHub Pages 上で日本史のmanifest表示順と `日本史_戦国・安土桃山時代.json` の配信を確認する。
+- コミット：Order Japanese history units and add Sengoku Azuchi Momoyama
+
+## 2026-06-11  担当：Codex
 - やったこと：日本史 `平安時代` 追加後の GitHub Pages 反映を確認。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。公開 manifest は `日本史 / 平安時代` 36問を含む状態。
 - つまずき・失敗・回避策：push 直後は旧 manifest と JSON 404 が返ったため45秒待って再確認。反映後は manifest 更新済み、`data/questions/日本史_平安時代.json` は HTTP 200。

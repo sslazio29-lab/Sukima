@@ -5,6 +5,20 @@ import process from "node:process";
 const questionsDir = path.join(process.cwd(), "data", "questions");
 const manifestPath = path.join(process.cwd(), "data", "manifest.json");
 const filenamePattern = /^(.+?)_(.+)\.json$/u;
+const unitOrder = {
+  日本史: [
+    "飛鳥・奈良時代",
+    "平安時代",
+    "鎌倉時代",
+    "室町時代",
+    "戦国・安土桃山時代",
+    "江戸時代",
+    "明治時代",
+    "大正時代",
+    "昭和時代",
+    "平成時代"
+  ]
+};
 
 const files = (await readdir(questionsDir))
   .filter((file) => file.endsWith(".json"))
@@ -92,9 +106,26 @@ function sortSubjects(subjects) {
       .sort(([a], [b]) => a.localeCompare(b, "ja"))
       .map(([subject, units]) => [
         subject,
-        units.sort((a, b) => a.unit.localeCompare(b.unit, "ja"))
+        units.sort((a, b) => compareUnits(subject, a.unit, b.unit))
       ])
   );
+}
+
+function compareUnits(subject, a, b) {
+  const order = unitOrder[subject];
+  if (!order) {
+    return a.localeCompare(b, "ja");
+  }
+
+  const aIndex = order.indexOf(a);
+  const bIndex = order.indexOf(b);
+  if (aIndex !== -1 || bIndex !== -1) {
+    if (aIndex === -1) return 1;
+    if (bIndex === -1) return -1;
+    return aIndex - bIndex;
+  }
+
+  return a.localeCompare(b, "ja");
 }
 
 function stripBom(value) {
