@@ -1,5 +1,12 @@
 {
   "subjects": {
+    "古文": [
+      {
+        "unit": "重要古語",
+        "path": "data/questions/古文_重要古語.json",
+        "count": 39
+      }
+    ],
     "日本史": [
       {
         "unit": "飛鳥・奈良時代",

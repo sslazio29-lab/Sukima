@@ -6,6 +6,15 @@ const questionsDir = path.join(process.cwd(), "data", "questions");
 const manifestPath = path.join(process.cwd(), "data", "manifest.json");
 const filenamePattern = /^(.+?)_(.+)\.json$/u;
 const unitOrder = {
+  古文: [
+    "重要古語",
+    "助動詞",
+    "敬語",
+    "助詞",
+    "和歌と修辞",
+    "古典常識",
+    "文学史"
+  ],
   日本史: [
     "飛鳥・奈良時代",
     "平安時代",
