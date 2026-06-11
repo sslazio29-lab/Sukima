@@ -5,6 +5,11 @@
         "unit": "返り点と書き下し",
         "path": "data/questions/漢文_返り点と書き下し.json",
         "count": 33
+      },
+      {
+        "unit": "再読文字",
+        "path": "data/questions/漢文_再読文字.json",
+        "count": 33
       }
     ],
     "古文": [
