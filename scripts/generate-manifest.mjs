@@ -8,7 +8,8 @@ const filenamePattern = /^(.+?)_(.+)\.json$/u;
 const unitOrder = {
   漢文: [
     "返り点と書き下し",
-    "再読文字"
+    "再読文字",
+    "否定・疑問・反語"
   ],
   古文: [
     "重要古語",
