@@ -15,6 +15,11 @@
         "unit": "否定・疑問・反語",
         "path": "data/questions/漢文_否定・疑問・反語.json",
         "count": 36
+      },
+      {
+        "unit": "使役・受身・比較",
+        "path": "data/questions/漢文_使役・受身・比較.json",
+        "count": 34
       }
     ],
     "古文": [
