@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-12  担当：Codex
+- やったこと：漢文の続きとして `data/questions/漢文_重要句形.json` を41問で追加し、`scripts/generate-manifest.mjs` の漢文単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。`以A為B`、`以為`、`所以`、`所謂`、`何以`、`無以/有以`、`不得已`、`得無〜乎`、`何如/奈何/如之何`、`是以/故/然則`、`乃/則/而`、`且夫/夫/蓋` など、本文読解で論理や判断を取り違えやすい句形を扱った。正答位置は 14/14/13 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 18/15/8 に偏ったため、内容は維持して5問の選択肢順だけを入れ替えた。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：漢文を続けるなら、既存6単元の横断確認または漢文読解で使う故事成語・重要語へ進む。
+- コミット：Add kanbun key sentence patterns unit
+
+## 2026-06-12  担当：Codex
 - やったこと：漢文の続きとして `data/questions/漢文_仮定・限定・累加.json` を40問で追加し、`scripts/generate-manifest.mjs` の漢文単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。仮定は `若/如/苟/使/縦`、限定は `唯/只/独/耳/而已`、累加は `亦/又/且/況/尚` を扱い、同じ字が別句法で読まれる場合の識別を重視した。正答位置は 12/14/14 に調整した。
 - つまずき・失敗・回避策：Nodeへ日本語ファイル名を渡す確認コマンドが文字化けしたため、PowerShellの `ConvertFrom-Json` で確認した。初回監査で正答位置が 17/12/11 に偏ったため、内容は維持して選択肢順だけを入れ替えた。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。

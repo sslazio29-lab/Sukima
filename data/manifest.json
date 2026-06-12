@@ -25,6 +25,11 @@
         "unit": "仮定・限定・累加",
         "path": "data/questions/漢文_仮定・限定・累加.json",
         "count": 40
+      },
+      {
+        "unit": "重要句形",
+        "path": "data/questions/漢文_重要句形.json",
+        "count": 41
       }
     ],
     "古文": [
