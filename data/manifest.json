@@ -114,6 +114,11 @@
         "unit": "植物の環境応答",
         "path": "data/questions/生物_植物の環境応答.json",
         "count": 31
+      },
+      {
+        "unit": "生態系",
+        "path": "data/questions/生物_生態系.json",
+        "count": 37
       }
     ],
     "日本史": [
