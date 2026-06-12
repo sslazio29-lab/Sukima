@@ -89,6 +89,11 @@
         "unit": "代謝とエネルギー",
         "path": "data/questions/生物_代謝とエネルギー.json",
         "count": 35
+      },
+      {
+        "unit": "遺伝情報とDNA",
+        "path": "data/questions/生物_遺伝情報とDNA.json",
+        "count": 36
       }
     ],
     "日本史": [
