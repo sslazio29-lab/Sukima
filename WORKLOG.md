@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：生物の続きとして `data/questions/生物_進化と系統.json` を39問で追加し、`scripts/generate-manifest.mjs` の生物単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。進化の定義、共通祖先、化石、相同/相似/痕跡器官、分子系統、突然変異、自然選択、遺伝的浮動、びん首効果、創始者効果、遺伝子流動、種分化、地理的/生殖的隔離、適応放散、収れん進化、系統樹、単系統群、外群、二名法、分類階級、3ドメイン説、種概念、中立進化説、分子時計を扱った。正答位置は 13/13/13 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 17/16/6 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：生物をさらに続けるなら、未追加の補助単元を切るより先に、他科目へ進むか確認する。
+- コミット：Add biology evolution and phylogeny unit
+
+## 2026-06-13  担当：Codex
 - やったこと：生物の続きとして `data/questions/生物_生態系.json` を37問で追加し、`scripts/generate-manifest.mjs` の生物単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。生態系、個体群、生物群集、生産者/消費者/分解者、食物連鎖/食物網、栄養段階、エネルギー流、物質循環、炭素循環、窒素循環、個体群密度、環境収容力、種間関係、遷移、バイオーム、生物多様性、生態系サービスを扱った。正答位置は 13/12/12 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 36/1/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
