@@ -20,6 +20,11 @@
         "unit": "使役・受身・比較",
         "path": "data/questions/漢文_使役・受身・比較.json",
         "count": 34
+      },
+      {
+        "unit": "仮定・限定・累加",
+        "path": "data/questions/漢文_仮定・限定・累加.json",
+        "count": 40
       }
     ],
     "古文": [
