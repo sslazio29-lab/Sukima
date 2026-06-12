@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：生物の続きとして `data/questions/生物_生殖と発生.json` を35問で追加し、`scripts/generate-manifest.mjs` の生物単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。有性/無性生殖、体細胞分裂、減数分裂、交叉、精子形成/卵形成、受精、多精拒否、卵割、桑実胚、胞胚、原腸形成、三胚葉、神経胚、誘導、形成体、細胞分化、母性効果遺伝子、ホメオティック遺伝子、アポトーシスを扱った。正答位置は 11/12/12 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 31/4/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：生物を続けるなら `生物_動物の反応と調節.json` または `生物_植物の環境応答.json` へ進む。
+- コミット：Add biology reproduction and development unit
+
+## 2026-06-13  担当：Codex
 - やったこと：生物の続きとして `data/questions/生物_遺伝.json` を32問で追加し、`scripts/generate-manifest.mjs` の生物単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。メンデル遺伝、対立遺伝子、遺伝子型/表現型、優性/劣性、分離の法則、検定交雑、不完全優性、共優性、ABO式血液型、独立の法則、連鎖と組換え、伴性遺伝、家系図、ハーディ・ワインベルグ平衡を扱った。正答位置は 10/11/11 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 27/4/1 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。

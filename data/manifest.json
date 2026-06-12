@@ -99,6 +99,11 @@
         "unit": "遺伝",
         "path": "data/questions/生物_遺伝.json",
         "count": 32
+      },
+      {
+        "unit": "生殖と発生",
+        "path": "data/questions/生物_生殖と発生.json",
+        "count": 35
       }
     ],
     "日本史": [
