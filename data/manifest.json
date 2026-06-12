@@ -30,6 +30,11 @@
         "unit": "重要句形",
         "path": "data/questions/漢文_重要句形.json",
         "count": 41
+      },
+      {
+        "unit": "故事成語・重要語",
+        "path": "data/questions/漢文_故事成語・重要語.json",
+        "count": 40
       }
     ],
     "古文": [

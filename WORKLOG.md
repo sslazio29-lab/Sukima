@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-12  担当：Codex
+- やったこと：漢文の追加単元として `data/questions/漢文_故事成語・重要語.json` を40問で追加し、`scripts/generate-manifest.mjs` の漢文単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。故事成語は `矛盾`、`蛇足`、`推敲`、`漁夫の利`、`守株`、`五十歩百歩`、`朝三暮四`、`杞憂`、`助長`、`背水の陣` などを、重要語は `寡人`、`臣`、`子`、`君`、`天下`、`百姓`、`社稷`、`仁/義/利` などを扱い、字面だけで誤読しやすい点を重視した。正答位置は 14/13/13 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 29/9/2 に偏ったため、内容は維持して選択肢順だけを調整した。Node標準入力で日本語文字列が文字化けしたため、PowerShellの `ConvertFrom-Json` で機械的に並び替えた。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：漢文は主要な読み・句法・重要語単元が揃ったため、次は生物へ進む。最初の生物単元候補は `生物_細胞と分子.json`。
+- コミット：Add kanbun idioms and key terms unit
+
+## 2026-06-12  担当：Codex
 - やったこと：漢文の続きとして `data/questions/漢文_重要句形.json` を41問で追加し、`scripts/generate-manifest.mjs` の漢文単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。`以A為B`、`以為`、`所以`、`所謂`、`何以`、`無以/有以`、`不得已`、`得無〜乎`、`何如/奈何/如之何`、`是以/故/然則`、`乃/則/而`、`且夫/夫/蓋` など、本文読解で論理や判断を取り違えやすい句形を扱った。正答位置は 14/14/13 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 18/15/8 に偏ったため、内容は維持して5問の選択肢順だけを入れ替えた。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
