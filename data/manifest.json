@@ -109,6 +109,11 @@
         "unit": "動物の反応と調節",
         "path": "data/questions/生物_動物の反応と調節.json",
         "count": 40
+      },
+      {
+        "unit": "植物の環境応答",
+        "path": "data/questions/生物_植物の環境応答.json",
+        "count": 31
       }
     ],
     "日本史": [
