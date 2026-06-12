@@ -84,6 +84,11 @@
         "unit": "細胞と分子",
         "path": "data/questions/生物_細胞と分子.json",
         "count": 37
+      },
+      {
+        "unit": "代謝とエネルギー",
+        "path": "data/questions/生物_代謝とエネルギー.json",
+        "count": 35
       }
     ],
     "日本史": [
