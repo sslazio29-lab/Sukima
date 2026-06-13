@@ -20,6 +20,11 @@
         "unit": "酸と塩基",
         "path": "data/questions/化学_酸と塩基.json",
         "count": 32
+      },
+      {
+        "unit": "酸化還元",
+        "path": "data/questions/化学_酸化還元.json",
+        "count": 33
       }
     ],
     "漢文": [

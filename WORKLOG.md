@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：化学の続きとして `data/questions/化学_酸化還元.json` を33問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。酸化/還元の定義、酸化数、酸化剤/還元剤、半反応式、酸性条件での係数調整、イオン化傾向、金属の置換反応、電池、ダニエル電池、電気分解、ファラデー定数、酸化還元滴定、過マンガン酸イオン、計算問題での電子数確認を扱った。正答位置は 11/11/11 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 33/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：化学を続けるなら `化学_熱化学と反応速度.json` または `化学_化学平衡.json` へ進む。
+- コミット：Add chemistry redox unit
+
+## 2026-06-13  担当：Codex
 - やったこと：化学の続きとして `data/questions/化学_酸と塩基.json` を32問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。アレニウス/ブレンステッド・ローリーの定義、強酸/弱酸、pH、中和、塩、価数、中和滴定、ホールピペット/ビュレット、標準液、中和点/終点、指示薬、塩の加水分解、滴定計算の解法選択を扱った。正答位置は 11/11/10 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 32/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
