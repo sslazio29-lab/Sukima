@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：化学の続きとして `data/questions/化学_化学結合.json` を31問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。価電子、イオン結合、イオン結晶、共有結合、配位結合、金属結合、金属の性質、分子結晶、共有結合結晶、ダイヤモンド/黒鉛、電気陰性度、極性、水素結合、分子間力、結晶の種類、結合から性質を判断する方針を扱った。正答位置は 11/10/10 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 31/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：化学を続けるなら `化学_物質量と化学反応式.json` へ進む。
+- コミット：Add chemistry chemical bonding unit
+
+## 2026-06-13  担当：Codex
 - やったこと：化学の最初の単元として `data/questions/化学_物質の構成.json` を33問で追加し、`scripts/generate-manifest.mjs` に化学の単元順を新設して `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。純物質/混合物、単体/化合物、元素と単体、分離操作、原子構造、原子番号/質量数、同位体、イオン、電子殻、価電子、周期表、アルカリ金属/ハロゲン、金属/非金属、物理変化/化学変化、化学式、反応式、計算問題での量の整理を扱った。正答位置は 11/11/11 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 33/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
