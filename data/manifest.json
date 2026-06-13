@@ -45,6 +45,11 @@
         "unit": "有機化学",
         "path": "data/questions/化学_有機化学.json",
         "count": 38
+      },
+      {
+        "unit": "高分子化合物",
+        "path": "data/questions/化学_高分子化合物.json",
+        "count": 36
       }
     ],
     "漢文": [
