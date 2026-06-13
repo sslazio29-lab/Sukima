@@ -15,6 +15,11 @@
         "unit": "物質量と化学反応式",
         "path": "data/questions/化学_物質量と化学反応式.json",
         "count": 30
+      },
+      {
+        "unit": "酸と塩基",
+        "path": "data/questions/化学_酸と塩基.json",
+        "count": 32
       }
     ],
     "漢文": [
