@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-14  担当：Codex
+- やったこと：化学の続きとして `data/questions/化学_有機化学.json` を38問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。炭化水素、アルカン/アルケン/アルキン、異性体、官能基、アルコール、アルデヒド、カルボン酸、エステル、油脂、ベンゼン、フェノール、アニリン、サリチル酸、付加重合、縮合重合、アミノ酸、糖、デンプン確認、有機反応の整理を扱った。正答位置は 13/13/12 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 38/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：化学を続けるなら高分子化合物を独立単元にするか、理論/無機/有機の弱点補強に進む。push 後に `npm.cmd run pages:check -- 化学 有機化学` でGitHub Pages上のmanifestとJSON配信を確認する。
+- コミット：Add chemistry organic unit
+
+## 2026-06-14  担当：Codex
 - やったこと：化学の続きとして `data/questions/化学_無機化学.json` を37問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。水素、酸素、塩素、ハロゲン、硫黄化合物、アンモニア、硝酸、炭素・ケイ素、アルカリ金属、炎色反応、アルカリ土類、アルミニウム、鉄・銅・銀・亜鉛のイオン確認、沈殿、気体発生、ソルベー法、接触法、鉄・アルミニウムの製錬を扱った。正答位置は 13/12/12 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 37/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
