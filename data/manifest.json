@@ -30,6 +30,11 @@
         "unit": "熱化学と反応速度",
         "path": "data/questions/化学_熱化学と反応速度.json",
         "count": 39
+      },
+      {
+        "unit": "化学平衡",
+        "path": "data/questions/化学_化学平衡.json",
+        "count": 37
       }
     ],
     "漢文": [

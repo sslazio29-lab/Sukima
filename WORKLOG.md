@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：化学の続きとして `data/questions/化学_化学平衡.json` を37問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。可逆反応、動的平衡、平衡定数、ルシャトリエの原理、濃度・圧力・温度・触媒の影響、電離平衡、pH、水のイオン積、緩衝液、溶解平衡、溶解度積、共通イオン効果、ICE表を扱った。正答位置は 13/12/12 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 33/2/2 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：化学を続けるなら無機化学・有機化学などへ進む。push 後に `npm.cmd run pages:check -- 化学 化学平衡` でGitHub Pages上のmanifestとJSON配信を確認する。
+- コミット：Add chemistry equilibrium unit
+
+## 2026-06-13  担当：Codex
 - やったこと：化学の続きとして `data/questions/化学_熱化学と反応速度.json` を39問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。発熱/吸熱、各種反応熱、ヘスの法則、結合エネルギー、熱量計算、反応速度、濃度・温度・表面積・触媒の影響、活性化エネルギー、速度式、速度測定を扱った。正答位置は 13/13/13 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 33/5/1 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
