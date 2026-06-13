@@ -25,6 +25,11 @@
         "unit": "酸化還元",
         "path": "data/questions/化学_酸化還元.json",
         "count": 33
+      },
+      {
+        "unit": "熱化学と反応速度",
+        "path": "data/questions/化学_熱化学と反応速度.json",
+        "count": 39
       }
     ],
     "漢文": [

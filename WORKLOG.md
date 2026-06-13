@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：化学の続きとして `data/questions/化学_熱化学と反応速度.json` を39問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。発熱/吸熱、各種反応熱、ヘスの法則、結合エネルギー、熱量計算、反応速度、濃度・温度・表面積・触媒の影響、活性化エネルギー、速度式、速度測定を扱った。正答位置は 13/13/13 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 33/5/1 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
+- 次にやること：化学を続けるなら `化学_化学平衡.json` へ進む。push 後に `npm.cmd run pages:check -- 化学 熱化学と反応速度` でGitHub Pages上のmanifestとJSON配信を確認する。
+- コミット：Add chemistry thermochemistry and reaction rates unit
+
+## 2026-06-13  担当：Codex
 - やったこと：新規セッション前の選択肢最適化として、化学5単元（物質の構成、化学結合、物質量と化学反応式、酸と塩基、酸化還元）の不自然・単元外に離れた不正解選択肢を見直した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。正答・問題数・単元順は維持し、不正解選択肢を同単元の近接概念や典型誤解へ寄せた。
 - つまずき・失敗・回避策：初回監査で `化学_酸と塩基.json` に選択肢重複が出たため、ブレンステッド酸の誤答を `水溶液中でOH-を生じる物質` に修正した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
