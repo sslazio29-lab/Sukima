@@ -35,6 +35,11 @@
         "unit": "化学平衡",
         "path": "data/questions/化学_化学平衡.json",
         "count": 37
+      },
+      {
+        "unit": "無機化学",
+        "path": "data/questions/化学_無機化学.json",
+        "count": 37
       }
     ],
     "漢文": [
