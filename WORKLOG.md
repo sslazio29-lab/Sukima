@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：生物の追加単元として `data/questions/生物_分類と生物多様性.json` を34問で追加し、`scripts/generate-manifest.mjs` の生物単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。五界説、モネラ界、細菌/古細菌、シアノバクテリア、原生生物、菌類、地衣類、コケ/シダ/裸子/被子植物、単子葉/双子葉、無脊椎動物、節足動物、軟体動物、脊椎動物各類、生物多様性の3レベル、外来種、絶滅危惧種、レッドリスト、生息域内/外保全、生態系サービスを扱った。正答位置は 12/11/11 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 34/0/0 に偏り、1問の解説が短いと出たため、内容は維持して選択肢順を調整し、解説を補った。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：生物は主要単元と補助単元がかなり埋まったため、続けるなら小単元化より他科目へ進むのが効率的。
+- コミット：Add biology classification and biodiversity unit
+
+## 2026-06-13  担当：Codex
 - やったこと：生物の追加単元として `data/questions/生物_実験・バイオテクノロジー.json` を36問で追加し、`scripts/generate-manifest.mjs` の生物単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。PCR、プライマー、耐熱性DNAポリメラーゼ、電気泳動、制限酵素、粘着末端、DNAリガーゼ、プラスミド、形質転換、DNA鑑定、シーケンサー、CRISPR-Cas9、遺伝子治療、遺伝子検査、クローン、iPS/ES細胞、モノクローナル抗体、ELISA、無菌操作、対照実験、再現性、倫理的配慮を扱った。正答位置は 12/12/12 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 36/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。

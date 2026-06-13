@@ -131,6 +131,11 @@
         "count": 37
       },
       {
+        "unit": "分類と生物多様性",
+        "path": "data/questions/生物_分類と生物多様性.json",
+        "count": 34
+      },
+      {
         "unit": "進化と系統",
         "path": "data/questions/生物_進化と系統.json",
         "count": 39
