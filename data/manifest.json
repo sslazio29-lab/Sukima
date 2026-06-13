@@ -12,9 +12,19 @@
         "count": 31
       },
       {
+        "unit": "物質の状態",
+        "path": "data/questions/化学_物質の状態.json",
+        "count": 33
+      },
+      {
         "unit": "物質量と化学反応式",
         "path": "data/questions/化学_物質量と化学反応式.json",
         "count": 30
+      },
+      {
+        "unit": "溶液",
+        "path": "data/questions/化学_溶液.json",
+        "count": 33
       },
       {
         "unit": "酸と塩基",
