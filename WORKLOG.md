@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-13  担当：Codex
+- やったこと：化学の続きとして `data/questions/化学_物質量と化学反応式.json` を30問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。物質量、アボガドロ定数、モル質量、標準状態の気体体積、モル濃度、反応式係数、質量計算の手順、過不足、限量反応物、収率、質量パーセント濃度、希釈、気体の状態方程式、有効数字、計算問題での解法選択を扱った。正答位置は 10/10/10 に調整した。
+- つまずき・失敗・回避策：初回監査で正答位置が 30/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
+- 次にやること：化学を続けるなら `化学_酸と塩基.json` または `化学_酸化還元.json` へ進む。
+- コミット：Add chemistry amount of substance and equations unit
+
+## 2026-06-13  担当：Codex
 - やったこと：化学の続きとして `data/questions/化学_化学結合.json` を31問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。価電子、イオン結合、イオン結晶、共有結合、配位結合、金属結合、金属の性質、分子結晶、共有結合結晶、ダイヤモンド/黒鉛、電気陰性度、極性、水素結合、分子間力、結晶の種類、結合から性質を判断する方針を扱った。正答位置は 11/10/10 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 31/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
