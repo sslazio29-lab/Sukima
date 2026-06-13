@@ -96,6 +96,11 @@
         "count": 36
       },
       {
+        "unit": "実験・バイオテクノロジー",
+        "path": "data/questions/生物_実験・バイオテクノロジー.json",
+        "count": 36
+      },
+      {
         "unit": "遺伝",
         "path": "data/questions/生物_遺伝.json",
         "count": 32
