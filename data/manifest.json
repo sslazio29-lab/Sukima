@@ -1,5 +1,12 @@
 {
   "subjects": {
+    "化学": [
+      {
+        "unit": "物質の構成",
+        "path": "data/questions/化学_物質の構成.json",
+        "count": 33
+      }
+    ],
     "漢文": [
       {
         "unit": "返り点と書き下し",
