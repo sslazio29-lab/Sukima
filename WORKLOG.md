@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-14  担当：Codex
+- やったこと：次工程として、Claude Code に化学単元の選択肢・解説監査を行わせ、その結果を後で Codex に差し戻す運用予定を記録した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。監査対象は主に選択肢の近さ、誤答の自然さ、解説の正確性・過不足。差し戻し時は `CLAUDE.md` と本 `WORKLOG.md` 最新部を読んで、指摘単位で最小修正する。
+- つまずき・失敗・回避策：なし。
+- 次にやること：Claude Code 監査結果が戻ったら、Codex 側で指摘を確認し、必要箇所だけ修正して `npm.cmd run check`、`npm.cmd run audit`、Pages確認まで行う。
+- コミット：Record Claude audit handoff plan
+
+## 2026-06-14  担当：Codex
 - やったこと：化学の独立単元として `data/questions/化学_高分子化合物.json` を36問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。単量体/重合体、付加重合、縮合重合、代表的な付加重合体、PET、ナイロン、ポリアミド/ポリエステル、熱可塑性/熱硬化性樹脂、天然ゴムと加硫、デンプン、セルロース、タンパク質、DNA、生分解性プラスチック、高分子の分類を扱った。正答位置は 12/12/12 に調整した。
 - つまずき・失敗・回避策：初回監査で正答位置が 36/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
