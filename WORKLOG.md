@@ -18,7 +18,19 @@
 
 ## （ここから下に記録を追記）
 
-> 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
+> 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
+## 現在の引き継ぎ（毎回ここを最初に読む）
+- 直近の主作業：候補抽出script `scripts/find-review-candidates.mjs` と skill `sukima-distractor-audit` を導入し、漢文で試用。上位候補から7ファイル・12問相当の弱い誤答を近接誤答へ修正済み。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 漢文 --limit 20` 成功。変更した漢文7単元は Pages で `ManifestStatus=200` / `JsonStatus=200` 確認済み。
+- 次にやること：漢文を続けるなら残り候補の score 5 未修正項目を `fix/keep/watch` に分け、明確な `fix` だけ最小修正。化学に戻るなら `audit:candidates -- --subject 化学 --limit 80 --json` から始める。
+- コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-15  担当：Codex
+- やったこと：トークン節約のため `WORKLOG.md` を最適化し、先頭に短い「現在の引き継ぎ」を追加。詳細ログは最新5件を残し、それ以前の8件を `WORKLOG_ARCHIVE.md` へ退避した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md`・`CLAUDE.md` は変更なし。再開時は `CLAUDE.md` と `WORKLOG.md` 先頭の引き継ぎブロックを優先し、必要時だけ詳細ログ・アーカイブ・仕様書を読む運用にする。
+- つまずき・失敗・回避策：なし。`WORKLOG.md` は約17KBから約8KBへ縮小。
+- 次にやること：作業が進むたびに引き継ぎブロックを短く更新し、詳細ログが肥大化したら同じ方式でアーカイブへ退避する。
+- コミット：Optimize worklog context handoff
 
 ## 2026-06-15  担当：Codex
 - やったこと：`sukima-distractor-audit` skill と `npm.cmd run audit:candidates -- --subject 漢文 --limit 30 --json` を使い、漢文の候補193件から上位だけを確認。明らかに弱い誤答を含む7ファイル・12問相当について、正答・問題数・順序を維持したまま不正解選択肢を近接誤答へ寄せた。
@@ -54,59 +66,3 @@
 - つまずき・失敗・回避策：なし。
 - 次にやること：Claude Code 監査結果が戻ったら、Codex 側で指摘を確認し、必要箇所だけ修正して `npm.cmd run check`、`npm.cmd run audit`、Pages確認まで行う。
 - コミット：Record Claude audit handoff plan
-
-## 2026-06-14  担当：Codex
-- やったこと：化学の独立単元として `data/questions/化学_高分子化合物.json` を36問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。単量体/重合体、付加重合、縮合重合、代表的な付加重合体、PET、ナイロン、ポリアミド/ポリエステル、熱可塑性/熱硬化性樹脂、天然ゴムと加硫、デンプン、セルロース、タンパク質、DNA、生分解性プラスチック、高分子の分類を扱った。正答位置は 12/12/12 に調整した。
-- つまずき・失敗・回避策：初回監査で正答位置が 36/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
-- 次にやること：化学を続けるならここまでの化学単元の不正解選択肢・説明の弱点点検、または理論分野の補助単元追加へ進む。push 後に `npm.cmd run pages:check -- 化学 高分子化合物` でGitHub Pages上のmanifestとJSON配信を確認する。
-- コミット：Add chemistry polymers unit
-
-## 2026-06-14  担当：Codex
-- やったこと：化学の続きとして `data/questions/化学_有機化学.json` を38問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。炭化水素、アルカン/アルケン/アルキン、異性体、官能基、アルコール、アルデヒド、カルボン酸、エステル、油脂、ベンゼン、フェノール、アニリン、サリチル酸、付加重合、縮合重合、アミノ酸、糖、デンプン確認、有機反応の整理を扱った。正答位置は 13/13/12 に調整した。
-- つまずき・失敗・回避策：初回監査で正答位置が 38/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
-- 次にやること：化学を続けるなら高分子化合物を独立単元にするか、理論/無機/有機の弱点補強に進む。push 後に `npm.cmd run pages:check -- 化学 有機化学` でGitHub Pages上のmanifestとJSON配信を確認する。
-- コミット：Add chemistry organic unit
-
-## 2026-06-14  担当：Codex
-- やったこと：化学の続きとして `data/questions/化学_無機化学.json` を37問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。水素、酸素、塩素、ハロゲン、硫黄化合物、アンモニア、硝酸、炭素・ケイ素、アルカリ金属、炎色反応、アルカリ土類、アルミニウム、鉄・銅・銀・亜鉛のイオン確認、沈殿、気体発生、ソルベー法、接触法、鉄・アルミニウムの製錬を扱った。正答位置は 13/12/12 に調整した。
-- つまずき・失敗・回避策：初回監査で正答位置が 37/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
-- 次にやること：化学を続けるなら `化学_有機化学.json` へ進む。push 後に `npm.cmd run pages:check -- 化学 無機化学` でGitHub Pages上のmanifestとJSON配信を確認する。
-- コミット：Add chemistry inorganic unit
-
-## 2026-06-13  担当：Codex
-- やったこと：化学の続きとして `data/questions/化学_化学平衡.json` を37問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。可逆反応、動的平衡、平衡定数、ルシャトリエの原理、濃度・圧力・温度・触媒の影響、電離平衡、pH、水のイオン積、緩衝液、溶解平衡、溶解度積、共通イオン効果、ICE表を扱った。正答位置は 13/12/12 に調整した。
-- つまずき・失敗・回避策：初回監査で正答位置が 33/2/2 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
-- 次にやること：化学を続けるなら無機化学・有機化学などへ進む。push 後に `npm.cmd run pages:check -- 化学 化学平衡` でGitHub Pages上のmanifestとJSON配信を確認する。
-- コミット：Add chemistry equilibrium unit
-
-## 2026-06-13  担当：Codex
-- やったこと：化学の続きとして `data/questions/化学_熱化学と反応速度.json` を39問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。発熱/吸熱、各種反応熱、ヘスの法則、結合エネルギー、熱量計算、反応速度、濃度・温度・表面積・触媒の影響、活性化エネルギー、速度式、速度測定を扱った。正答位置は 13/13/13 に調整した。
-- つまずき・失敗・回避策：初回監査で正答位置が 33/5/1 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs`、`node --check scripts/audit-questions.mjs` は成功。
-- 次にやること：化学を続けるなら `化学_化学平衡.json` へ進む。push 後に `npm.cmd run pages:check -- 化学 熱化学と反応速度` でGitHub Pages上のmanifestとJSON配信を確認する。
-- コミット：Add chemistry thermochemistry and reaction rates unit
-
-## 2026-06-13  担当：Codex
-- やったこと：新規セッション前の選択肢最適化として、化学5単元（物質の構成、化学結合、物質量と化学反応式、酸と塩基、酸化還元）の不自然・単元外に離れた不正解選択肢を見直した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。正答・問題数・単元順は維持し、不正解選択肢を同単元の近接概念や典型誤解へ寄せた。
-- つまずき・失敗・回避策：初回監査で `化学_酸と塩基.json` に選択肢重複が出たため、ブレンステッド酸の誤答を `水溶液中でOH-を生じる物質` に修正した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
-- 次にやること：新規セッションでは `CLAUDE.md` と `WORKLOG.md` 最新部を読み、化学の続きとして `化学_熱化学と反応速度.json` または `化学_化学平衡.json` へ進む。
-- コミット：Optimize chemistry distractors
-
-## 2026-06-13  担当：Codex
-- やったこと：化学の続きとして `data/questions/化学_酸化還元.json` を33問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。酸化/還元の定義、酸化数、酸化剤/還元剤、半反応式、酸性条件での係数調整、イオン化傾向、金属の置換反応、電池、ダニエル電池、電気分解、ファラデー定数、酸化還元滴定、過マンガン酸イオン、計算問題での電子数確認を扱った。正答位置は 11/11/11 に調整した。
-- つまずき・失敗・回避策：初回監査で正答位置が 33/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
-- 次にやること：化学を続けるなら `化学_熱化学と反応速度.json` または `化学_化学平衡.json` へ進む。
-- コミット：Add chemistry redox unit
-
-## 2026-06-13  担当：Codex
-- やったこと：化学の続きとして `data/questions/化学_酸と塩基.json` を32問で追加し、`scripts/generate-manifest.mjs` の化学単元順と `data/manifest.json` を更新した。
-- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。アレニウス/ブレンステッド・ローリーの定義、強酸/弱酸、pH、中和、塩、価数、中和滴定、ホールピペット/ビュレット、標準液、中和点/終点、指示薬、塩の加水分解、滴定計算の解法選択を扱った。正答位置は 11/11/10 に調整した。
-- つまずき・失敗・回避策：初回監査で正答位置が 32/0/0 に偏ったため、内容は維持して選択肢順だけを調整した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/generate-manifest.mjs` は成功。
-- 次にやること：化学を続けるなら `化学_酸化還元.json` へ進む。
-- コミット：Add chemistry acids and bases unit
