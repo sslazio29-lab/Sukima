@@ -21,6 +21,13 @@
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はこのファイルの最新10件だけ確認する。
 
 ## 2026-06-15  担当：Codex
+- やったこと：`sukima-distractor-audit` skill と `npm.cmd run audit:candidates -- --subject 漢文 --limit 30 --json` を使い、漢文の候補193件から上位だけを確認。明らかに弱い誤答を含む7ファイル・12問相当について、正答・問題数・順序を維持したまま不正解選択肢を近接誤答へ寄せた。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。候補抽出scriptは自動実行ではなく、依頼時にCodexが実行する監査補助として使用する。全問をLLM文脈へ読ませず、scriptがローカルで全件走査し、上位候補だけを人間/LLM監査対象にする運用とした。
+- つまずき・失敗・回避策：PowerShellからNode標準入力へ日本語ファイル名を渡す経路で文字化けしたため、構造編集案をやめて `apply_patch` で対象選択肢だけを直接差し替えた。`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 漢文 --limit 20` は成功。候補総数は193件のままだが、これは薄い解説や極端語などの「要確認」ヒューリスティックが残るためで、修正済み問題も別理由で候補に残ることがある。
+- 次にやること：漢文を続けて監査するなら、残り候補のうち score 5 の未修正項目（例：使役・受身・比較[11]、否定・疑問・反語[27][31]、返り点と書き下し[32]など）を `fix/keep/watch` に分け、明確な `fix` だけ最小修正する。push 後に変更した漢文単元の Pages 配信確認を行う。
+- コミット：Refine kanbun distractors from candidates
+
+## 2026-06-15  担当：Codex
 - やったこと：選択肢・解説の意味監査を効率化するため、候補抽出script `scripts/find-review-candidates.mjs` と npm script `audit:candidates` を追加。あわせて Codex skill `C:\Users\user\.codex\skills\sukima-distractor-audit` を作成し、候補優先で監査する手順を定義した。
 - 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。`audit:candidates` はCIを落とす検査ではなく、選択肢長の偏り、極端語、汎用誤答、形式差、薄い解説、単元外語候補などからLLM監査対象を優先順位づけする補助ツールとした。
 - つまずき・失敗・回避策：skill validator がUTF-8日本語を cp932 として読んで失敗したため、skill本文はASCIIで保存し直して `quick_validate.py` を通した。`npm.cmd run check`、`npm.cmd run audit`、`node --check scripts/find-review-candidates.mjs`、`npm.cmd run audit:candidates -- --subject 化学 --limit 20` は成功。
