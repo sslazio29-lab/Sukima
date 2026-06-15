@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "He is as ___ as his older brother. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "taller",
+      "tallest",
+      "tall"
+    ],
+    "正解": 3,
+    "解説": "as ... as の間には形容詞・副詞の原級が入る。比較級 taller や最上級 tallest ではなく原級 tall。"
+  },
+  {
+    "問題文": "This problem is not so difficult ___ it looks. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "than",
+      "as",
+      "that"
+    ],
+    "正解": 2,
+    "解説": "not so ... as は「〜ほど…ない」という原級の否定比較。呼応するのは as で、than ではない。"
+  },
+  {
+    "問題文": "She turned out to be ___ than I had expected. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "smarter",
+      "smart",
+      "smartest"
+    ],
+    "正解": 1,
+    "解説": "than があるので比較級 smarter。原級 smart や最上級 smartest は than と結びつかない。"
+  },
+  {
+    "問題文": "This camera is ___ better than the one I had before. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "very",
+      "much",
+      "so"
+    ],
+    "正解": 2,
+    "解説": "比較級を強調するのは much / far / even など。very は原級を強めるので比較級 better には使えない。"
+  },
+  {
+    "問題文": "This room is ___ as large as that one. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "twice",
+      "double",
+      "two times more"
+    ],
+    "正解": 1,
+    "解説": "倍数は「twice as 原級 as」で表す（twice as large as）。double は as 〜 as の形を取らず、two times more は不自然。"
+  },
+  {
+    "問題文": "The new model is about three times ___ of the old one. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "size",
+      "as size",
+      "the size"
+    ],
+    "正解": 3,
+    "解説": "「〜倍の大きさ」は three times the size of ... と名詞を使って表せる。冠詞 the を落とさない。"
+  },
+  {
+    "問題文": "He is ___ of the two brothers. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "tall",
+      "the taller",
+      "the tallest"
+    ],
+    "正解": 2,
+    "解説": "二者のうち「より〜なほう」は the + 比較級。of the two があるので the taller。三者以上を前提とする最上級 the tallest は使わない。"
+  },
+  {
+    "問題文": "Mt. Fuji is the highest mountain ___ Japan. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "in",
+      "of",
+      "at"
+    ],
+    "正解": 1,
+    "解説": "最上級の範囲が場所・集団（単数）のときは in を使う（in Japan）。of は of all 〜 のように複数名詞の前で使う。"
+  },
+  {
+    "問題文": "He is the tallest ___ all the players on the team. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "in",
+      "among",
+      "of"
+    ],
+    "正解": 3,
+    "解説": "最上級で「〜の中で」を複数名詞で示すときは of（of all the players）。場所・単数集団なら in を使う。"
+  },
+  {
+    "問題文": "She is ___ the best singer in this group. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "very",
+      "by far",
+      "more"
+    ],
+    "正解": 2,
+    "解説": "最上級を強調するのは by far / much など（by far the best）。very は the very best の語順なら可だが、the の前に置く強調は by far。"
+  },
+  {
+    "問題文": "This model is clearly ___ to the previous one in quality. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "superior",
+      "more superior",
+      "superior than"
+    ],
+    "正解": 1,
+    "解説": "superior 自体に「より優れた」の意味があり、比較は than ではなく to をとる（superior to）。more を付けず、than も使わない。"
+  },
+  {
+    "問題文": "She is three years ___ to me, so she joined the company earlier. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "elder",
+      "older",
+      "senior"
+    ],
+    "正解": 3,
+    "解説": "「〜より年上・先輩」をラテン比較で表すのは senior to。older は than をとり、elder は名詞の前で用いるのが普通。"
+  },
+  {
+    "問題文": "He has no more than five dollars in his wallet. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "少なくとも5ドルは持っている",
+      "たった5ドルしか持っていない",
+      "5ドルより多く持っている"
+    ],
+    "正解": 2,
+    "解説": "no more than は「たった〜しか（= only）」と少なさを強調する。少なくとも・以上の意味にはならない。"
+  },
+  {
+    "問題文": "No less than 1,000 people attended the event. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "1,000人もの人が出席した",
+      "1,000人未満が出席した",
+      "ちょうど1,000人が出席した"
+    ],
+    "正解": 1,
+    "解説": "no less than は「〜もの（= as many/much as）」と多さを強調する。未満やちょうどの意味ではない。"
+  },
+  {
+    "問題文": "There were not more than twenty guests at the party. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "少なくとも20人いた",
+      "20人を超えていた",
+      "多くても20人だった"
+    ],
+    "正解": 3,
+    "解説": "not more than は「多くても〜（= at most）」と上限を示す。no more than（たった〜しか）と紛らわしいので区別する。"
+  },
+  {
+    "問題文": "Please pay not less than 5,000 yen. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "多くても5,000円",
+      "少なくとも5,000円",
+      "ちょうど5,000円"
+    ],
+    "正解": 2,
+    "解説": "not less than は「少なくとも〜（= at least）」と下限を示す。no less than（〜もの）との違いに注意する。"
+  },
+  {
+    "問題文": "As winter approaches, the days are getting ___. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "shorter and shorter",
+      "short and short",
+      "more and more short"
+    ],
+    "正解": 1,
+    "解説": "「ますます〜」は比較級 and 比較級。短い short は -er 型なので shorter and shorter。more and more は長い形容詞に使う。"
+  },
+  {
+    "問題文": "The higher we climbed, the ___ it became. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "cold",
+      "coldest",
+      "colder"
+    ],
+    "正解": 3,
+    "解説": "the 比較級, the 比較級 の相関構文。後半も比較級が必要なので colder。原級 cold や最上級 coldest は入らない。"
+  },
+  {
+    "問題文": "She is as diligent as ___ student in the class. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "some",
+      "any",
+      "all"
+    ],
+    "正解": 2,
+    "解説": "as ... as any + 単数名詞 は「誰にも劣らず〜」で最上級に近い意味を表す。any student が正しく、some や all では成り立たない。"
+  },
+  {
+    "問題文": "___ is more precious than time once it is lost. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "Nothing",
+      "Anything",
+      "Everything"
+    ],
+    "正解": 1,
+    "解説": "Nothing is more ... than は「何も〜より…でない」で最上級相当の意味になる。Anything や Everything では「時間が最も貴重だ」の意味にならない。"
+  },
+  {
+    "問題文": "He runs faster than any other ___ on his team. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "boys",
+      "of boy",
+      "boy"
+    ],
+    "正解": 3,
+    "解説": "比較級 + than any other + 単数名詞 で最上級的な意味を表す。any other boy が正しく、複数形 boys にはしない。"
+  },
+  {
+    "問題文": "I found this book ___ interesting than the one you lent me. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "lesser",
+      "less",
+      "least"
+    ],
+    "正解": 2,
+    "解説": "「〜ほど…でない」という劣勢比較は less + 原級 + than。lesser は限定用法の特殊な語、least は最上級なので than と合わない。"
+  },
+  {
+    "問題文": "This bag is only ___ as heavy as that one. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "half",
+      "a half",
+      "the half"
+    ],
+    "正解": 1,
+    "解説": "分数・倍数は「half as 原級 as」の形で as の前に置く（half as heavy as）。a half / the half とはしない。"
+  },
+  {
+    "問題文": "The climate of Tokyo is milder than ___ of Sapporo. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "it",
+      "one",
+      "that"
+    ],
+    "正解": 3,
+    "解説": "比較する対象（the climate）の繰り返しを避けるには that を使う（that of Sapporo）。it や one ではこの単数の特定名詞を正しく受けられない。"
+  }
+]

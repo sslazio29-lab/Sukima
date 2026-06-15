@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "They decided to put off the meeting until next week. この put off の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "延期する",
+      "中止する",
+      "始める"
+    ],
+    "正解": 1,
+    "解説": "put off は「延期する（= postpone）」。完全にやめる call off（中止する）と混同しやすい。"
+  },
+  {
+    "問題文": "The outdoor match was called off because of the storm. この called off の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "延期された",
+      "中止された",
+      "続行された"
+    ],
+    "正解": 2,
+    "解説": "call off は「中止する（= cancel）」。put off（延期）と違い、予定そのものを取りやめる。"
+  },
+  {
+    "問題文": "The research team carried out the experiment carefully. この carried out の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "運び出した",
+      "記録した",
+      "実行した"
+    ],
+    "正解": 3,
+    "解説": "carry out は計画・実験などを「実行する（= perform / conduct）」。物を物理的に運び出す意味で読まない。"
+  },
+  {
+    "問題文": "The new policy brought about major changes in the industry. この brought about の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "引き起こした",
+      "持ち帰った",
+      "回避した"
+    ],
+    "正解": 1,
+    "解説": "bring about は「引き起こす・もたらす（= cause）」。変化や結果を生じさせる意味で、物を持ち帰る意味ではない。"
+  },
+  {
+    "問題文": "She came up with a brilliant idea during the discussion. この came up with の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "偶然出会った",
+      "思いついた",
+      "あきらめた"
+    ],
+    "正解": 2,
+    "解説": "come up with は案などを「思いつく・考え出す（= devise）」。人と偶然出会う run into とは異なる。"
+  },
+  {
+    "問題文": "I cannot put up with this noise any longer. この put up with の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "楽しむ",
+      "解決する",
+      "我慢する"
+    ],
+    "正解": 3,
+    "解説": "put up with は「我慢する・耐える（= tolerate / endure）」。問題を解決する意味ではなく、嫌な状態に耐えることを表す。"
+  },
+  {
+    "問題文": "Many students look up to their old teacher. この look up to の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "尊敬する",
+      "見上げて探す",
+      "批判する"
+    ],
+    "正解": 1,
+    "解説": "look up to は人を「尊敬する（= respect / admire）」。物理的に見上げる意味ではなく、反対は look down on。"
+  },
+  {
+    "問題文": "He is kind and never looks down on others. この looks down on の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "見下ろして探す",
+      "見下す・軽蔑する",
+      "見守る"
+    ],
+    "正解": 2,
+    "解説": "look down on は人を「見下す・軽蔑する（= despise）」。look up to（尊敬する）の反対の意味になる。"
+  },
+  {
+    "問題文": "After a long argument, they finally gave in. この gave in の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "参加した",
+      "贈り物をした",
+      "屈した・譲歩した"
+    ],
+    "正解": 3,
+    "解説": "give in は「屈する・降参する（= yield / surrender）」。提出する hand in と形が似ているが意味は別。"
+  },
+  {
+    "問題文": "She turned down the well-paid job offer. この turned down の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "断った",
+      "音量を上げた",
+      "快く受け入れた"
+    ],
+    "正解": 1,
+    "解説": "turn down は申し出などを「断る・拒否する（= reject）」。音量を下げる意味もあるが、offer が目的語なら「断る」。受け入れる accept の反対。"
+  },
+  {
+    "問題文": "He worked overtime to make up for lost time. この make up for の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "でっち上げる",
+      "埋め合わせる",
+      "仲直りする"
+    ],
+    "正解": 2,
+    "解説": "make up for は「埋め合わせる・償う（= compensate for）」。話をでっち上げる make up や仲直りの make up（with）とは区別する。"
+  },
+  {
+    "問題文": "We have run out of milk, so I need to buy some. この run out of の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "走り去る",
+      "あふれさせる",
+      "使い果たす"
+    ],
+    "正解": 3,
+    "解説": "run out of は「〜を使い果たす・切らす（= use up）」。在庫や時間が尽きることを表し、走って外へ出る意味ではない。"
+  },
+  {
+    "問題文": "It took him a month to get over the illness. この get over の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "回復する・乗り越える",
+      "物理的に乗り越えて行く",
+      "引き継ぐ"
+    ],
+    "正解": 1,
+    "解説": "get over は病気・困難・ショックから「回復する・立ち直る（= recover from）」。塀などを越える物理的意味ではない。"
+  },
+  {
+    "問題文": "If he is busy, we will have to do without his help. この do without の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "〜の外で行う",
+      "〜なしで済ます",
+      "〜を疑う"
+    ],
+    "正解": 2,
+    "解説": "do without は「〜なしで済ます・我慢する（= manage without）」。outside で行う意味ではない。"
+  },
+  {
+    "問題文": "She takes after her mother in both looks and character. この takes after の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "後を追いかける",
+      "世話をする",
+      "似ている"
+    ],
+    "正解": 3,
+    "解説": "take after は肉親に「似ている（= resemble）」。世話をする look after や、後を追う follow とは区別する。"
+  },
+  {
+    "問題文": "The old car broke down on the highway. この broke down の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "故障した",
+      "分解して片づけた",
+      "急に曲がった"
+    ],
+    "正解": 1,
+    "解説": "break down は機械が「故障する（= stop working）」、または人が泣き崩れる意味。ここは車なので「故障した」。"
+  },
+  {
+    "問題文": "They set up a new company last year. この set up の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "片づけた",
+      "設立した",
+      "準備運動をした"
+    ],
+    "正解": 2,
+    "解説": "set up は会社・組織などを「設立する・立ち上げる（= establish）」。機器を「設置する」意味もあるが、company なら「設立する」。"
+  },
+  {
+    "問題文": "She pointed out several errors in the report. この pointed out の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "外を指さした",
+      "消去した",
+      "指摘した"
+    ],
+    "正解": 3,
+    "解説": "point out は問題点などを「指摘する（= indicate）」。物理的に外を指さす意味ではない。"
+  },
+  {
+    "問題文": "I can't figure out how this machine works. この figure out の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "理解する・解明する",
+      "数字で表す",
+      "図を描く"
+    ],
+    "正解": 1,
+    "解説": "figure out は考えて「理解する・解明する（= work out / understand）」。figure の「数字」「図」から直訳しない。"
+  },
+  {
+    "問題文": "In this context, UN stands for the United Nations. この stands for の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "〜に賛成して立つ",
+      "〜を表す・略す",
+      "〜に代わって耐える"
+    ],
+    "正解": 2,
+    "解説": "stand for は略語などが「〜を表す・の略である（= represent）」。立って賛成する意味もあるが、略語の説明では「表す」。"
+  },
+  {
+    "問題文": "She went through a very difficult time after the loss. この went through の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "通り抜けて去った",
+      "綿密に捨てた",
+      "経験した・耐えた"
+    ],
+    "正解": 3,
+    "解説": "go through は苦難などを「経験する・耐え抜く（= undergo / experience）」。物理的に通り抜ける意味ではない。"
+  },
+  {
+    "問題文": "The current situation calls for immediate action. この calls for の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "必要とする・要求する",
+      "電話で呼び出す",
+      "取り消す"
+    ],
+    "正解": 1,
+    "解説": "call for は「〜を必要とする・要求する（= require / demand）」。電話で呼ぶ意味ではなく、状況が何かを求めることを表す。"
+  },
+  {
+    "問題文": "The doctor told him to cut down on salt and sugar. この cut down on の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "完全にやめる",
+      "減らす",
+      "細かく切り分ける"
+    ],
+    "正解": 2,
+    "解説": "cut down on は量を「減らす（= reduce）」。完全にやめる cut out とは異なり、ゼロにするわけではない。"
+  },
+  {
+    "問題文": "He put forward a new proposal at the meeting. この put forward の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "後回しにした",
+      "前に押し出して進んだ",
+      "提案した"
+    ],
+    "正解": 3,
+    "解説": "put forward は意見・案を「提案する・提示する（= propose）」。後回しにする put off や、物理的に前へ出す意味ではない。"
+  }
+]

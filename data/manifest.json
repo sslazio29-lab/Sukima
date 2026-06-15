@@ -30,6 +30,26 @@
         "unit": "和訳判断",
         "path": "data/questions/英語_和訳判断.json",
         "count": 24
+      },
+      {
+        "unit": "関係詞",
+        "path": "data/questions/英語_関係詞.json",
+        "count": 24
+      },
+      {
+        "unit": "句動詞・イディオム",
+        "path": "data/questions/英語_句動詞・イディオム.json",
+        "count": 24
+      },
+      {
+        "unit": "時制・相",
+        "path": "data/questions/英語_時制・相.json",
+        "count": 24
+      },
+      {
+        "unit": "比較",
+        "path": "data/questions/英語_比較.json",
+        "count": 24
       }
     ],
     "化学": [

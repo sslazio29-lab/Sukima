@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "The scientist ___ discovered the gene later won a major prize. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "which",
+      "whose",
+      "who"
+    ],
+    "正解": 3,
+    "解説": "先行詞 the scientist は人で、空所は discovered の主語にあたる主格なので who。which は物を受け、whose は所有格で後ろに名詞が必要。"
+  },
+  {
+    "問題文": "This is the house ___ roof was badly damaged in the storm. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "whose",
+      "which",
+      "where"
+    ],
+    "正解": 1,
+    "解説": "所有格の関係代名詞 whose は人・物どちらの先行詞でも使え、後ろに名詞 roof が続く。which は所有格にならず、where は後ろに完全文が必要。"
+  },
+  {
+    "問題文": "The book ___ I borrowed from the library was very useful. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "what",
+      "which",
+      "who"
+    ],
+    "正解": 2,
+    "解説": "先行詞 the book は物で、空所は borrowed の目的語にあたる目的格なので which。what は先行詞を含むため先行詞があるとき不可、who は人を受ける。"
+  },
+  {
+    "問題文": "He finally sold the old car, ___ had broken down twice that year. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "that",
+      "what",
+      "which"
+    ],
+    "正解": 3,
+    "解説": "コンマ付きの非制限用法では関係代名詞 that は使えず、which を用いる。先行詞 the old car に補足説明を加えている。"
+  },
+  {
+    "問題文": "The senior colleague ___ I relied for advice was promoted. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "on whom",
+      "whom",
+      "which"
+    ],
+    "正解": 1,
+    "解説": "rely on の on が前に出た前置詞+関係代名詞 on whom。先行詞が人なので which は不可、whom 単独では rely の on が欠ける。"
+  },
+  {
+    "問題文": "This is the small town ___ I grew up and went to school. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "which",
+      "where",
+      "that"
+    ],
+    "正解": 2,
+    "解説": "後ろが grew up（完全な自動詞句）で場所を表すので関係副詞 where（= in which）。which や that 単独では前置詞 in が欠ける。"
+  },
+  {
+    "問題文": "I still remember the day ___ we first met at the station. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "where",
+      "which",
+      "when"
+    ],
+    "正解": 3,
+    "解説": "先行詞 the day は時を表し、後ろが完全文なので関係副詞 when（= on which）。where は場所、which 単独では前置詞が欠ける。"
+  },
+  {
+    "問題文": "Please tell me the reason ___ you were absent yesterday. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "why",
+      "which",
+      "how"
+    ],
+    "正解": 1,
+    "解説": "先行詞 the reason を受け、後ろに完全文が続くので理由の関係副詞 why（= for which）。how は方法を表し reason とは結びつかない。"
+  },
+  {
+    "問題文": "That is exactly ___ he solved the difficult puzzle. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "the way how",
+      "how",
+      "which"
+    ],
+    "正解": 2,
+    "解説": "方法は the way か how のどちらか一方で表し、the way how と重ねるのは不可。ここは how 単独が正しい。"
+  },
+  {
+    "問題文": "___ matters most in this kind of job is honesty. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "That",
+      "Which",
+      "What"
+    ],
+    "正解": 3,
+    "解説": "先行詞を含む関係代名詞 what が「〜すること・もの」という名詞節を作り主語になる。That や Which は先行詞なしで主語の名詞節を作れない。"
+  },
+  {
+    "問題文": "Show me ___ you bought at the new shop yesterday. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "what",
+      "that",
+      "which"
+    ],
+    "正解": 1,
+    "解説": "what は the thing which に相当し、先行詞を含んで「〜したもの」を表す。that や which は先行詞が必要で、ここには先行詞がない。"
+  },
+  {
+    "問題文": "He is a man who I believe is honest. の who の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "I believe の目的語",
+      "節内の動詞 is の主語（連鎖関係詞）",
+      "man を修飾する所有格"
+    ],
+    "正解": 2,
+    "解説": "正解は「is の主語（連鎖関係詞）」。I believe は挿入で、who は is honest の主語にあたる主格。who is honest に I believe が割り込んだ形で、believe の目的語ではない。"
+  },
+  {
+    "問題文": "___ wants to join the club is welcome at any time. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "Whatever",
+      "Whomever",
+      "Whoever"
+    ],
+    "正解": 3,
+    "解説": "「〜する人は誰でも」という名詞節を作り、節内 wants の主語にあたる主格なので Whoever。Whomever は目的格、Whatever は物・事を表す。"
+  },
+  {
+    "問題文": "___ you decide in the end, I will support your choice. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "Whatever",
+      "However",
+      "Whoever"
+    ],
+    "正解": 1,
+    "解説": "「何を〜しても」という譲歩を表し decide の目的語になるので Whatever。However は後ろに形容詞・副詞が必要、Whoever は人を表す。"
+  },
+  {
+    "問題文": "You may take ___ you like from the basket. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "whoever",
+      "whichever",
+      "however"
+    ],
+    "正解": 2,
+    "解説": "限られた選択肢から「どれでも好きなもの」を取る文脈なので whichever。whoever は人、however は後ろに形容詞・副詞が必要。"
+  },
+  {
+    "問題文": "He passed the difficult exam, ___ pleased his parents greatly. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "that",
+      "what",
+      "which"
+    ],
+    "正解": 3,
+    "解説": "前の文全体（試験に合格したこと）を受ける非制限用法の which。前の節全体を先行詞にできるのは which で、that や what は不可。"
+  },
+  {
+    "問題文": "The movie I saw last night was excellent. で I saw の前に省略されている語として最も適切なものはどれか。",
+    "選択肢": [
+      "目的格の関係代名詞 (which / that)",
+      "主格の関係代名詞 who",
+      "関係副詞 when"
+    ],
+    "正解": 1,
+    "解説": "saw の目的語が欠けており、先行詞 the movie を受ける目的格の関係代名詞 (which/that) が省略されている。目的格は省略できるが、主格や関係副詞は通常省略しない。"
+  },
+  {
+    "問題文": "the city in which he lives と同じ意味になるのは the city ___ he lives である。空所に最も適切な語はどれか。",
+    "選択肢": [
+      "which",
+      "where",
+      "that"
+    ],
+    "正解": 2,
+    "解説": "in which は場所を表す関係副詞 where に置き換えられる。which や that 単独では前置詞 in が欠けて成り立たない。"
+  },
+  {
+    "問題文": "We need such materials ___ will withstand high heat. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "that",
+      "which",
+      "as"
+    ],
+    "正解": 3,
+    "解説": "such と呼応して「〜のような…」を作る関係代名詞は as。such ... as の形で、ここでは as が will withstand の主語にあたる。"
+  },
+  {
+    "問題文": "___ is well known, water expands when it freezes. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "As",
+      "Which",
+      "That"
+    ],
+    "正解": 1,
+    "解説": "「〜のように」と後続の文全体を受け、文頭にも置ける関係代名詞 As（As is well known「よく知られているように」）。which は文頭で主節の前には置けず、that も不可。"
+  },
+  {
+    "問題文": "She is the kindest person ___ I have ever met. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "which",
+      "that",
+      "what"
+    ],
+    "正解": 2,
+    "解説": "先行詞が最上級 the kindest を伴う場合は関係代名詞 that が好まれる。which は人を受けにくく、what は先行詞をとらない。"
+  },
+  {
+    "問題文": "It was the very thing ___ I had been looking for. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "which",
+      "what",
+      "that"
+    ],
+    "正解": 3,
+    "解説": "先行詞が the very を伴う場合は関係代名詞 that が好まれる。look for の目的語にあたり、what は先行詞をとれない。"
+  },
+  {
+    "問題文": "I know a quiet café ___ we can talk without interruption. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "where",
+      "which",
+      "what"
+    ],
+    "正解": 1,
+    "解説": "先行詞 a quiet café は場所で、後ろが完全文なので関係副詞 where（= at which）。which 単独では前置詞が欠け、what は先行詞をとれない。"
+  },
+  {
+    "問題文": "The expert ___ you spoke after the lecture is my mentor. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "who",
+      "to whom",
+      "which"
+    ],
+    "正解": 2,
+    "解説": "speak to の to が前に出た to whom。先行詞が人で、spoke の後ろに to が必要なため who 単独や which では成り立たない。"
+  }
+]

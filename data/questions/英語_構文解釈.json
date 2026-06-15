@@ -1,13 +1,13 @@
 [
   {
-    "問題文": "Not so much A as B の意味として最も適切なものはどれか。",
+    "問題文": "Having reviewed the data, the committee postponed the decision. の Having reviewed the data の働きとして最も適切なものはどれか。",
     "選択肢": [
-      "AというよりむしろB",
-      "AだけでなくBも",
-      "AでもBでもない"
+      "主節と同じ主語をもつ分詞構文",
+      "decision を修飾する形容詞句",
+      "完了を表す現在完了の述語動詞"
     ],
     "正解": 1,
-    "解説": "not so much A as B は「AというよりむしろB」。単なる追加ではなく、AよりBを重く見る表現である。"
+    "解説": "正解は「主節と同じ主語をもつ分詞構文」。Having p.p. は完了の分詞構文で、データを検討したのは主節の主語 the committee。decision を修飾する句でも、文の述語動詞でもない。"
   },
   {
     "問題文": "It was not until the experiment failed that they noticed the error. の強調内容として最も適切なものはどれか。",
@@ -100,14 +100,14 @@
     "解説": "正解は「規則を理解することと適用することは別問題だ」。It is one thing to A and another to B は「AとBは別物」で、Aを認めてもBまでできるとは限らないという対比を表す。"
   },
   {
-    "問題文": "The book is difficult, not because the ideas are complex, but because the examples are misleading. の理由として最も適切なものはどれか。",
+    "問題文": "This is the reason why the experiment failed. の why の働きとして最も適切なものはどれか。",
     "選択肢": [
-      "考え方が複雑だから",
-      "例が誤解を招くから",
-      "本が短すぎるから"
+      "理由を尋ねる疑問詞",
+      "先行詞 reason を受ける関係副詞",
+      "接続詞 because の代用"
     ],
     "正解": 2,
-    "解説": "正解は「例が誤解を招くから」。not because A, but because B は理由をAからBへ修正する構文で、ideas are complex は否定され、examples are misleading が本当の理由になる。"
+    "解説": "正解は「先行詞 reason を受ける関係副詞」。関係副詞 why は the reason を先行詞にとり、後ろに完全な文が続く。疑問詞でも接続詞 because でもなく、the reason (for which) を言い換えた形。"
   },
   {
     "問題文": "So persuasive was her argument that few objected. の文構造として最も適切なものはどれか。",
@@ -140,24 +140,24 @@
     "解説": "正解は「理由が何であれ」。Whatever the reason は譲歩で、理由が分かったからではなく、理由の内容に関係なく delay changed the outcome と述べている。"
   },
   {
-    "問題文": "Far from solving the problem, the new rule made it worse. の意味として最も適切なものはどれか。",
+    "問題文": "The results, which surprised everyone, were later confirmed. の which 節の用法として最も適切なものはどれか。",
     "選択肢": [
-      "新規則は問題を解決する方向に働いた",
-      "新規則は問題を解決しないまま影響もしなかった",
-      "新規則は問題解決どころか悪化させた"
+      "結果を表す副詞節",
+      "results を限定する制限用法",
+      "補足説明を加える非制限用法"
     ],
     "正解": 3,
-    "解説": "正解は「新規則は問題解決どころか悪化させた」。far from -ing は「〜どころか」で、単に解決しなかっただけでなく、期待と逆に悪化した点を読む。"
+    "解説": "正解は「補足説明を加える非制限用法」。コンマで挟まれた which 節は results に説明を付け足す非制限用法で、「どの結果か」を絞り込む制限用法ではない。コンマの有無で用法が変わる点を押さえる。"
   },
   {
     "問題文": "What he calls efficiency is, in fact, a refusal to listen. の主語として最も適切なものはどれか。",
     "選択肢": [
-      "what 節全体",
-      "挿入句",
-      "補語"
+      "What he calls efficiency（what 節全体）",
+      "he",
+      "efficiency"
     ],
     "正解": 1,
-    "解説": "正解は What he calls efficiency。what 節全体で「彼が効率と呼ぶもの」という名詞節になり主語になる。he calls efficiency は calls の目的語が欠けた不完全な語群で、a refusal to listen は is の後の補語である。"
+    "解説": "正解は what 節全体。「彼が効率と呼ぶもの」という名詞節が主語になる。節内の he は calls の主語、efficiency は calls の目的語に当たる語で、どちらも文全体の主語ではない。in fact は挿入、a refusal to listen は補語。"
   },
   {
     "問題文": "The proposal, ambitious as it is, lacks practical detail. の as の働きとして最も適切なものはどれか。",
@@ -170,14 +170,14 @@
     "解説": "形容詞 + as S V は譲歩で「たしかに〜だが」。ambitious を認めた上で欠点を述べる。"
   },
   {
-    "問題文": "It remains to be seen whether the plan will work. の意味として最も近いものはどれか。",
+    "問題文": "It is the method, not the theory, that needs revision. の文構造として最も適切なものはどれか。",
     "選択肢": [
-      "計画はすでに成功した",
-      "計画を見る必要はない",
-      "計画がうまくいくかはまだ分からない"
+      "it が前文を受ける代名詞",
+      "形式主語 it と真主語の that 節",
+      "it ... that の強調構文"
     ],
     "正解": 3,
-    "解説": "正解は「計画がうまくいくかはまだ分からない」。remain to be seen は「今後見極める必要がある」で、whether the plan will work が未確定の内容を表す。すでに成功した意味ではない。"
+    "解説": "正解は「it ... that の強調構文」。the method を強調する It is ... that 構文で、that 以下は needs の主語が欠けた不完全文。形式主語なら that 節は完全文になる点で見分ける。"
   },
   {
     "問題文": "Such was the impact of the speech that the debate changed course. の構造として最も適切なものはどれか。",

@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "I will call you as soon as I ___ home tonight. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "will arrive",
+      "arrive",
+      "arrived"
+    ],
+    "正解": 2,
+    "解説": "時を表す副詞節（as soon as 〜）の中では、未来のことでも現在形で表す。will arrive とはしない。"
+  },
+  {
+    "問題文": "If it ___ tomorrow, we will cancel the picnic. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "will rain",
+      "rained",
+      "rains"
+    ],
+    "正解": 3,
+    "解説": "条件を表す副詞節（if 〜）の中では、未来のことでも現在形で表す。主節は will を使うが、if 節は rains。"
+  },
+  {
+    "問題文": "I ___ him for the first time three days ago. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "met",
+      "have met",
+      "have been meeting"
+    ],
+    "正解": 1,
+    "解説": "three days ago のように過去の一点を示す語句があるときは過去形 met。現在完了は ago など明確な過去の時点と一緒に使えない。"
+  },
+  {
+    "問題文": "Have you ever ___ to Kyoto? 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "gone",
+      "been",
+      "went"
+    ],
+    "正解": 2,
+    "解説": "have been to は「〜へ行ったことがある」という経験。have gone to は「行ってしまって今ここにいない」結果を表すので、経験を問う ever とは合わない。"
+  },
+  {
+    "問題文": "He ___ to Paris, so he is not in the office now. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "has been",
+      "went",
+      "has gone"
+    ],
+    "正解": 3,
+    "解説": "「行ってしまって今ここにいない」という結果は has gone to。has been to は経験で「今いない」を含意しない。"
+  },
+  {
+    "問題文": "She ___ at this company since 2010. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "has worked",
+      "works",
+      "worked"
+    ],
+    "正解": 1,
+    "解説": "since 2010 は過去のある時点から現在までの継続を示すので現在完了 has worked。現在形や過去形では継続の意味が出ない。"
+  },
+  {
+    "問題文": "When I arrived at the platform, the train ___ already left. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "has",
+      "had",
+      "was"
+    ],
+    "正解": 2,
+    "解説": "到着した（過去）よりも前に出発が完了していたので、過去より前を表す過去完了 had left。基準の過去より前の出来事は大過去で表す。"
+  },
+  {
+    "問題文": "He ___ for two hours when she finally called. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "has been waiting",
+      "waited",
+      "had been waiting"
+    ],
+    "正解": 3,
+    "解説": "電話があった過去の時点まで「待ち続けていた」という継続なので過去完了進行形 had been waiting。現在完了は過去の基準時には合わない。"
+  },
+  {
+    "問題文": "By next April, I ___ here for ten years. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "will have worked",
+      "will work",
+      "have worked"
+    ],
+    "正解": 1,
+    "解説": "by next April という未来の時点までの継続・完了は未来完了 will have worked。単なる will work では「その時点までの継続」を表せない。"
+  },
+  {
+    "問題文": "I ___ exactly what you mean now. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "am knowing",
+      "know",
+      "was knowing"
+    ],
+    "正解": 2,
+    "解説": "know は状態を表す動詞で、原則として進行形にしない。am knowing とはせず現在形 know を使う。"
+  },
+  {
+    "問題文": "Look! The bus ___ around the corner. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "comes",
+      "came",
+      "is coming"
+    ],
+    "正解": 3,
+    "解説": "今まさに進行中・接近中の動作は現在進行形 is coming。Look! のように目の前の状況を述べる文では現在形 comes は不自然。"
+  },
+  {
+    "問題文": "By the time the guests arrive, I ___ cooking dinner. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "will have finished",
+      "finish",
+      "finished"
+    ],
+    "正解": 1,
+    "解説": "by the time + 現在形（未来を表す）に対し、主節は「その時までに終えている」という未来完了 will have finished。完了のニュアンスを出す。"
+  },
+  {
+    "問題文": "There ___ a small temple here, but it is gone now. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "is used to be",
+      "used to be",
+      "was used to"
+    ],
+    "正解": 2,
+    "解説": "「以前は〜があった（が今はない）」という過去の状態は used to be。be used to（〜に慣れている）や is used to be とは形も意味も異なる。"
+  },
+  {
+    "問題文": "When he was young, he ___ often walk to school over the hill. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "used",
+      "will",
+      "would"
+    ],
+    "正解": 3,
+    "解説": "過去の反復的な動作「よく〜したものだ」は would。used to も可だが used 単独は不可。would は状態動詞には使いにくい点も押さえる。"
+  },
+  {
+    "問題文": "It has been three years ___ we last met. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "since",
+      "for",
+      "that"
+    ],
+    "正解": 1,
+    "解説": "It has been + 期間 + since S V過去 で「〜してから…が経つ」。since は起点（最後に会った時）を示す。for は期間そのものに付く。"
+  },
+  {
+    "問題文": "We have known each other ___ more than ten years. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "since",
+      "for",
+      "during"
+    ],
+    "正解": 2,
+    "解説": "現在完了で期間の長さを示すときは for（for ten years）。since は起点の一点に、during は特定の期間名（during the war など）に付く。"
+  },
+  {
+    "問題文": "My eyes hurt because I ___ at the screen all day. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "have looked",
+      "looked",
+      "have been looking"
+    ],
+    "正解": 3,
+    "解説": "all day にわたり動作が続いてきたことを強調するので現在完了進行形 have been looking。完了形 have looked は「し終えた」結果に寄り、継続の臨場感が薄い。"
+  },
+  {
+    "問題文": "This time tomorrow, I ___ over the Pacific Ocean. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "will be flying",
+      "will fly",
+      "fly"
+    ],
+    "正解": 1,
+    "解説": "未来のある時点で進行中の動作は未来進行形 will be flying。this time tomorrow という時点で「飛んでいる最中」を表す。"
+  },
+  {
+    "問題文": "He had hardly sat down ___ the telephone rang. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "than",
+      "when",
+      "that"
+    ],
+    "正解": 2,
+    "解説": "had hardly p.p. ... when ... で「〜するとすぐに…」。hardly と呼応するのは when。No sooner ... than と混同して than としない。"
+  },
+  {
+    "問題文": "No sooner ___ he left the room than it began to rain. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "has",
+      "did",
+      "had"
+    ],
+    "正解": 3,
+    "解説": "No sooner が文頭に出た倒置で、過去完了の助動詞 had が主語の前に出る。No sooner had S p.p. than ... の形を保つ。"
+  },
+  {
+    "問題文": "She said that she ___ very tired after the trip. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "was",
+      "is",
+      "has been"
+    ],
+    "正解": 1,
+    "解説": "主節が said と過去なので、時制の一致で従属節も過去形 was になる。is のままにしない。"
+  },
+  {
+    "問題文": "We ___ to London next week; the tickets are already booked. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "will going",
+      "are going",
+      "go"
+    ],
+    "正解": 2,
+    "解説": "すでに決まっている近い予定は現在進行形 are going（往来発着の動詞で予定を表す用法）。will going は不可、go では確定した予定の感じが出にくい。"
+  },
+  {
+    "問題文": "By the year 2000, she ___ three novels. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "wrote",
+      "has written",
+      "had written"
+    ],
+    "正解": 3,
+    "解説": "By 2000 という過去の時点までの完了は過去完了 had written。基準が過去なので has written（現在完了）は使えない。"
+  },
+  {
+    "問題文": "___ you finished the report yet? — Yes, just now. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "Have",
+      "Did",
+      "Had"
+    ],
+    "正解": 1,
+    "解説": "yet（もう／まだ）は現在完了と結びつき、完了・結果を問う。Have you finished ...? が正しく、過去や過去完了ではない。"
+  }
+]
