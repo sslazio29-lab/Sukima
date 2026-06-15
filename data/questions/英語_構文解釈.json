@@ -107,7 +107,7 @@
       "本が短すぎるから"
     ],
     "正解": 2,
-    "解説": "not because A, but because B で、本当の理由はB。Aは否定される理由である。"
+    "解説": "正解は「例が誤解を招くから」。not because A, but because B は理由をAからBへ修正する構文で、ideas are complex は否定され、examples are misleading が本当の理由になる。"
   },
   {
     "問題文": "So persuasive was her argument that few objected. の文構造として最も適切なものはどれか。",
@@ -117,7 +117,7 @@
       "so ... that の倒置"
     ],
     "正解": 3,
-    "解説": "So + 形容詞が文頭に出ると倒置が起こる。意味は「とても説得力があったので…」。"
+    "解説": "正解は「so ... that の倒置」。So persuasive was her argument that ... は「彼女の議論がとても説得力を持っていたので…」で、So + 形容詞が文頭に出たため was her argument の語順になる。"
   },
   {
     "問題文": "The fact that he remained silent does not mean that he agreed. の that 節の説明として最も適切なものはどれか。",
@@ -127,7 +127,7 @@
       "最初のthatは理由、二つ目は結果"
     ],
     "正解": 1,
-    "解説": "the fact that ... は同格節。mean の後の that は目的語節で、働きが異なる。"
+    "解説": "正解は「最初のthatは同格、二つ目は目的語節」。the fact that he remained silent は fact の内容を説明する同格節で、mean that he agreed は mean の目的語節。二つとも関係代名詞ではない。"
   },
   {
     "問題文": "Whatever the reason, the delay changed the outcome. の Whatever the reason の意味として最も適切なものはどれか。",
@@ -137,7 +137,7 @@
       "理由が重要であるなら"
     ],
     "正解": 2,
-    "解説": "whatever + 名詞 は譲歩で「どんな〜であっても」。理由の内容を問わず結論を述べる。"
+    "解説": "正解は「理由が何であれ」。Whatever the reason は譲歩で、理由が分かったからではなく、理由の内容に関係なく delay changed the outcome と述べている。"
   },
   {
     "問題文": "Far from solving the problem, the new rule made it worse. の意味として最も適切なものはどれか。",
@@ -152,12 +152,12 @@
   {
     "問題文": "What he calls efficiency is, in fact, a refusal to listen. の主語として最も適切なものはどれか。",
     "選択肢": [
-      "What he calls efficiency",
-      "he calls efficiency",
-      "a refusal to listen"
+      "what 節全体",
+      "挿入句",
+      "補語"
     ],
     "正解": 1,
-    "解説": "正解は What he calls efficiency。what 節全体で「彼が効率と呼ぶもの」という名詞節になり主語になる。he calls efficiency は節として不完全で、a refusal to listen は補語である。"
+    "解説": "正解は What he calls efficiency。what 節全体で「彼が効率と呼ぶもの」という名詞節になり主語になる。he calls efficiency は calls の目的語が欠けた不完全な語群で、a refusal to listen は is の後の補語である。"
   },
   {
     "問題文": "The proposal, ambitious as it is, lacks practical detail. の as の働きとして最も適切なものはどれか。",
@@ -177,17 +177,17 @@
       "計画がうまくいくかはまだ分からない"
     ],
     "正解": 3,
-    "解説": "remain to be seen は「まだ分からない」。whether 節が未確定の内容を表す。"
+    "解説": "正解は「計画がうまくいくかはまだ分からない」。remain to be seen は「今後見極める必要がある」で、whether the plan will work が未確定の内容を表す。すでに成功した意味ではない。"
   },
   {
     "問題文": "Such was the impact of the speech that the debate changed course. の構造として最も適切なものはどれか。",
     "選択肢": [
-      "Such が文頭に出た倒置",
+      "such ... that の倒置構文",
       "so that の目的構文",
-      "関係代名詞 that の強調構文"
+      "it ... that の強調構文"
     ],
     "正解": 1,
-    "解説": "正解は「Such が文頭に出た倒置」。Such was ... that は「それほど大きな影響だったので…」で、such の前置により was the impact の語順になる。目的の so that や強調構文ではない。"
+    "解説": "正解は「Such が文頭に出た倒置」。Such was the impact ... that は「影響がそれほど大きかったので…」という結果構文で、such の前置により was the impact の倒置になる。目的の so that や関係代名詞 that の強調ではない。"
   },
   {
     "問題文": "The problem is less a lack of information than a lack of judgment. の意味として最も適切なものはどれか。",
@@ -197,7 +197,7 @@
       "判断力不足より情報不足が大きい"
     ],
     "正解": 2,
-    "解説": "less A than B は「AというよりB」。比較の形で本質をBに置く。"
+    "解説": "正解は「情報不足というより判断力不足だ」。less A than B は「AというよりB」で、問題の本質を lack of judgment に置く。A/B の向きを逆にしない。"
   },
   {
     "問題文": "Only after several attempts did they find a workable solution. の意味として最も適切なものはどれか。",
@@ -207,7 +207,7 @@
       "数回試みて初めて実行可能な解決策を見つけた"
     ],
     "正解": 3,
-    "解説": "Only after ... が文頭に出ると倒置。時点の限定「〜して初めて」を表す。"
+    "解説": "正解は「数回試みて初めて実行可能な解決策を見つけた」。Only after ... が文頭に出ると did they find の倒置になり、「〜して初めて」という時点の限定を表す。"
   },
   {
     "問題文": "He spoke as if he had seen the report, though he had not. の as if 節として最も適切なものはどれか。",
@@ -217,7 +217,7 @@
       "報告書を見るために話した"
     ],
     "正解": 1,
-    "解説": "as if + 過去完了は事実に反する様子を表すことがある。though he had not がその確認になる。"
+    "解説": "正解は「報告書を見たかのように話した」。as if + 過去完了は過去の事実に反する様子を表し、though he had not が実際には見ていなかったことを示している。"
   },
   {
     "問題文": "To read the sentence literally is to miss its irony. の意味として最も適切なものはどれか。",
@@ -227,7 +227,7 @@
       "皮肉を読むには文を読まない方がよい"
     ],
     "正解": 2,
-    "解説": "To A is to B は「AすることはBすることだ」。ここでは直訳の危険を述べる。"
+    "解説": "正解は「文字通り読むと皮肉を見落とす」。To A is to B は「AすることはBすることだ」で、literal reading と missing irony を同一視し、直訳の危険を述べている。"
   },
   {
     "問題文": "Not that the plan is impossible, but it needs more evidence. の Not that の働きとして最も適切なものはどれか。",
@@ -237,6 +237,6 @@
       "誤解されそうな否定を先に退ける"
     ],
     "正解": 3,
-    "解説": "Not that ... は「〜というわけではない」。全面否定ではなく、続く主張の範囲を調整する。"
+    "解説": "正解は「誤解されそうな否定を先に退ける」。Not that ... は「〜というわけではない」で、計画が不可能だと断定するのではなく、その誤解を退けて evidence が足りない点へ焦点を移す。"
   }
 ]
