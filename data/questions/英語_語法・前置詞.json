@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "He was charged ___ fraud. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "with",
+      "for",
+      "by"
+    ],
+    "正解": 1,
+    "解説": "charge A with B / be charged with B で「Bで告発される」。for は理由を表せるが、この語法では with。"
+  },
+  {
+    "問題文": "She is familiar ___ the procedure. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "to",
+      "with",
+      "for"
+    ],
+    "正解": 2,
+    "解説": "be familiar with は「〜に精通している」。be familiar to は「〜にとってなじみがある」で主語の向きが違う。"
+  },
+  {
+    "問題文": "The committee consists ___ five experts. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "in",
+      "from",
+      "of"
+    ],
+    "正解": 3,
+    "解説": "consist of は「〜から成る」。consist in は「本質が〜にある」で意味が違う。"
+  },
+  {
+    "問題文": "His explanation accounts ___ the unexpected result. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "to",
+      "for",
+      "with"
+    ],
+    "正解": 2,
+    "解説": "account for は「説明する・理由となる」。account to は「説明責任を負う相手」を表す。"
+  },
+  {
+    "問題文": "The evidence is consistent ___ her statement. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "with",
+      "to",
+      "by"
+    ],
+    "正解": 1,
+    "解説": "be consistent with は「〜と一致している」。consistent to とはしない。"
+  },
+  {
+    "問題文": "They objected ___ the proposal on ethical grounds. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "for",
+      "against",
+      "to"
+    ],
+    "正解": 3,
+    "解説": "object to は「〜に反対する」。to は前置詞なので、後ろには名詞または動名詞が来る。"
+  },
+  {
+    "問題文": "The shortage resulted ___ higher prices. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "in",
+      "from",
+      "with"
+    ],
+    "正解": 1,
+    "解説": "result in は「〜という結果になる」。result from は「〜から生じる」で因果の向きが逆になる。"
+  },
+  {
+    "問題文": "Higher prices resulted ___ the shortage. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "in",
+      "from",
+      "to"
+    ],
+    "正解": 2,
+    "解説": "result from は「〜から生じる」。ここでは価格上昇が不足から生じたという関係。"
+  },
+  {
+    "問題文": "The new rule applies ___ all applicants. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "for",
+      "with",
+      "to"
+    ],
+    "正解": 3,
+    "解説": "apply to は「〜に適用される」。apply for は「〜に応募する」で目的語が変わる。"
+  },
+  {
+    "問題文": "We should distinguish fact ___ opinion. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "from",
+      "with",
+      "to"
+    ],
+    "正解": 1,
+    "解説": "distinguish A from B は「AをBと区別する」。between A and B も可能だが、この形では from。"
+  },
+  {
+    "問題文": "This approach differs ___ the traditional one. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "with",
+      "from",
+      "for"
+    ],
+    "正解": 2,
+    "解説": "differ from は「〜と異なる」。different from と合わせて押さえる。"
+  },
+  {
+    "問題文": "The answer depends ___ how the term is defined. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "of",
+      "with",
+      "on"
+    ],
+    "正解": 3,
+    "解説": "depend on は「〜次第である」。後ろに how 節をとっても on が必要。"
+  },
+  {
+    "問題文": "He apologized ___ being late. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "for",
+      "to",
+      "with"
+    ],
+    "正解": 1,
+    "解説": "apologize for は「〜のことで謝る」。apologize to は謝る相手を表す。"
+  },
+  {
+    "問題文": "She apologized ___ the audience for the delay. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "for",
+      "to",
+      "about"
+    ],
+    "正解": 2,
+    "解説": "apologize to 人 for 事柄。ここでは audience が謝る相手なので to。"
+  },
+  {
+    "問題文": "The article refers ___ recent research. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "with",
+      "for",
+      "to"
+    ],
+    "正解": 3,
+    "解説": "refer to は「〜に言及する」。refer A to B なら「AにBを参照させる」。"
+  },
+  {
+    "問題文": "The medicine prevented the disease ___ spreading. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "from",
+      "to",
+      "for"
+    ],
+    "正解": 1,
+    "解説": "prevent A from -ing は「Aが〜するのを防ぐ」。from を落とさない。"
+  },
+  {
+    "問題文": "They regard the result ___ unreliable. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "for",
+      "as",
+      "with"
+    ],
+    "正解": 2,
+    "解説": "regard A as B は「AをBとみなす」。as を使う判断系の語法。"
+  },
+  {
+    "問題文": "The term is often associated ___ negative images. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "to",
+      "for",
+      "with"
+    ],
+    "正解": 3,
+    "解説": "be associated with は「〜と結びつけられる」。associate A with B の受身形。"
+  },
+  {
+    "問題文": "This method enables students ___ compare different views. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to",
+      "for",
+      "with"
+    ],
+    "正解": 1,
+    "解説": "enable A to do は「Aが〜できるようにする」。enable A for do とはしない。"
+  },
+  {
+    "問題文": "The professor emphasized the need ___ evidence. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "of",
+      "for",
+      "with"
+    ],
+    "正解": 2,
+    "解説": "the need for は「〜の必要性」。need to do との形の違いに注意する。"
+  },
+  {
+    "問題文": "The decision had a significant impact ___ local communities. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "to",
+      "for",
+      "on"
+    ],
+    "正解": 3,
+    "解説": "impact on は「〜への影響」。affect は他動詞なので前置詞を置かない。"
+  },
+  {
+    "問題文": "She is capable ___ handling the task alone. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "of",
+      "to",
+      "for"
+    ],
+    "正解": 1,
+    "解説": "be capable of -ing は「〜できる能力がある」。able to do との形の違いを押さえる。"
+  },
+  {
+    "問題文": "The findings are relevant ___ the current debate. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "with",
+      "to",
+      "for"
+    ],
+    "正解": 2,
+    "解説": "be relevant to は「〜に関連がある」。relevant with とはしない。"
+  },
+  {
+    "問題文": "They congratulated her ___ winning the prize. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "for",
+      "with",
+      "on"
+    ],
+    "正解": 3,
+    "解説": "congratulate A on B は「BについてAを祝う」。on の語法が問われやすい。"
+  }
+]

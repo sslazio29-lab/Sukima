@@ -7,7 +7,8 @@ const manifestPath = path.join(process.cwd(), "data", "manifest.json");
 const filenamePattern = /^(.+?)_(.+)\.json$/u;
 const unitOrder = {
   英語: [
-    "構文解釈"
+    "構文解釈",
+    "語法・前置詞"
   ],
   漢文: [
     "返り点と書き下し",

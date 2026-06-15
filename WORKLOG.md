@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：英語の初回実装として `data/questions/英語_構文解釈.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「構文解釈」を追加した。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --limit 20` 成功。英語_構文解釈は正答位置 8/8/8。
-- 次にやること：英語を続けるなら `英語_語法・前置詞.json`、`英語_論理マーカー.json`、`英語_多義語・文脈語彙.json` の順で、実践的な近接誤答を重視して追加する。既存の英語構文解釈は候補抽出で薄い解説が多く出るため、必要なら上位候補だけ解説補強する。
+- 直近の主作業：英語の2単元目として `data/questions/英語_語法・前置詞.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順へ追加した。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 語法・前置詞 --limit 20` 成功。英語_語法・前置詞は正答位置 8/8/8。
+- 次にやること：英語を続けるなら `英語_論理マーカー.json`、`英語_多義語・文脈語彙.json` の順で、実践的な近接誤答を重視して追加する。英語2単元は候補抽出で薄い解説が出やすいため、必要なら上位候補だけ解説補強する。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-15  担当：Codex
+- やったこと：英語の続きとして `data/questions/英語_語法・前置詞.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「語法・前置詞」を追加。charge with / familiar with / consist of / result in/from / apply to/for / apologize to/for など、空所補充で語法の向きと前置詞を問う形式にした。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。得意な受験生向けに、誤答は単なる無関係語ではなく、別語法ならあり得る前置詞・形へ寄せた。初回と同じく24問、正答位置は 8/8/8。
+- つまずき・失敗・回避策：日本語ファイル名をNode標準入力へ渡す経路は使わず、`apply_patch` で追加した。`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 語法・前置詞 --limit 20` は成功。候補抽出は薄い解説中心の score 2 が多く、追加単元としては通過。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 語法・前置詞` で配信確認。英語を続けるなら `英語_論理マーカー.json` へ進む。
+- コミット：Add English usage and prepositions unit
 
 ## 2026-06-15  担当：Codex
 - やったこと：未実装科目だった英語の初回単元として `data/questions/英語_構文解釈.json` を24問で追加し、`scripts/generate-manifest.mjs` に英語単元順を追加。得意な受験生向けに、強調構文、倒置、譲歩、比較、名詞節、仮定法、慣用構文などを短文解釈で問う形式にした。
