@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：英語 `data/questions/英語_論理マーカー.json` の候補10件を解説補強し、論理マーカーの `audit:candidates` 候補を 0/0 にした。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 論理マーカー --limit 30 --min-score 3` 成功。論理マーカーは候補 0/0。
-- 次にやること：push 後に `npm.cmd run pages:check -- 英語 論理マーカー` で配信確認。英語をさらに整えるなら、`多義語・文脈語彙` の残り3候補（[17][21][23]）へ進む。
+- 直近の主作業：英語 `data/questions/英語_多義語・文脈語彙.json` の残り3候補（[17][21][23]）を解説補強し、英語全体の `audit:candidates -- --subject 英語 --limit 80 --min-score 3` 候補を 0/0 にした。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --limit 80 --min-score 3` 成功。英語6単元の候補は 0/0。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 多義語・文脈語彙` で配信確認。英語の候補補強は一段落。次に進むなら別科目/別単元の候補監査、または新規単元追加。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-16  担当：Codex
+- やったこと：`英語_多義語・文脈語彙.json` の残り候補3件（[17] deserves、[21] robust、[23] draws on）を解説補強。正答語義を明示し、誤答の方向（値段を下げる、乱暴/装飾的、物理的に絵を描く等）との違いが分かるようにした。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。選択肢・正答・問題順は変更せず、説明品質だけを上げた。
+- つまずき・失敗・回避策：なし。`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --limit 80 --min-score 3` は成功し、英語全体の候補は 0/0。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 多義語・文脈語彙` で配信確認。
+- コミット：Finish English vocabulary candidate cleanup
 
 ## 2026-06-16  担当：Codex
 - やったこと：`英語_論理マーカー.json` の `audit:candidates` 候補10件（[0][1][2][5][7][8][10][13][17][21]）を解説補強。however、nevertheless、therefore、in fact、for this reason、on the other hand、rather、that is、unless、consequently について、正答の働きと前後文のつながりを明示した。

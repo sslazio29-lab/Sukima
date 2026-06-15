@@ -177,7 +177,7 @@
       "見捨てる"
     ],
     "正解": 2,
-    "解説": "deserve は「〜に値する」。attention を目的語にしているので、注意深く扱う価値があるという意味。"
+    "解説": "正解は「受けるに値する」。deserve は「〜に値する」で、deserves careful attention は「慎重な注意を受ける価値がある」。price を下げる意味でも abandon の意味でもない。"
   },
   {
     "問題文": "The data suggest a link, but not a causal relationship. この suggest の意味として最も適切なものはどれか。",
@@ -217,7 +217,7 @@
       "装飾的な"
     ],
     "正解": 1,
-    "解説": "robust は方法や結果について「頑健な・条件が変わっても安定した」。体格がよいという意味だけではない。"
+    "解説": "正解は「頑健な・安定した」。robust は方法や結果について、conditions change しても崩れにくいという意味。人の態度が乱暴、見た目が装飾的という意味ではない。"
   },
   {
     "問題文": "The claim is qualified by several exceptions. この qualified の意味として最も適切なものはどれか。",
@@ -237,6 +237,6 @@
       "〜を引き延ばす"
     ],
     "正解": 1,
-    "解説": "draw on は「知識・資料などを利用する」。earlier studies を利用して議論を組み立てている。"
+    "解説": "正解は「〜を利用する・踏まえる」。draw on は知識・資料・経験などを利用するという句動詞で、earlier studies を踏まえて議論を組み立てている。物理的に絵を描く意味ではない。"
   }
 ]
