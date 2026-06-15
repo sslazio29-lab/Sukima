@@ -25,6 +25,11 @@
         "unit": "英作文誤文訂正",
         "path": "data/questions/英語_英作文誤文訂正.json",
         "count": 24
+      },
+      {
+        "unit": "和訳判断",
+        "path": "data/questions/英語_和訳判断.json",
+        "count": 24
       }
     ],
     "化学": [

@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：英語の5単元目として `data/questions/英語_英作文誤文訂正.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順へ追加した。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 英作文誤文訂正 --limit 20` 成功。英語_英作文誤文訂正は正答位置 8/8/8、候補抽出 0/0。
-- 次にやること：push 後に `npm.cmd run pages:check -- 英語 英作文誤文訂正` で配信確認。新規セッションで英語を続けるなら `英語_和訳判断.json` を追加する。既存英語4単元は候補抽出で薄い解説候補が出るため、必要なら上位候補だけ解説補強する。
+- 直近の主作業：英語の6単元目として `data/questions/英語_和訳判断.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順へ追加した。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 和訳判断 --limit 20` 成功。英語_和訳判断は正答位置 8/8/8、候補抽出 0/0。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 和訳判断` で配信確認。英語をさらに続けるなら、既存英語4単元の候補抽出で出る薄い解説候補を上位だけ補強するか、別の実践型単元を追加する。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-15  担当：Codex
+- やったこと：英語の続きとして `data/questions/英語_和訳判断.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「和訳判断」を追加。not so much A as B、倒置、anything but、too ... to、not until、no more A than B、譲歩、非制限用法 which などを、直訳ではなく文脈上の訳として選ぶ形式にした。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。得意な受験生向けに、誤答は露骨な外れではなく、否定・比較・譲歩・係り先・焦点の典型的な読み違いへ寄せた。24問、正答位置は 8/8/8。
+- つまずき・失敗・回避策：初回 `npm.cmd run audit` で正答位置 19/4/1 の偏りが出たため、内容は維持して11問の選択肢順だけを調整した。`audit:candidates` で11問の薄い解説候補が出たため、該当解説に正答訳を明示して補強し、再実行で 0/0 になった。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 和訳判断` で配信確認。
+- コミット：Add English translation judgment unit
 
 ## 2026-06-15  担当：Codex
 - やったこと：英語の続きとして `data/questions/英語_英作文誤文訂正.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「英作文誤文訂正」を追加。現在完了、感情分詞、worth -ing、仮定法、explain/reply/object/suggest/ask/tell など、和文英訳で出やすい近接ミスを3択で判断する形式にした。
