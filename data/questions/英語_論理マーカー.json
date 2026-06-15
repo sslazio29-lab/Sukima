@@ -7,7 +7,7 @@
       "前文の言い換え"
     ],
     "正解": 1,
-    "解説": "however は逆接。理論の長所を認めた上で、説明できない点を示している。"
+    "解説": "正解は「前文への逆接」。however は「しかし」で、理論が elegant であることを認めた後、latest data を説明できないという弱点へ向きを変えている。"
   },
   {
     "問題文": "The plan is costly. Nevertheless, it may be necessary. nevertheless の働きとして最も適切なものはどれか。",
@@ -17,7 +17,7 @@
       "同じ内容の反復"
     ],
     "正解": 2,
-    "解説": "nevertheless は「それにもかかわらず」。costly という不利な情報を受けて必要性を述べる。"
+    "解説": "正解は「不利な点を踏まえた譲歩的逆接」。nevertheless は「それにもかかわらず」で、costly という不利な条件を認めた上で必要性を述べる。"
   },
   {
     "問題文": "The sample was small; therefore, the conclusion should be tentative. therefore の働きとして最も適切なものはどれか。",
@@ -27,7 +27,7 @@
       "結論・結果"
     ],
     "正解": 3,
-    "解説": "therefore は「したがって」。標本が小さいことから、結論を控えめにすべきだと導く。"
+    "解説": "正解は「結論・結果」。therefore は「したがって」で、sample was small という理由から conclusion should be tentative という判断を導いている。"
   },
   {
     "問題文": "Some students improved; others, by contrast, showed little progress. by contrast の働きとして最も適切なものはどれか。",
@@ -57,7 +57,7 @@
       "前文の補強"
     ],
     "正解": 3,
-    "解説": "in fact はここでは補強。もっと強い根拠を出して前文を支えている。"
+    "解説": "正解は「前文の補強」。In fact はここでは前文を否定せず、supported by several studies というより強い根拠を出して plausible を支えている。"
   },
   {
     "問題文": "He missed the deadline. As a result, the application was rejected. As a result の働きとして最も適切なものはどれか。",
@@ -77,7 +77,7 @@
       "例の追加"
     ],
     "正解": 2,
-    "解説": "for this reason は前文を理由として受ける。強い主張を避ける判断につながる。"
+    "解説": "正解は「理由を受けた結論」。For this reason は前文の data are incomplete を理由として受け、therefore に近く、強い主張を避けるべきだという結論につなぐ。"
   },
   {
     "問題文": "The solution is efficient. On the other hand, it may be unfair. On the other hand の働きとして最も適切なものはどれか。",
@@ -87,7 +87,7 @@
       "別側面の提示"
     ],
     "正解": 3,
-    "解説": "on the other hand は別側面・対比。効率と公平性を対置している。"
+    "解説": "正解は「別側面の提示」。On the other hand は一方の見方を受けて別側面を出す表現で、efficient という長所に対し unfair かもしれない点を対置している。"
   },
   {
     "問題文": "Many people support the policy. Even so, serious doubts remain. Even so の働きとして最も適切なものはどれか。",
@@ -107,7 +107,7 @@
       "時間の順序"
     ],
     "正解": 2,
-    "解説": "rather は前の見方を修正し、本当の焦点を示す。ここでは資金不足でなく調整不足。"
+    "解説": "正解は「訂正・焦点の移動」。Rather は前の見方を修正して本当の焦点を示し、lack of money ではなく lack of coordination が問題だと読み替える。"
   },
   {
     "問題文": "The rule is clear. Still, it is often misunderstood. Still の働きとして最も適切なものはどれか。",
@@ -137,7 +137,7 @@
       "原因"
     ],
     "正解": 2,
-    "解説": "that is は「つまり」。approximate の意味を、正確な値として扱うべきでないと説明している。"
+    "解説": "正解は「言い換え・明確化」。that is は「つまり」で、approximate の意味を they should not be treated as exact values と具体的に説明している。"
   },
   {
     "問題文": "The device is portable. For example, it can be carried in a small bag. For example の働きとして最も適切なものはどれか。",
@@ -177,7 +177,7 @@
       "もし〜でなければ"
     ],
     "正解": 3,
-    "解説": "unless は if not。「仮定が正しくなければ、結論は導けない」。"
+    "解説": "正解は「もし〜でなければ」。unless は if not で、assumption が正しくない場合には conclusion does not follow、つまり結論は導けないという条件を表す。"
   },
   {
     "問題文": "The policy may reduce waste, whereas it could increase costs. whereas の働きとして最も適切なものはどれか。",
@@ -217,7 +217,7 @@
       "譲歩"
     ],
     "正解": 1,
-    "解説": "consequently は「その結果」。前の事情から見積もり修正が必要になる。"
+    "解説": "正解は「結果・帰結」。Consequently は「その結果」で、前に述べられた事情を受けて original estimate must be revised という帰結を示す。"
   },
   {
     "問題文": "The author concedes that the proposal is risky, yet argues that it is worth trying. yet の働きとして最も適切なものはどれか。",

@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：英語 `data/questions/英語_構文解釈.json` の残り12候補（[10][11][12][13][15][17][18][19][20][21][22][23]）を補強し、構文解釈の `audit:candidates` 候補を 0/0 にした。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 構文解釈 --limit 30 --min-score 3` 成功。構文解釈は候補 0/0。
-- 次にやること：push 後に `npm.cmd run pages:check -- 英語 構文解釈` で配信確認。英語をさらに整えるなら、`論理マーカー`・`多義語・文脈語彙` の上位候補へ進む。
+- 直近の主作業：英語 `data/questions/英語_論理マーカー.json` の候補10件を解説補強し、論理マーカーの `audit:candidates` 候補を 0/0 にした。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 論理マーカー --limit 30 --min-score 3` 成功。論理マーカーは候補 0/0。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 論理マーカー` で配信確認。英語をさらに整えるなら、`多義語・文脈語彙` の残り3候補（[17][21][23]）へ進む。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-16  担当：Codex
+- やったこと：`英語_論理マーカー.json` の `audit:candidates` 候補10件（[0][1][2][5][7][8][10][13][17][21]）を解説補強。however、nevertheless、therefore、in fact、for this reason、on the other hand、rather、that is、unless、consequently について、正答の働きと前後文のつながりを明示した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。選択肢・正答・問題順は変更せず、説明品質だけを上げた。
+- つまずき・失敗・回避策：なし。`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 論理マーカー --limit 30 --min-score 3` は成功し、候補は 0/0。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 論理マーカー` で配信確認。続けるなら `多義語・文脈語彙` の残り3候補へ進む。
+- コミット：Expand English logical marker explanations
 
 ## 2026-06-16  担当：Codex
 - やったこと：前回に続き、`英語_構文解釈.json` の残り12候補（[10][11][12][13][15][17][18][19][20][21][22][23]）を補強。not because A but because B、so ... that 倒置、that 節の同格/目的語、whatever 譲歩、what 節主語、remain to be seen、such ... that、less A than B、Only after 倒置、as if、To A is to B、Not that を、正答理由と典型誤読が分かる解説へ直した。
