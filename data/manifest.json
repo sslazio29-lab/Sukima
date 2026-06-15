@@ -10,6 +10,11 @@
         "unit": "語法・前置詞",
         "path": "data/questions/英語_語法・前置詞.json",
         "count": 24
+      },
+      {
+        "unit": "論理マーカー",
+        "path": "data/questions/英語_論理マーカー.json",
+        "count": 24
       }
     ],
     "化学": [

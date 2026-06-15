@@ -8,7 +8,8 @@ const filenamePattern = /^(.+?)_(.+)\.json$/u;
 const unitOrder = {
   英語: [
     "構文解釈",
-    "語法・前置詞"
+    "語法・前置詞",
+    "論理マーカー"
   ],
   漢文: [
     "返り点と書き下し",

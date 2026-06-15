@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "The theory is elegant. It does not, however, explain the latest data. however の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "前文への逆接",
+      "前文の具体例",
+      "前文の言い換え"
+    ],
+    "正解": 1,
+    "解説": "however は逆接。理論の長所を認めた上で、説明できない点を示している。"
+  },
+  {
+    "問題文": "The plan is costly. Nevertheless, it may be necessary. nevertheless の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "費用の原因説明",
+      "不利な点を踏まえた譲歩的逆接",
+      "同じ内容の反復"
+    ],
+    "正解": 2,
+    "解説": "nevertheless は「それにもかかわらず」。costly という不利な情報を受けて必要性を述べる。"
+  },
+  {
+    "問題文": "The sample was small; therefore, the conclusion should be tentative. therefore の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "対比",
+      "例示",
+      "結論・結果"
+    ],
+    "正解": 3,
+    "解説": "therefore は「したがって」。標本が小さいことから、結論を控えめにすべきだと導く。"
+  },
+  {
+    "問題文": "Some students improved; others, by contrast, showed little progress. by contrast の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "同類の追加",
+      "対比",
+      "原因"
+    ],
+    "正解": 2,
+    "解説": "by contrast は対比。improved と showed little progress を比べている。"
+  },
+  {
+    "問題文": "The method is simple. Moreover, it requires little equipment. moreover の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "追加",
+      "逆接",
+      "譲歩"
+    ],
+    "正解": 1,
+    "解説": "moreover は追加。「簡単である」に加えて「設備も少なくてよい」と利点を重ねる。"
+  },
+  {
+    "問題文": "The claim sounds plausible. In fact, it is supported by several studies. In fact の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "前文の否定",
+      "話題転換",
+      "前文の補強"
+    ],
+    "正解": 3,
+    "解説": "in fact はここでは補強。もっと強い根拠を出して前文を支えている。"
+  },
+  {
+    "問題文": "He missed the deadline. As a result, the application was rejected. As a result の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "結果",
+      "譲歩",
+      "比較"
+    ],
+    "正解": 1,
+    "解説": "as a result は結果。締切に遅れたことが不受理につながっている。"
+  },
+  {
+    "問題文": "The data are incomplete. For this reason, we should avoid a strong claim. For this reason の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "対比の導入",
+      "理由を受けた結論",
+      "例の追加"
+    ],
+    "正解": 2,
+    "解説": "for this reason は前文を理由として受ける。強い主張を避ける判断につながる。"
+  },
+  {
+    "問題文": "The solution is efficient. On the other hand, it may be unfair. On the other hand の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "原因の説明",
+      "結論の強調",
+      "別側面の提示"
+    ],
+    "正解": 3,
+    "解説": "on the other hand は別側面・対比。効率と公平性を対置している。"
+  },
+  {
+    "問題文": "Many people support the policy. Even so, serious doubts remain. Even so の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "支持を受けた逆接",
+      "支持の具体例",
+      "支持の原因"
+    ],
+    "正解": 1,
+    "解説": "even so は「それでも」。多くの支持があるという前文を認めながら、なお深刻な疑問が残るという逆接関係を作っている。"
+  },
+  {
+    "問題文": "The problem is not lack of money. Rather, it is lack of coordination. Rather の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "結果",
+      "訂正・焦点の移動",
+      "時間の順序"
+    ],
+    "正解": 2,
+    "解説": "rather は前の見方を修正し、本当の焦点を示す。ここでは資金不足でなく調整不足。"
+  },
+  {
+    "問題文": "The rule is clear. Still, it is often misunderstood. Still の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "例示",
+      "言い換え",
+      "逆接"
+    ],
+    "正解": 3,
+    "解説": "still は「それでも」。明確であることと誤解されやすいことを逆接でつなぐ。"
+  },
+  {
+    "問題文": "The author first presents the problem, then examines possible solutions. then の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "順序",
+      "譲歩",
+      "対比"
+    ],
+    "正解": 1,
+    "解説": "then はここでは時間・説明の順序を示す。筆者はまず問題を提示し、その次の段階として解決策の検討へ進んでいる。"
+  },
+  {
+    "問題文": "The figures are approximate; that is, they should not be treated as exact values. that is の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "反論",
+      "言い換え・明確化",
+      "原因"
+    ],
+    "正解": 2,
+    "解説": "that is は「つまり」。approximate の意味を、正確な値として扱うべきでないと説明している。"
+  },
+  {
+    "問題文": "The device is portable. For example, it can be carried in a small bag. For example の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "結論",
+      "逆接",
+      "例示"
+    ],
+    "正解": 3,
+    "解説": "for example は例示。portable の具体的な内容を示している。"
+  },
+  {
+    "問題文": "The argument is weak because it ignores social costs. because の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "理由",
+      "結果",
+      "対比"
+    ],
+    "正解": 1,
+    "解説": "because は理由。社会的費用を無視していることが、議論の弱さの理由である。"
+  },
+  {
+    "問題文": "Although the evidence is limited, the pattern is suggestive. Although 節の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "原因",
+      "譲歩",
+      "目的"
+    ],
+    "正解": 2,
+    "解説": "although は譲歩。「証拠は限られるが」と認めた上で、示唆的だと述べる。"
+  },
+  {
+    "問題文": "Unless the assumption is correct, the conclusion does not follow. Unless の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "〜なので",
+      "〜である一方で",
+      "もし〜でなければ"
+    ],
+    "正解": 3,
+    "解説": "unless は if not。「仮定が正しくなければ、結論は導けない」。"
+  },
+  {
+    "問題文": "The policy may reduce waste, whereas it could increase costs. whereas の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "対比",
+      "結果",
+      "例示"
+    ],
+    "正解": 1,
+    "解説": "whereas は対比。「廃棄物削減」と「費用増加」の両面を対置する。"
+  },
+  {
+    "問題文": "Since the term is ambiguous, the author defines it carefully. Since の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "譲歩",
+      "理由",
+      "比較"
+    ],
+    "正解": 2,
+    "解説": "since はここでは理由。「語が曖昧なので」定義する。時を表す since との区別が必要。"
+  },
+  {
+    "問題文": "In other words, the experiment tests correlation, not causation. In other words の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "反例",
+      "結論の撤回",
+      "言い換え"
+    ],
+    "正解": 3,
+    "解説": "in other words は言い換え。前の内容を別の表現で整理する。"
+  },
+  {
+    "問題文": "Consequently, the original estimate must be revised. Consequently の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "結果・帰結",
+      "追加",
+      "譲歩"
+    ],
+    "正解": 1,
+    "解説": "consequently は「その結果」。前の事情から見積もり修正が必要になる。"
+  },
+  {
+    "問題文": "The author concedes that the proposal is risky, yet argues that it is worth trying. yet の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "例示",
+      "逆接",
+      "原因"
+    ],
+    "正解": 2,
+    "解説": "yet は逆接。筆者は提案が危険だと認めているが、それでも試す価値があると述べており、譲歩後の主張を導いている。"
+  },
+  {
+    "問題文": "In short, the evidence supports a cautious conclusion. In short の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "反論",
+      "具体例",
+      "要約"
+    ],
+    "正解": 3,
+    "解説": "in short は要約を導く表現。前までの議論を短くまとめ、証拠はあるが結論は慎重であるべきだという要点を示している。"
+  }
+]
