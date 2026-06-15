@@ -15,6 +15,11 @@
         "unit": "論理マーカー",
         "path": "data/questions/英語_論理マーカー.json",
         "count": 24
+      },
+      {
+        "unit": "多義語・文脈語彙",
+        "path": "data/questions/英語_多義語・文脈語彙.json",
+        "count": 24
       }
     ],
     "化学": [

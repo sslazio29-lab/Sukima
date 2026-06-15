@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：英語の3単元目として `data/questions/英語_論理マーカー.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順へ追加した。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 論理マーカー --limit 10` 成功。英語_論理マーカーは正答位置 8/8/8。
-- 次にやること：英語を続けるなら `英語_多義語・文脈語彙.json` を追加する。英語単元は候補抽出で薄い解説が出やすいため、必要なら上位候補だけ解説補強する。
+- 直近の主作業：英語の4単元目として `data/questions/英語_多義語・文脈語彙.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順へ追加した。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 多義語・文脈語彙 --limit 10` 成功。英語_多義語・文脈語彙は正答位置 7/9/8。
+- 次にやること：新規セッションでは英語を続けるなら `英語_英作文誤文訂正.json` または `英語_和訳判断.json` を追加する。既存英語4単元は候補抽出で薄い解説候補が出るため、必要なら上位候補だけ解説補強する。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-15  担当：Codex
+- やったこと：英語の続きとして `data/questions/英語_多義語・文脈語彙.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「多義語・文脈語彙」を追加。address / significant / issue / sound / assume / implication / hold / term / challenge / robust などを、単語の一語訳ではなく文脈から意味判断する形式にした。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。得意な受験生向けに、語義の暗記より「文脈中でどの意味か」を選ぶ問題にした。24問、正答位置は 7/9/8。
+- つまずき・失敗・回避策：初回 `npm.cmd run audit` で正答位置 10/11/3 の偏りが出たため、内容は維持して5問の選択肢順だけを調整した。再実行で `npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 多義語・文脈語彙 --limit 10` は成功。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 多義語・文脈語彙` で配信確認。新規セッションで英語を続けるなら `英語_英作文誤文訂正.json` または `英語_和訳判断.json` へ進む。
+- コミット：Add English polysemy vocabulary unit
 
 ## 2026-06-15  担当：Codex
 - やったこと：英語の続きとして `data/questions/英語_論理マーカー.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「論理マーカー」を追加。however / nevertheless / therefore / by contrast / moreover / in fact / as a result / whereas など、読解中の逆接・譲歩・結果・対比・言い換え・要約を判断する形式にした。

@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "The committee will address the issue next week. この address の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "住所を書く",
+      "問題に取り組む",
+      "演説だけをする"
+    ],
+    "正解": 2,
+    "解説": "address は「住所」だけでなく、動詞で「問題に取り組む・扱う」。issue が目的語なので、この文脈では対応する意味になる。"
+  },
+  {
+    "問題文": "The results are significant but not decisive. この significant の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "署名された",
+      "決定的な",
+      "重要な・意味のある"
+    ],
+    "正解": 3,
+    "解説": "significant は「重要な・意味のある」。but not decisive とあるため、「決定的」ではないが意味はある、という対比で読む。"
+  },
+  {
+    "問題文": "The company issued a statement after the report. この issued の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "問題を起こした",
+      "雑誌を購読した",
+      "発表した・出した"
+    ],
+    "正解": 3,
+    "解説": "issue は名詞で「問題」もあるが、動詞では「発行する・発表する」。statement が目的語なので「声明を出した」。"
+  },
+  {
+    "問題文": "The evidence is compelling, though not conclusive. この compelling の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "強制された",
+      "複雑すぎる",
+      "説得力のある"
+    ],
+    "正解": 3,
+    "解説": "compelling evidence は「説得力のある証拠」。conclusive ではないので、決定的ではないが強く納得させる証拠という関係。"
+  },
+  {
+    "問題文": "The proposal is sound in theory, but difficult to implement. この sound の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "音が大きい",
+      "健全で妥当な",
+      "浅い"
+    ],
+    "正解": 2,
+    "解説": "sound は名詞なら音だが、形容詞では「妥当な・しっかりした」。proposal を説明しているので理論上は妥当という意味。"
+  },
+  {
+    "問題文": "The author assumes that readers know the historical background. この assumes の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "責任を引き受ける",
+      "姿勢をとる",
+      "仮定する"
+    ],
+    "正解": 3,
+    "解説": "assume は複数の意味を持つが、that 節を目的語に取る場合は「〜と仮定する」。ここでは読者の知識を前提にしている。"
+  },
+  {
+    "問題文": "The policy has serious implications for small businesses. この implications の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "含み・影響",
+      "明確な命令",
+      "単なる例外"
+    ],
+    "正解": 1,
+    "解説": "implication は「含意・影響」。for small businesses と続くので、小企業に及ぶ意味合いや影響を指す。"
+  },
+  {
+    "問題文": "The court held that the rule was unconstitutional. この held の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "手で持った",
+      "会議を開いた",
+      "判断した"
+    ],
+    "正解": 3,
+    "解説": "court held that ... は法律文脈で「裁判所が〜と判断した」。hold を物理的に持つ意味で読まない。"
+  },
+  {
+    "問題文": "The term is rather vague in this context. この term の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "学期",
+      "条件だけ",
+      "用語"
+    ],
+    "正解": 3,
+    "解説": "term は「期間・条件・用語」などを表す。vague in this context とあるので、文脈中の語の意味が曖昧ということ。"
+  },
+  {
+    "問題文": "The study challenges the conventional view. この challenges の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "従来の見方に異議を唱える",
+      "運動競技に招待する",
+      "見方をそのまま確認する"
+    ],
+    "正解": 1,
+    "解説": "challenge は「挑戦する」だけでなく、考えや説に「異議を唱える」。conventional view が目的語なので、従来説への反論を表す。"
+  },
+  {
+    "問題文": "The question remains open. この open の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "開いたままの物理的状態",
+      "未解決の",
+      "公開された店"
+    ],
+    "正解": 2,
+    "解説": "question remains open は「問題が未解決のままである」。open を物理的に開いている意味だけで読むと不自然。"
+  },
+  {
+    "問題文": "The explanation is too narrow to account for all the data. この narrow の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "幅が狭い",
+      "かろうじて成功した",
+      "視野・範囲が狭い"
+    ],
+    "正解": 3,
+    "解説": "narrow は物理的な狭さだけでなく、説明や考えの範囲が狭いことを表す。all the data を説明しきれない文脈である。"
+  },
+  {
+    "問題文": "The findings are preliminary and should be interpreted with caution. この preliminary の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "予備的な",
+      "最終的な",
+      "無関係な"
+    ],
+    "正解": 1,
+    "解説": "preliminary は「予備的な・初期段階の」。with caution とあるので、まだ確定的に扱うべきでない結果を表す。"
+  },
+  {
+    "問題文": "The author questions the assumption behind the model. この questions の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "質問を作る",
+      "疑問視する",
+      "答えを与える"
+    ],
+    "正解": 2,
+    "解説": "question は動詞で「疑問視する」。assumption が目的語なので、前提そのものを疑っている。"
+  },
+  {
+    "問題文": "The measure is intended to curb excessive spending. この curb の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "縁石に置く",
+      "促進する",
+      "抑制する"
+    ],
+    "正解": 3,
+    "解説": "curb は名詞で縁石もあるが、動詞では「抑制する」。excessive spending を目的語にしているので支出を抑える意味。"
+  },
+  {
+    "問題文": "The argument rests on a questionable assumption. この rests on の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "〜に基づく",
+      "〜の上で休む",
+      "〜を休ませる"
+    ],
+    "正解": 1,
+    "解説": "rest on は議論などが「〜に基づく」。argument が主語なので、物理的に休むのではなく前提に依存している。"
+  },
+  {
+    "問題文": "The word carries negative connotations. この carries の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "運搬する",
+      "意味合いを帯びる",
+      "新聞を配達する"
+    ],
+    "正解": 2,
+    "解説": "carry は「運ぶ」だけでなく、意味や含みを「帯びる」。connotations が目的語なので、否定的な含みを持つという意味。"
+  },
+  {
+    "問題文": "The issue deserves careful attention. この deserves の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "値段を下げる",
+      "受けるに値する",
+      "見捨てる"
+    ],
+    "正解": 2,
+    "解説": "deserve は「〜に値する」。attention を目的語にしているので、注意深く扱う価値があるという意味。"
+  },
+  {
+    "問題文": "The data suggest a link, but not a causal relationship. この suggest の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "提案するだけ",
+      "示唆する",
+      "命令する"
+    ],
+    "正解": 2,
+    "解説": "data suggest ... は「データが〜を示唆する」。人が提案する意味ではなく、証拠から読み取れる可能性を表す。"
+  },
+  {
+    "問題文": "The change is marginal, not substantial. この marginal の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "わずかな",
+      "余白に書かれた",
+      "中心的な"
+    ],
+    "正解": 1,
+    "解説": "marginal は「周辺的な・わずかな」。not substantial と対比されているので、大きな変化ではない。"
+  },
+  {
+    "問題文": "The report highlights the need for better data. この highlights の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "蛍光ペンで塗るだけ",
+      "重要点として強調する",
+      "高い場所に置く"
+    ],
+    "正解": 2,
+    "解説": "highlight は「目立たせる・強調する」。report が主語なので、より良いデータの必要性を重要点として示している。"
+  },
+  {
+    "問題文": "The method is robust even when conditions change. この robust の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "頑健な・安定した",
+      "乱暴な",
+      "装飾的な"
+    ],
+    "正解": 1,
+    "解説": "robust は方法や結果について「頑健な・条件が変わっても安定した」。体格がよいという意味だけではない。"
+  },
+  {
+    "問題文": "The claim is qualified by several exceptions. この qualified の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "資格を得た",
+      "条件付きにされた",
+      "完全に証明された"
+    ],
+    "正解": 2,
+    "解説": "qualified は「資格のある」だけでなく、主張が制限・条件付きにされる意味がある。exceptions があるため主張は限定されている。"
+  },
+  {
+    "問題文": "The author draws on several earlier studies. この draws on の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "〜を利用する・踏まえる",
+      "〜の上に絵を描く",
+      "〜を引き延ばす"
+    ],
+    "正解": 1,
+    "解説": "draw on は「知識・資料などを利用する」。earlier studies を利用して議論を組み立てている。"
+  }
+]
