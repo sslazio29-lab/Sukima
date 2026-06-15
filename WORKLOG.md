@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：候補抽出script `scripts/find-review-candidates.mjs` と skill `sukima-distractor-audit` を導入し、漢文で試用。上位候補から7ファイル・12問相当の弱い誤答を近接誤答へ修正済み。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 漢文 --limit 20` 成功。変更した漢文7単元は Pages で `ManifestStatus=200` / `JsonStatus=200` 確認済み。
-- 次にやること：漢文を続けるなら残り候補の score 5 未修正項目を `fix/keep/watch` に分け、明確な `fix` だけ最小修正。化学に戻るなら `audit:candidates -- --subject 化学 --limit 80 --json` から始める。
+- 直近の主作業：英語の初回実装として `data/questions/英語_構文解釈.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「構文解釈」を追加した。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --limit 20` 成功。英語_構文解釈は正答位置 8/8/8。
+- 次にやること：英語を続けるなら `英語_語法・前置詞.json`、`英語_論理マーカー.json`、`英語_多義語・文脈語彙.json` の順で、実践的な近接誤答を重視して追加する。既存の英語構文解釈は候補抽出で薄い解説が多く出るため、必要なら上位候補だけ解説補強する。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-15  担当：Codex
+- やったこと：未実装科目だった英語の初回単元として `data/questions/英語_構文解釈.json` を24問で追加し、`scripts/generate-manifest.mjs` に英語単元順を追加。得意な受験生向けに、強調構文、倒置、譲歩、比較、名詞節、仮定法、慣用構文などを短文解釈で問う形式にした。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。英語は単純な単語暗記ではなく、3択で「構文・意味・論理を切る」実践型に寄せる。初回単元は24問、正答位置は 8/8/8。
+- つまずき・失敗・回避策：PowerShellからNode標準入力へ日本語ファイル名を渡してJSONを一括生成しようとして、前回同様に `??_????.json` へ文字化けしたため中止。ファイルは作成されなかった。以後、該当経路は使わず `apply_patch` で追加した。`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --limit 20` は成功。
+- 次にやること：英語を続けるなら `英語_語法・前置詞.json`、`英語_論理マーカー.json`、`英語_多義語・文脈語彙.json` を追加する。push 後に `npm.cmd run pages:check -- 英語 構文解釈` で配信確認する。
+- コミット：Add English syntax interpretation unit
 
 ## 2026-06-15  担当：Codex
 - やったこと：トークン節約のため `WORKLOG.md` を最適化し、先頭に短い「現在の引き継ぎ」を追加。詳細ログは最新5件を残し、それ以前の8件を `WORKLOG_ARCHIVE.md` へ退避した。

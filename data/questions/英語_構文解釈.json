@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "Not so much A as B の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "AというよりむしろB",
+      "AだけでなくBも",
+      "AでもBでもない"
+    ],
+    "正解": 1,
+    "解説": "not so much A as B は「AというよりむしろB」。単なる追加ではなく、AよりBを重く見る表現である。"
+  },
+  {
+    "問題文": "It was not until the experiment failed that they noticed the error. の強調内容として最も適切なものはどれか。",
+    "選択肢": [
+      "実験が失敗しなかったこと",
+      "誤りに気づいた時点が実験失敗後だったこと",
+      "彼らが実験を避けたこと"
+    ],
+    "正解": 2,
+    "解説": "not until A that B は「Aして初めてB」。気づいた時点を強調している。"
+  },
+  {
+    "問題文": "This is all the more important because the data are limited. の意味として最も近いものはどれか。",
+    "選択肢": [
+      "データが限られているほど重要でない",
+      "重要性はデータ量と無関係だ",
+      "データが限られているので、なおさら重要だ"
+    ],
+    "正解": 3,
+    "解説": "all the more ... because は「〜なのでなおさら…」。理由が重要性を強めている。"
+  },
+  {
+    "問題文": "He is the last person to ignore such evidence. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "彼はそのような証拠を無視する人では決してない",
+      "彼は最後に証拠を見る人だ",
+      "彼は証拠を最後まで隠す人だ"
+    ],
+    "正解": 1,
+    "解説": "the last person to do は「最も〜しそうにない人」。直訳すると逆に読んでしまいやすい。"
+  },
+  {
+    "問題文": "The more carefully you read, the less likely you are to miss the point. の骨格として最も適切なものはどれか。",
+    "選択肢": [
+      "読むほど要点を外しやすい",
+      "注意深く読むほど要点を外しにくい",
+      "要点を外すほど注意深く読む"
+    ],
+    "正解": 2,
+    "解説": "the 比較級, the 比較級 の相関構文。less likely to miss は「外しにくい」。"
+  },
+  {
+    "問題文": "There is no knowing what will happen next. の意味として最も近いものはどれか。",
+    "選択肢": [
+      "次に何が起こるかを知る必要がない",
+      "次に起こることは知られていないだけだ",
+      "次に何が起こるかは分からない"
+    ],
+    "正解": 3,
+    "解説": "There is no -ing は「〜することはできない」。no knowing は「知るすべがない」。"
+  },
+  {
+    "問題文": "No sooner had he arrived than the meeting began. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "彼が到着するとすぐ会議が始まった",
+      "彼が到着する前に会議は終わった",
+      "彼は会議が始まった後に到着した"
+    ],
+    "正解": 1,
+    "解説": "No sooner had S p.p. than ... は「Sが〜するとすぐ…」。倒置もセットで見る。"
+  },
+  {
+    "問題文": "The question is whether the policy can be sustained. の whether 節の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "主語を修飾する形容詞節",
+      "補語となる名詞節",
+      "理由を表す副詞節"
+    ],
+    "正解": 2,
+    "解説": "whether 以下は be 動詞の補語で、「その政策が維持可能かどうか」が問題の中身である。"
+  },
+  {
+    "問題文": "Had I known the risk, I would not have agreed. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "危険を知っていたので同意しなかった",
+      "危険を知らなかったが同意しなかった",
+      "危険を知っていたなら同意しなかっただろう"
+    ],
+    "正解": 3,
+    "解説": "Had I known は If I had known の倒置。過去の事実に反する仮定を表す。"
+  },
+  {
+    "問題文": "It is one thing to understand a rule and quite another to apply it. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "規則を理解することと適用することは別問題だ",
+      "規則を理解すれば必ず適用できる",
+      "規則を適用することだけが重要だ"
+    ],
+    "正解": 1,
+    "解説": "It is one thing to A and another to B は「AとBは別物」。同一視を避ける構文である。"
+  },
+  {
+    "問題文": "The book is difficult, not because the ideas are complex, but because the examples are misleading. の理由として最も適切なものはどれか。",
+    "選択肢": [
+      "考え方が複雑だから",
+      "例が誤解を招くから",
+      "本が短すぎるから"
+    ],
+    "正解": 2,
+    "解説": "not because A, but because B で、本当の理由はB。Aは否定される理由である。"
+  },
+  {
+    "問題文": "So persuasive was her argument that few objected. の文構造として最も適切なものはどれか。",
+    "選択肢": [
+      "関係代名詞の省略",
+      "分詞構文",
+      "so ... that の倒置"
+    ],
+    "正解": 3,
+    "解説": "So + 形容詞が文頭に出ると倒置が起こる。意味は「とても説得力があったので…」。"
+  },
+  {
+    "問題文": "The fact that he remained silent does not mean that he agreed. の that 節の説明として最も適切なものはどれか。",
+    "選択肢": [
+      "最初のthatは同格、二つ目は目的語節",
+      "二つとも関係代名詞",
+      "最初のthatは理由、二つ目は結果"
+    ],
+    "正解": 1,
+    "解説": "the fact that ... は同格節。mean の後の that は目的語節で、働きが異なる。"
+  },
+  {
+    "問題文": "Whatever the reason, the delay changed the outcome. の Whatever the reason の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "理由が分かったので",
+      "理由が何であれ",
+      "理由が重要であるなら"
+    ],
+    "正解": 2,
+    "解説": "whatever + 名詞 は譲歩で「どんな〜であっても」。理由の内容を問わず結論を述べる。"
+  },
+  {
+    "問題文": "Far from solving the problem, the new rule made it worse. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "新規則は問題を完全に解決した",
+      "新規則は問題と無関係だった",
+      "新規則は問題解決どころか悪化させた"
+    ],
+    "正解": 3,
+    "解説": "far from -ing は「〜どころか」。期待される効果と逆の結果を示す。"
+  },
+  {
+    "問題文": "What he calls efficiency is, in fact, a refusal to listen. の主語として最も適切なものはどれか。",
+    "選択肢": [
+      "What he calls efficiency",
+      "in fact",
+      "a refusal to listen"
+    ],
+    "正解": 1,
+    "解説": "what 節全体が主語。「彼が効率と呼ぶもの」が主語で、補語が a refusal to listen。"
+  },
+  {
+    "問題文": "The proposal, ambitious as it is, lacks practical detail. の as の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "理由",
+      "譲歩",
+      "時"
+    ],
+    "正解": 2,
+    "解説": "形容詞 + as S V は譲歩で「たしかに〜だが」。ambitious を認めた上で欠点を述べる。"
+  },
+  {
+    "問題文": "It remains to be seen whether the plan will work. の意味として最も近いものはどれか。",
+    "選択肢": [
+      "計画はすでに成功した",
+      "計画を見る必要はない",
+      "計画がうまくいくかはまだ分からない"
+    ],
+    "正解": 3,
+    "解説": "remain to be seen は「まだ分からない」。whether 節が未確定の内容を表す。"
+  },
+  {
+    "問題文": "Such was the impact of the speech that the debate changed course. の構造として最も適切なものはどれか。",
+    "選択肢": [
+      "Such が文頭に出た倒置",
+      "比較級の省略",
+      "関係副詞の先行詞省略"
+    ],
+    "正解": 1,
+    "解説": "Such was ... that は「それほど大きな影響だったので…」。such の前置で倒置が起こる。"
+  },
+  {
+    "問題文": "The problem is less a lack of information than a lack of judgment. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "情報不足でも判断力不足でもない",
+      "情報不足というより判断力不足だ",
+      "判断力不足より情報不足が大きい"
+    ],
+    "正解": 2,
+    "解説": "less A than B は「AというよりB」。比較の形で本質をBに置く。"
+  },
+  {
+    "問題文": "Only after several attempts did they find a workable solution. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "数回試みる前に解決策を見つけた",
+      "解決策を見つけたので試みをやめた",
+      "数回試みて初めて実行可能な解決策を見つけた"
+    ],
+    "正解": 3,
+    "解説": "Only after ... が文頭に出ると倒置。時点の限定「〜して初めて」を表す。"
+  },
+  {
+    "問題文": "He spoke as if he had seen the report, though he had not. の as if 節として最も適切なものはどれか。",
+    "選択肢": [
+      "報告書を見たかのように話した",
+      "実際に報告書を見ていた",
+      "報告書を見るために話した"
+    ],
+    "正解": 1,
+    "解説": "as if + 過去完了は事実に反する様子を表すことがある。though he had not がその確認になる。"
+  },
+  {
+    "問題文": "To read the sentence literally is to miss its irony. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "文字通り読めば皮肉が必ず分かる",
+      "文字通り読むと皮肉を見落とす",
+      "皮肉を読むには文を読まない方がよい"
+    ],
+    "正解": 2,
+    "解説": "To A is to B は「AすることはBすることだ」。ここでは直訳の危険を述べる。"
+  },
+  {
+    "問題文": "Not that the plan is impossible, but it needs more evidence. の Not that の働きとして最も適切なものはどれか。",
+    "選択肢": [
+      "前文の理由を強める",
+      "計画が不可能だと断定する",
+      "誤解されそうな否定を先に退ける"
+    ],
+    "正解": 3,
+    "解説": "Not that ... は「〜というわけではない」。全面否定ではなく、続く主張の範囲を調整する。"
+  }
+]

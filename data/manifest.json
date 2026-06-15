@@ -1,5 +1,12 @@
 {
   "subjects": {
+    "英語": [
+      {
+        "unit": "構文解釈",
+        "path": "data/questions/英語_構文解釈.json",
+        "count": 24
+      }
+    ],
     "化学": [
       {
         "unit": "物質の構成",

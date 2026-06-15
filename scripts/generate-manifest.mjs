@@ -6,6 +6,9 @@ const questionsDir = path.join(process.cwd(), "data", "questions");
 const manifestPath = path.join(process.cwd(), "data", "manifest.json");
 const filenamePattern = /^(.+?)_(.+)\.json$/u;
 const unitOrder = {
+  英語: [
+    "構文解釈"
+  ],
   漢文: [
     "返り点と書き下し",
     "再読文字",
