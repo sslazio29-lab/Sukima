@@ -93,11 +93,11 @@
     "問題文": "It is one thing to understand a rule and quite another to apply it. の意味として最も適切なものはどれか。",
     "選択肢": [
       "規則を理解することと適用することは別問題だ",
-      "規則を理解すれば必ず適用できる",
-      "規則を適用することだけが重要だ"
+      "規則を理解することは適用するための第一段階だ",
+      "規則を適用するには理解だけで十分だ"
     ],
     "正解": 1,
-    "解説": "It is one thing to A and another to B は「AとBは別物」。同一視を避ける構文である。"
+    "解説": "正解は「規則を理解することと適用することは別問題だ」。It is one thing to A and another to B は「AとBは別物」で、Aを認めてもBまでできるとは限らないという対比を表す。"
   },
   {
     "問題文": "The book is difficult, not because the ideas are complex, but because the examples are misleading. の理由として最も適切なものはどれか。",
@@ -142,22 +142,22 @@
   {
     "問題文": "Far from solving the problem, the new rule made it worse. の意味として最も適切なものはどれか。",
     "選択肢": [
-      "新規則は問題を完全に解決した",
-      "新規則は問題と無関係だった",
+      "新規則は問題を解決する方向に働いた",
+      "新規則は問題を解決しないまま影響もしなかった",
       "新規則は問題解決どころか悪化させた"
     ],
     "正解": 3,
-    "解説": "far from -ing は「〜どころか」。期待される効果と逆の結果を示す。"
+    "解説": "正解は「新規則は問題解決どころか悪化させた」。far from -ing は「〜どころか」で、単に解決しなかっただけでなく、期待と逆に悪化した点を読む。"
   },
   {
     "問題文": "What he calls efficiency is, in fact, a refusal to listen. の主語として最も適切なものはどれか。",
     "選択肢": [
       "What he calls efficiency",
-      "in fact",
+      "he calls efficiency",
       "a refusal to listen"
     ],
     "正解": 1,
-    "解説": "what 節全体が主語。「彼が効率と呼ぶもの」が主語で、補語が a refusal to listen。"
+    "解説": "正解は What he calls efficiency。what 節全体で「彼が効率と呼ぶもの」という名詞節になり主語になる。he calls efficiency は節として不完全で、a refusal to listen は補語である。"
   },
   {
     "問題文": "The proposal, ambitious as it is, lacks practical detail. の as の働きとして最も適切なものはどれか。",
@@ -183,11 +183,11 @@
     "問題文": "Such was the impact of the speech that the debate changed course. の構造として最も適切なものはどれか。",
     "選択肢": [
       "Such が文頭に出た倒置",
-      "比較級の省略",
-      "関係副詞の先行詞省略"
+      "so that の目的構文",
+      "関係代名詞 that の強調構文"
     ],
     "正解": 1,
-    "解説": "Such was ... that は「それほど大きな影響だったので…」。such の前置で倒置が起こる。"
+    "解説": "正解は「Such が文頭に出た倒置」。Such was ... that は「それほど大きな影響だったので…」で、such の前置により was the impact の語順になる。目的の so that や強調構文ではない。"
   },
   {
     "問題文": "The problem is less a lack of information than a lack of judgment. の意味として最も適切なものはどれか。",

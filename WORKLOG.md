@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：英語の6単元目として `data/questions/英語_和訳判断.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順へ追加した。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 和訳判断 --limit 20` 成功。英語_和訳判断は正答位置 8/8/8、候補抽出 0/0。
-- 次にやること：push 後に `npm.cmd run pages:check -- 英語 和訳判断` で配信確認。英語をさらに続けるなら、既存英語4単元の候補抽出で出る薄い解説候補を上位だけ補強するか、別の実践型単元を追加する。
+- 直近の主作業：英語 `data/questions/英語_構文解釈.json` の候補抽出上位（score 5）4問を最小補強した。見た目で切れやすい選択肢を近接誤答へ寄せ、解説に正答理由と誤りやすい点を追記した。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 構文解釈 --limit 20 --min-score 3` 成功。構文解釈の score 5 候補は解消し、残りは score 3 の薄い解説中心。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 構文解釈` で配信確認。英語をさらに整えるなら、`構文解釈` の残り score 3 候補から解説補強を続けるか、`論理マーカー`・`多義語・文脈語彙` の上位候補へ進む。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-16  担当：Codex
+- やったこと：`sukima-distractor-audit` skill と `npm.cmd run audit:candidates -- --subject 英語 --limit 80 --min-score 3 --json` を使い、英語候補35件を確認。上位の `英語_構文解釈.json` score 5 候補4問（[9][14][15][18]）について、正答・問題順・正答位置を維持したまま、弱い誤答と薄い解説を補強した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。今回は新規単元追加ではなく、既存英語の品質補強。`audit:candidates` は優先順位ツールなので、score 3 の薄い解説候補は残した。
+- つまずき・失敗・回避策：初回の一括 `apply_patch` は末尾カンマの文脈差で失敗したため、該当箇所を確認して小さく当て直した。`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 構文解釈 --limit 20 --min-score 3` は成功。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 構文解釈` で配信確認。続けるなら `構文解釈` の残り score 3 候補を解説補強する。
+- コミット：Refine English syntax candidate explanations
 
 ## 2026-06-15  担当：Codex
 - やったこと：英語の続きとして `data/questions/英語_和訳判断.json` を24問で追加し、`scripts/generate-manifest.mjs` の英語単元順に「和訳判断」を追加。not so much A as B、倒置、anything but、too ... to、not until、no more A than B、譲歩、非制限用法 which などを、直訳ではなく文脈上の訳として選ぶ形式にした。
