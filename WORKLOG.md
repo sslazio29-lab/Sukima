@@ -20,10 +20,17 @@
 
 > 古い記録は `WORKLOG_ARCHIVE.md` に退避。通常再開時はまず「現在の引き継ぎ」だけ確認し、必要時のみ直下の最新詳細ログを読む。
 ## 現在の引き継ぎ（毎回ここを最初に読む）
-- 直近の主作業：英語 `data/questions/英語_構文解釈.json` の候補抽出上位（score 5）4問を最小補強した。見た目で切れやすい選択肢を近接誤答へ寄せ、解説に正答理由と誤りやすい点を追記した。
-- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 構文解釈 --limit 20 --min-score 3` 成功。構文解釈の score 5 候補は解消し、残りは score 3 の薄い解説中心。
-- 次にやること：push 後に `npm.cmd run pages:check -- 英語 構文解釈` で配信確認。英語をさらに整えるなら、`構文解釈` の残り score 3 候補から解説補強を続けるか、`論理マーカー`・`多義語・文脈語彙` の上位候補へ進む。
+- 直近の主作業：英語 `data/questions/英語_構文解釈.json` の残り候補から先頭8問（[1]〜[8]）の薄い解説を補強した。正答訳・構文の読み方・誤読ポイントを短く追記した。
+- 現在の検証状態：`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 構文解釈 --limit 30 --min-score 3` 成功。構文解釈の候補は20件から12件へ減少。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 構文解釈` で配信確認。英語をさらに整えるなら、`構文解釈` の残り12件（[10][11][12][13][15][17][18][19][20][21][22][23]）を補強するか、`論理マーカー`・`多義語・文脈語彙` の上位候補へ進む。
 - コンテキスト節約：再開時は `CLAUDE.md` とこのブロック、必要なら直下の最新詳細ログだけ読む。`WORKLOG_ARCHIVE.md`、`Sukima_引き継ぎ書_v2.md`、`SPEC.md` は必要時だけ読む。
+
+## 2026-06-16  担当：Codex
+- やったこと：前回に続き、`英語_構文解釈.json` の `audit:candidates` 残り score 3 候補から先頭8問（[1]〜[8]）の解説を補強。not until、all the more、the last person to do、相関比較、There is no -ing、No sooner、whether 節、仮定法倒置について、正答訳と誤読ポイントを明示した。
+- 決めたこと／変更点（SPEC.md を触った場合は承認の有無も）：`SPEC.md` は変更なし。選択肢・正答・問題順は変更せず、説明品質だけを上げた。
+- つまずき・失敗・回避策：なし。`npm.cmd run check`、`npm.cmd run audit`、`npm.cmd run audit:candidates -- --subject 英語 --unit 構文解釈 --limit 30 --min-score 3` は成功。候補は20件から12件へ減少。
+- 次にやること：push 後に `npm.cmd run pages:check -- 英語 構文解釈` で配信確認。続けるなら残り12件を補強する。
+- コミット：Expand English syntax explanations
 
 ## 2026-06-16  担当：Codex
 - やったこと：`sukima-distractor-audit` skill と `npm.cmd run audit:candidates -- --subject 英語 --limit 80 --min-score 3 --json` を使い、英語候補35件を確認。上位の `英語_構文解釈.json` score 5 候補4問（[9][14][15][18]）について、正答・問題順・正答位置を維持したまま、弱い誤答と薄い解説を補強した。

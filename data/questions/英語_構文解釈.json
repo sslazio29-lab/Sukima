@@ -17,7 +17,7 @@
       "彼らが実験を避けたこと"
     ],
     "正解": 2,
-    "解説": "not until A that B は「Aして初めてB」。気づいた時点を強調している。"
+    "解説": "正解は「誤りに気づいた時点が実験失敗後だったこと」。not until A that B は「Aして初めてB」で、実験が失敗しなかったという否定ではなく、気づいた時点を強調している。"
   },
   {
     "問題文": "This is all the more important because the data are limited. の意味として最も近いものはどれか。",
@@ -27,7 +27,7 @@
       "データが限られているので、なおさら重要だ"
     ],
     "正解": 3,
-    "解説": "all the more ... because は「〜なのでなおさら…」。理由が重要性を強めている。"
+    "解説": "正解は「データが限られているので、なおさら重要だ」。all the more ... because は「〜なのでなおさら…」で、データ不足を理由に重要性が下がるのではなく、むしろ重要性が強まる。"
   },
   {
     "問題文": "He is the last person to ignore such evidence. の意味として最も適切なものはどれか。",
@@ -37,7 +37,7 @@
       "彼は証拠を最後まで隠す人だ"
     ],
     "正解": 1,
-    "解説": "the last person to do は「最も〜しそうにない人」。直訳すると逆に読んでしまいやすい。"
+    "解説": "正解は「彼はそのような証拠を無視する人では決してない」。the last person to do は「最も〜しそうにない人」で、最後に見る人という順序の意味ではない。"
   },
   {
     "問題文": "The more carefully you read, the less likely you are to miss the point. の骨格として最も適切なものはどれか。",
@@ -47,7 +47,7 @@
       "要点を外すほど注意深く読む"
     ],
     "正解": 2,
-    "解説": "the 比較級, the 比較級 の相関構文。less likely to miss は「外しにくい」。"
+    "解説": "正解は「注意深く読むほど要点を外しにくい」。the 比較級, the 比較級 の相関構文で、less likely to miss は「外す可能性が低い」。miss を肯定的に読まない。"
   },
   {
     "問題文": "There is no knowing what will happen next. の意味として最も近いものはどれか。",
@@ -57,7 +57,7 @@
       "次に何が起こるかは分からない"
     ],
     "正解": 3,
-    "解説": "There is no -ing は「〜することはできない」。no knowing は「知るすべがない」。"
+    "解説": "正解は「次に何が起こるかは分からない」。There is no -ing は「〜することはできない」で、no knowing は「知るすべがない」。知る必要がないという意味ではない。"
   },
   {
     "問題文": "No sooner had he arrived than the meeting began. の意味として最も適切なものはどれか。",
@@ -67,7 +67,7 @@
       "彼は会議が始まった後に到着した"
     ],
     "正解": 1,
-    "解説": "No sooner had S p.p. than ... は「Sが〜するとすぐ…」。倒置もセットで見る。"
+    "解説": "正解は「彼が到着するとすぐ会議が始まった」。No sooner had S p.p. than ... は「Sが〜するとすぐ…」で、had he arrived は倒置。到着前に会議が終わった意味ではない。"
   },
   {
     "問題文": "The question is whether the policy can be sustained. の whether 節の働きとして最も適切なものはどれか。",
@@ -77,7 +77,7 @@
       "理由を表す副詞節"
     ],
     "正解": 2,
-    "解説": "whether 以下は be 動詞の補語で、「その政策が維持可能かどうか」が問題の中身である。"
+    "解説": "正解は「補語となる名詞節」。whether 以下は be 動詞の補語で、「その政策が維持可能かどうか」という問題の中身を表す。policy を修飾する形容詞節ではない。"
   },
   {
     "問題文": "Had I known the risk, I would not have agreed. の意味として最も適切なものはどれか。",
@@ -87,7 +87,7 @@
       "危険を知っていたなら同意しなかっただろう"
     ],
     "正解": 3,
-    "解説": "Had I known は If I had known の倒置。過去の事実に反する仮定を表す。"
+    "解説": "正解は「危険を知っていたなら同意しなかっただろう」。Had I known は If I had known の倒置で、実際には危険を知らず同意した、という過去の事実に反する仮定を表す。"
   },
   {
     "問題文": "It is one thing to understand a rule and quite another to apply it. の意味として最も適切なものはどれか。",
