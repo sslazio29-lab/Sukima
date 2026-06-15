@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "「彼は10年前から京都に住んでいる。」の英訳として最も自然で文法的に正しいものはどれか。",
+    "選択肢": [
+      "He lives in Kyoto since ten years ago.",
+      "He is living in Kyoto since ten years.",
+      "He has lived in Kyoto for ten years."
+    ],
+    "正解": 3,
+    "解説": "正解は He has lived in Kyoto for ten years.。過去から現在までの継続は現在完了で表す。since は起点、for は期間なので for ten years が自然。"
+  },
+  {
+    "問題文": "「その知らせを聞いて驚いた。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "I surprised to hear the news.",
+      "I was surprising to hear the news.",
+      "I was surprised to hear the news."
+    ],
+    "正解": 3,
+    "解説": "正解は I was surprised to hear the news.。人が感情を抱く場合は be surprised。surprising は「驚かせるような」という性質を表す。"
+  },
+  {
+    "問題文": "「この本は読む価値がある。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "This book is worth to read.",
+      "This book is worth reading it.",
+      "This book is worth reading."
+    ],
+    "正解": 3,
+    "解説": "be worth -ing は目的語を含んだ形で使い、worth reading が正しい。to read や it の重複が典型ミス。"
+  },
+  {
+    "問題文": "「雨が降らなければ、私たちは外出していただろう。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "If it did not rain, we would have gone out.",
+      "If it had not rained, we would go out.",
+      "If it had not rained, we would have gone out."
+    ],
+    "正解": 3,
+    "解説": "正解は If it had not rained, we would have gone out.。過去の事実に反する仮定は If S had p.p., S would have p.p.。条件節と主節の時制をそろえる。"
+  },
+  {
+    "問題文": "「彼女は私に駅への行き方を説明してくれた。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "She explained me how to get to the station.",
+      "She explained to me how to get to the station.",
+      "She explained me the way to get to the station."
+    ],
+    "正解": 2,
+    "解説": "explain は explain A to 人 / explain to 人 A の形をとる。tell me と混同して explain me としない。"
+  },
+  {
+    "問題文": "「彼が正直であることは疑いない。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "There is no doubt of his honest.",
+      "There is no doubt that he is honest.",
+      "It is no doubt that he is honesty."
+    ],
+    "正解": 2,
+    "解説": "There is no doubt that S V が基本。honest は形容詞、honesty は名詞なので品詞の取り違えにも注意。"
+  },
+  {
+    "問題文": "「できるだけ早く返事をください。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "Please reply me as soon as possible.",
+      "Please answer to me as soon as possible.",
+      "Please reply to me as soon as possible."
+    ],
+    "正解": 3,
+    "解説": "reply は自動詞なので reply to me。answer は他動詞で answer me なら可だが、answer to me は通常不可。"
+  },
+  {
+    "問題文": "「彼はその計画に反対した。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "He objected to the plan.",
+      "He objected the plan.",
+      "He opposed against the plan."
+    ],
+    "正解": 1,
+    "解説": "object は自動詞で object to。oppose は他動詞なので oppose the plan は可だが、oppose against は重複。"
+  },
+  {
+    "問題文": "「彼女は英語を話すのに慣れている。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "She is used to speak English.",
+      "She is used to speaking English.",
+      "She used to speaking English."
+    ],
+    "正解": 2,
+    "解説": "正解は She is used to speaking English.。be used to -ing は「〜に慣れている」。used to do「以前は〜した」と形が近いので混同しやすい。"
+  },
+  {
+    "問題文": "「その問題は議論する価値がある。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "The problem is worth discussing.",
+      "The problem is worth being discussed.",
+      "The problem is worth to be discussed."
+    ],
+    "正解": 1,
+    "解説": "worth は能動形の -ing で受け身の意味を含める。worth discussing が自然で、to 不定詞にはしない。"
+  },
+  {
+    "問題文": "「私は彼にその会合に出席するよう勧めた。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "I suggested him to attend the meeting.",
+      "I suggested that he attend the meeting.",
+      "I suggested him attending the meeting."
+    ],
+    "正解": 2,
+    "解説": "suggest は suggest 人 to do をとらない。提案内容は that S 原形、または suggest -ing で表す。"
+  },
+  {
+    "問題文": "「彼女は約束を守る人だ。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "She is a person who keeps promises.",
+      "She is the person who keeps a promise.",
+      "She is a person keeping promise."
+    ],
+    "正解": 1,
+    "解説": "一般的な性質は a person who keeps promises と複数で表すのが自然。冠詞や単複のずれが英作文で出やすい。"
+  },
+  {
+    "問題文": "「私たちはその問題を解決するのに苦労した。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "We had difficulty to solve the problem.",
+      "We had difficulty in solving the problem.",
+      "We were difficult to solve the problem."
+    ],
+    "正解": 2,
+    "解説": "have difficulty (in) -ing が定型。人を主語にして be difficult とすると「人が難しい」という不自然な意味になる。"
+  },
+  {
+    "問題文": "「彼は私に待つように言った。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "He said me to wait.",
+      "He told to me to wait.",
+      "He told me to wait."
+    ],
+    "正解": 3,
+    "解説": "正解は He told me to wait.。tell 人 to do が正しい。say は say to 人 that ... などで、say me to do とはしない。"
+  },
+  {
+    "問題文": "「この問題を解くには多くの時間がかかる。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "It takes a lot of time to solve this problem.",
+      "This problem takes a lot of time to solve it.",
+      "It spends a lot of time to solve this problem."
+    ],
+    "正解": 1,
+    "解説": "It takes 時間 to do が基本。spend は人を主語にし、This problem ... solve it は目的語が重複する。"
+  },
+  {
+    "問題文": "「彼女は医者になるために一生懸命勉強している。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "She studies hard for becoming a doctor.",
+      "She studies hard to become a doctor.",
+      "She studies hard in order becoming a doctor."
+    ],
+    "正解": 2,
+    "解説": "正解は She studies hard to become a doctor.。目的は to do / in order to do で表す。for -ing はこの文脈では不自然になりやすい。"
+  },
+  {
+    "問題文": "「その部屋に入ると、私は窓が開いているのに気づいた。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "Entering the room, the window was open.",
+      "Entered the room, I noticed the window open.",
+      "Entering the room, I noticed that the window was open."
+    ],
+    "正解": 3,
+    "解説": "正解は Entering the room, I noticed that the window was open.。分詞構文の主語は主節の主語と一致する必要がある。the window が入室したように読める形は避ける。"
+  },
+  {
+    "問題文": "「私は彼にその本を貸してくれるよう頼んだ。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "I asked him lending me the book.",
+      "I asked him to lend me the book.",
+      "I asked to him to lend me the book."
+    ],
+    "正解": 2,
+    "解説": "正解は I asked him to lend me the book.。ask 人 to do が基本。ask to 人 とはせず、lend me the book は「私に貸す」。"
+  },
+  {
+    "問題文": "「もしもっと時間があれば、手伝えるのに。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "If I have more time, I could help you.",
+      "If I had more time, I can help you.",
+      "If I had more time, I could help you."
+    ],
+    "正解": 3,
+    "解説": "現在の事実に反する仮定は If S 過去形, S would/could do。条件節だけ、または主節だけを仮定法にしない。"
+  },
+  {
+    "問題文": "「彼は私に宿題を手伝わせた。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "He made me help him with his homework.",
+      "He made me to help him with his homework.",
+      "He let me to help him with his homework."
+    ],
+    "正解": 1,
+    "解説": "使役 make は make O 原形不定詞。to を入れない。let も原形だが、この文では「させた」の強制性は make が合う。"
+  },
+  {
+    "問題文": "「彼女はその試験に合格する自信がある。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "She is confident to pass the exam.",
+      "She is confident of passing the exam.",
+      "She is confidence of passing the exam."
+    ],
+    "正解": 2,
+    "解説": "be confident of/about -ing が自然。confidence は名詞なので She is confidence とはしない。"
+  },
+  {
+    "問題文": "「私は彼の助言のおかげで失敗を避けることができた。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "Thanks to his advice, I was able to avoid failure.",
+      "Thanks for his advice, I could avoid to fail.",
+      "Because of his advise, I was able to avoid to fail."
+    ],
+    "正解": 1,
+    "解説": "thanks to は「〜のおかげで」。advice は名詞、advise は動詞。avoid は -ing/名詞を目的語にし、to do はとらない。"
+  },
+  {
+    "問題文": "「彼が来るかどうかは重要ではない。」の英訳として最も自然なものはどれか。",
+    "選択肢": [
+      "It is not important whether he will come.",
+      "It is not important if he will come or not.",
+      "It is not important that he will come or not."
+    ],
+    "正解": 1,
+    "解説": "名詞節で「〜かどうか」を明確に表すなら whether が安定する。that ... or not は不可で、if ... or not も硬い文では避ける。"
+  },
+  {
+    "問題文": "「環境を守ることは、私たち全員にとって重要だ。」の英訳として最も適切なものはどれか。",
+    "選択肢": [
+      "Protecting the environment is important for all of us.",
+      "To protect environment is important to all of us.",
+      "Protecting environment is important for all us."
+    ],
+    "正解": 1,
+    "解説": "environment は通常 the environment。for all of us も自然な形で、冠詞や of の脱落が英作文で起きやすい。"
+  }
+]

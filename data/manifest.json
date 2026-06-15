@@ -20,6 +20,11 @@
         "unit": "多義語・文脈語彙",
         "path": "data/questions/英語_多義語・文脈語彙.json",
         "count": 24
+      },
+      {
+        "unit": "英作文誤文訂正",
+        "path": "data/questions/英語_英作文誤文訂正.json",
+        "count": 24
       }
     ],
     "化学": [
