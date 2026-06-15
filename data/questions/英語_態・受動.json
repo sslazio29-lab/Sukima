@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "This stone bridge ___ in 1890. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "was built",
+      "built",
+      "was building"
+    ],
+    "正解": 1,
+    "解説": "橋は「建てられる」側なので受動態 was built。能動の built や進行形 was building では主語との関係が合わない。"
+  },
+  {
+    "問題文": "The main road ___ right now, so we must take a detour. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "is repairing",
+      "is being repaired",
+      "repairs"
+    ],
+    "正解": 2,
+    "解説": "「今〜されている最中」は受動進行形 is being p.p.。道路は修理される側なので is being repaired。"
+  },
+  {
+    "問題文": "The report ___ already, so you can read it now. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "has finished",
+      "was finishing",
+      "has been finished"
+    ],
+    "正解": 3,
+    "解説": "「すでに〜され終えた」は完了形の受動 has been p.p.。報告書は仕上げられる側なので has been finished。"
+  },
+  {
+    "問題文": "This rule must ___ by every member. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "be obeyed",
+      "obey",
+      "obeying"
+    ],
+    "正解": 1,
+    "解説": "助動詞のあとの受動は「助動詞 + be + p.p.」。規則は守られる側なので must be obeyed。"
+  },
+  {
+    "問題文": "He was laughed ___ by his classmates. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "by",
+      "at",
+      "with"
+    ],
+    "正解": 2,
+    "解説": "laugh at（〜を笑う）を受動にすると、前置詞 at を残して be laughed at となる。句動詞の受動では前置詞を落とさない。"
+  },
+  {
+    "問題文": "The baby is well looked ___ by her grandmother. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "for",
+      "at",
+      "after"
+    ],
+    "正解": 3,
+    "解説": "look after（世話をする）の受動は be looked after。前置詞 after を残す点が問われる。"
+  },
+  {
+    "問題文": "He was seen ___ the building just before the alarm. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to enter",
+      "enter",
+      "entered"
+    ],
+    "正解": 1,
+    "解説": "知覚動詞の受動では原形不定詞が to 不定詞に変わる。saw him enter → was seen to enter。"
+  },
+  {
+    "問題文": "The students were made ___ the classroom after school. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "clean",
+      "to clean",
+      "cleaning"
+    ],
+    "正解": 2,
+    "解説": "使役動詞 make の受動では原形が to 不定詞になる。made them clean → were made to clean。"
+  },
+  {
+    "問題文": "I ___ a nice present by my uncle. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "gave",
+      "was gave",
+      "was given"
+    ],
+    "正解": 3,
+    "解説": "give 人 物 の受動で、人を主語にすると was given 物。was gave のような語形にはしない。"
+  },
+  {
+    "問題文": "A nice present ___ to me by my uncle. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "was given",
+      "gave",
+      "was giving"
+    ],
+    "正解": 1,
+    "解説": "give 人 物 の受動で、物を主語にすると was given to 人 となる。物が「与えられる」側なので受動態。"
+  },
+  {
+    "問題文": "He ___ injured in the traffic accident. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "was getting",
+      "got",
+      "get"
+    ],
+    "正解": 2,
+    "解説": "get + p.p. は「〜される」を表す口語的な受動で、動作や変化を強調する。事故で負傷したことを got injured で表す。"
+  },
+  {
+    "問題文": "She is deeply interested ___ classical music. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "by",
+      "with",
+      "in"
+    ],
+    "正解": 3,
+    "解説": "感情を表す受動表現は by 以外の前置詞をとることが多い。be interested in（〜に興味がある）が定型。"
+  },
+  {
+    "問題文": "He is known ___ everyone in this small town. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "to",
+      "by",
+      "for"
+    ],
+    "正解": 1,
+    "解説": "be known to は「〜に知られている」。知っている相手を示す。be known for（理由）や be known as（資格）と区別する。"
+  },
+  {
+    "問題文": "The town is known ___ its hot springs. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "to",
+      "for",
+      "as"
+    ],
+    "正解": 2,
+    "解説": "be known for は「〜で有名だ」と有名な理由を示す。be known to（相手）や be known as（〜として）と使い分ける。"
+  },
+  {
+    "問題文": "He is said ___ very wealthy. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "be",
+      "being",
+      "to be"
+    ],
+    "正解": 3,
+    "解説": "be said to do は「〜だと言われている」。It is said that he is wealthy を言い換えた形で、to be が入る。"
+  },
+  {
+    "問題文": "___ that he has moved abroad. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "It is said",
+      "They say it",
+      "Said"
+    ],
+    "正解": 1,
+    "解説": "形式主語を使う It is said that ... で「〜と言われている」。一般の人々を主語にした受動表現。"
+  },
+  {
+    "問題文": "A serious accident ___ near the station yesterday. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "was happened",
+      "happened",
+      "was happening"
+    ],
+    "正解": 2,
+    "解説": "happen は自動詞で目的語をとらないため、受動態にできない。was happened とはせず能動の happened を使う。"
+  },
+  {
+    "問題文": "This old car needs ___ before the trip. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "wash",
+      "to wash",
+      "washing"
+    ],
+    "正解": 3,
+    "解説": "need -ing は受動の意味を含み「〜される必要がある（= need to be washed）」。物を主語にすると needs washing となる。"
+  },
+  {
+    "問題文": "Be careful of the ___ glass on the floor. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "broken",
+      "breaking",
+      "break"
+    ],
+    "正解": 1,
+    "解説": "「割れた（割られた状態の）」は受動・完了の意味をもつ過去分詞 broken が名詞を修飾する。breaking では「割れつつある」になり不適。"
+  },
+  {
+    "問題文": "The final result was quite ___ to all of us. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "disappointed",
+      "disappointing",
+      "disappoint"
+    ],
+    "正解": 2,
+    "解説": "物・事が「（人を）がっかりさせる」性質をもつときは現在分詞 disappointing。人が「がっかりした」なら disappointed。主語が result なので disappointing。"
+  },
+  {
+    "問題文": "She ___ in Osaka and grew up in Kyoto. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "is born",
+      "born",
+      "was born"
+    ],
+    "正解": 3,
+    "解説": "「生まれる」は受動の慣用表現 be born で、過去のことなので was born。現在形 is born とはしない。"
+  },
+  {
+    "問題文": "She is married ___ a doctor she met in college. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "to",
+      "with",
+      "by"
+    ],
+    "正解": 1,
+    "解説": "be married to で「〜と結婚している」。相手を示す前置詞は with ではなく to。"
+  },
+  {
+    "問題文": "This difficult problem still remains ___. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to solve",
+      "to be solved",
+      "solving"
+    ],
+    "正解": 2,
+    "解説": "problem は「解決される」側なので、不定詞も受動の to be solved が自然。remain to be p.p. で「まだ〜されていない」を表す。"
+  },
+  {
+    "問題文": "English ___ in many countries all over the world. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "speaks",
+      "is speaking",
+      "is spoken"
+    ],
+    "正解": 3,
+    "解説": "英語は「話される」側なので受動態 is spoken。話し手が一般の人々で示す必要がないため by 〜 は省略される。"
+  }
+]

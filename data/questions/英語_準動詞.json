@@ -1,0 +1,242 @@
+[
+  {
+    "問題文": "I really enjoy ___ novels in my free time. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "reading",
+      "to read",
+      "read"
+    ],
+    "正解": 1,
+    "解説": "enjoy は目的語に動名詞をとり、to 不定詞はとらない。enjoy reading が正しい。"
+  },
+  {
+    "問題文": "She finally decided ___ abroad to study. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "going",
+      "to go",
+      "go"
+    ],
+    "正解": 2,
+    "解説": "decide は to 不定詞を目的語にとる。decide to go が正しく、動名詞はとらない。"
+  },
+  {
+    "問題文": "I want you ___ here until I come back. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "stay",
+      "staying",
+      "to stay"
+    ],
+    "正解": 3,
+    "解説": "want は want + O + to do の形をとる。want you to stay が正しく、原形や動名詞は入らない。"
+  },
+  {
+    "問題文": "He stopped smoking last year. の意味として最も適切なものはどれか。",
+    "選択肢": [
+      "タバコを吸うのをやめた",
+      "タバコを吸うために立ち止まった",
+      "タバコを吸い始めた"
+    ],
+    "正解": 1,
+    "解説": "stop -ing は「〜するのをやめる」。stop to do（〜するために立ち止まる）とは意味が異なる。"
+  },
+  {
+    "問題文": "Remember ___ the door when you leave tonight. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "locking",
+      "to lock",
+      "locked"
+    ],
+    "正解": 2,
+    "解説": "remember to do は「（これから）〜するのを忘れない」。remember -ing は「〜したのを覚えている」で、ここは未来の行為なので to lock。"
+  },
+  {
+    "問題文": "I will never forget ___ you for the first time. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to meet",
+      "met",
+      "meeting"
+    ],
+    "正解": 3,
+    "解説": "forget -ing は「（過去に）〜したことを忘れる」。初めて会ったという過去の経験なので meeting。forget to do は「これからすることを忘れる」。"
+  },
+  {
+    "問題文": "You should avoid ___ the same mistakes again. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "making",
+      "to make",
+      "make"
+    ],
+    "正解": 1,
+    "解説": "avoid は動名詞のみを目的語にとる。avoid making が正しく、to 不定詞はとらない。"
+  },
+  {
+    "問題文": "He suggested ___ a short break before continuing. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to take",
+      "taking",
+      "take"
+    ],
+    "正解": 2,
+    "解説": "suggest は動名詞を目的語にとり、suggest to do の形はとらない。suggest taking が正しい。"
+  },
+  {
+    "問題文": "We cannot afford ___ a new car this year. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "buying",
+      "buy",
+      "to buy"
+    ],
+    "正解": 3,
+    "解説": "afford は to 不定詞を目的語にとる。can afford to buy が正しく、動名詞はとらない。"
+  },
+  {
+    "問題文": "She managed ___ the difficult problem by herself. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to solve",
+      "solving",
+      "solve"
+    ],
+    "正解": 1,
+    "解説": "manage は to 不定詞をとり、manage to do で「どうにか〜する」。動名詞はとらない。"
+  },
+  {
+    "問題文": "I am looking forward ___ you again soon. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to see",
+      "to seeing",
+      "seeing"
+    ],
+    "正解": 2,
+    "解説": "look forward to の to は前置詞なので、後ろは動名詞。look forward to seeing が正しく、to see（不定詞）ではない。"
+  },
+  {
+    "問題文": "He is very good at ___ pictures of animals. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to draw",
+      "draw",
+      "drawing"
+    ],
+    "正解": 3,
+    "解説": "前置詞 at の後ろは動名詞。be good at drawing が正しく、前置詞の後に不定詞や原形は置けない。"
+  },
+  {
+    "問題文": "She objected to ___ treated like a child. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "being",
+      "be",
+      "been"
+    ],
+    "正解": 1,
+    "解説": "object to の to は前置詞なので動名詞が続く。受け身の意味なので being treated。be や been は入らない。"
+  },
+  {
+    "問題文": "The box is too heavy ___ alone. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "carrying",
+      "to carry",
+      "carry"
+    ],
+    "正解": 2,
+    "解説": "too ... to do で「〜すぎて…できない」。too heavy to carry が正しく、動名詞や原形は入らない。"
+  },
+  {
+    "問題文": "He did not run fast ___ to win the race. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "too",
+      "so",
+      "enough"
+    ],
+    "正解": 3,
+    "解説": "形容詞・副詞 + enough + to do で「〜するのに十分…」。fast enough to win の語順で、enough は後ろに置く。"
+  },
+  {
+    "問題文": "He left home early ___ to catch the first train. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "in order",
+      "so",
+      "for"
+    ],
+    "正解": 1,
+    "解説": "目的をはっきり示すには in order to do（または so as to do）。in order to catch が正しく、so to や for to は不可。"
+  },
+  {
+    "問題文": "___ is important to keep your promises. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "That",
+      "It",
+      "This"
+    ],
+    "正解": 2,
+    "解説": "to 不定詞を真主語にする形式主語の It。It is important to keep ... が正しく、That や This では真主語の不定詞を受けられない。"
+  },
+  {
+    "問題文": "It is necessary ___ you to be on time tomorrow. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "of",
+      "to",
+      "for"
+    ],
+    "正解": 3,
+    "解説": "不定詞の意味上の主語は for + 人。necessary など事柄の評価では for you to do の形をとる。"
+  },
+  {
+    "問題文": "It is very kind ___ you to help me carry these. 空所に最も適切な語はどれか。",
+    "選択肢": [
+      "of",
+      "for",
+      "to"
+    ],
+    "正解": 1,
+    "解説": "kind / nice / careless など人の性質を表す形容詞では、意味上の主語は of + 人。It is kind of you to ... となる。"
+  },
+  {
+    "問題文": "I suddenly heard my name ___ in the noisy crowd. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "call",
+      "called",
+      "calling"
+    ],
+    "正解": 2,
+    "解説": "知覚動詞 + O + p.p. は「Oが〜されるのを…する」。名前は呼ばれる側なので hear my name called。"
+  },
+  {
+    "問題文": "I had my hair ___ at the salon yesterday. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to cut",
+      "cutting",
+      "cut"
+    ],
+    "正解": 3,
+    "解説": "have + O + p.p. は「Oを〜してもらう／される」。髪は切られる側なので had my hair cut（cut は過去分詞）。"
+  },
+  {
+    "問題文": "He was sitting on the bench with his legs ___. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "crossed",
+      "crossing",
+      "cross"
+    ],
+    "正解": 1,
+    "解説": "with + O + p.p. は付帯状況で「Oが〜された状態で」。脚は組まれる側なので with his legs crossed。"
+  },
+  {
+    "問題文": "___ from the top of the hill, the town looks beautiful. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "Seeing",
+      "Seen",
+      "To see"
+    ],
+    "正解": 2,
+    "解説": "分詞構文で、町は「見られる」側なので受動の過去分詞 Seen。Seeing では町が見る側になり意味が合わない。"
+  },
+  {
+    "問題文": "He is proud of ___ won the first prize last year. 空所に最も適切な形はどれか。",
+    "選択肢": [
+      "to have",
+      "being",
+      "having"
+    ],
+    "正解": 3,
+    "解説": "前置詞 of の後ろで、主節より前のことを表すには完了動名詞 having p.p.。be proud of having won で「受賞したことを誇る」。"
+  }
+]

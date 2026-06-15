@@ -47,6 +47,21 @@
         "count": 24
       },
       {
+        "unit": "準動詞",
+        "path": "data/questions/英語_準動詞.json",
+        "count": 24
+      },
+      {
+        "unit": "助動詞",
+        "path": "data/questions/英語_助動詞.json",
+        "count": 24
+      },
+      {
+        "unit": "態・受動",
+        "path": "data/questions/英語_態・受動.json",
+        "count": 24
+      },
+      {
         "unit": "比較",
         "path": "data/questions/英語_比較.json",
         "count": 24
